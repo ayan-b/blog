@@ -4,11 +4,9 @@ before_script:
 node_js:
   - "10"
 deploy:
-  provider: pages
+  provider: script
   # Note: change "docs" to the directory where your gatsby-site lives, if necessary
-  script:
-    - npm install
-    - gh-pages -d public -r https://$GITHUB_TOKEN@github.com/ayan-b/blog.git
+  script: yarn install && yarn run deploy
   skip_cleanup: true
   on:
     branch: master
