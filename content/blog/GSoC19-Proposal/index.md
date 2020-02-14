@@ -90,27 +90,12 @@ This week-by-week timeline provides a rough guideline of how the project will be
 
 
 <table>
-  <tr>
-   <td>Phase
-   </td>
-   <td>Date
-   </td>
-   <td>Tasks
-   </td>
-  </tr>
-  <tr>
-   <td>Community Bonding
-   </td>
-   <td>May 7 - May 26
-   </td>
-   <td>
-<ul>
-
-<li>Familiarising myself with the mentors and the codebase. I will dive deep into the code and learn all the ins and outs of the code with the help of mentors.
-
-<li>Also, check how the data is uploaded into xena cohorts after downloading and transforming.
-</li>
-</ul>
+  <tr><td>Phase</td><td>Date</td><td>Tasks</td></tr>
+  <tr><td>Community Bonding</td><td>May 7 - May 26</td><td>
+   <ul>
+      <li>Familiarising myself with the mentors and the codebase. I will dive deep into the code and learn all the ins and outs of the code with the help of mentors.</li>
+      <li>Also, check how the data is uploaded into xena cohorts after downloading and transforming.</li>
+   </ul>
    </td>
   </tr>
   <tr>
@@ -121,18 +106,17 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Fix all the linting issue as reported by <em>flake8.</em>
+<li>Fix all the linting issue as reported by <em>flake8.</em></li>
 
-<li>Also, as the linting issues are fixed, in CI no longer allow lint to fail.
+<li>Also, as the linting issues are fixed, in CI no longer allow lint to fail.</li>
 
-<li>Identify parts of the code which will be incompatible for Python3, especially Python 3.8 and rectify them. This will make the current code future-proof.
+<li>Identify parts of the code which will be incompatible for Python3, especially Python 3.8 and rectify them. This will make the current code future-proof.</li>
 
-<li>Add tests for the existing untested code for the smaller modules, <em>i.e.</em> under scripts <code>panTCGA</code>, <code>merge_xena</code>, <code>make_metadata,</code> and <code>TARGET-CCSK_phenotype_ETL</code> modules.
+<li>Add tests for the existing untested code for the smaller modules, <em>i.e.</em> under scripts <code>panTCGA</code>, <code>merge_xena</code>, <code>make_metadata,</code> and <code>TARGET-CCSK_phenotype_ETL</code> modules.</li>
 
-<li>Setup CI for doctests. Example of one such test can be found inside the docstrings utils module.
+<li>Setup CI for doctests. Example of one such test can be found inside the docstrings utils module.</li>
 
-<li><code>xena-GDC-ETL 0.2</code> should be released by now in GitHub/pypi. 
-</li>
+<li><code>xena-GDC-ETL 0.2</code> should be released by now in GitHub/pypi.</li>
 </ul>
    </td>
   </tr>
@@ -142,9 +126,9 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Currently, the package has only ~11% code coverage. Good code coverage is required to enhance the maintainability of the project. I will identify parts of the code base (other than the <code>xena_dataset</code> module) which is out of coverage and add tests for the same.
+<li>Currently, the package has only ~11% code coverage. Good code coverage is required to enhance the maintainability of the project. I will identify parts of the code base (other than the <code>xena_dataset</code> module) which is out of coverage and add tests for the same.</li>
 
-<li>Investigate the xena_datasets module and add tests for the code which fetches public data from <code>TCGA</code> and <code>TARGET</code> data. In this process, we will get to know which APIs are working and which are not.
+<li>Investigate the xena_datasets module and add tests for the code which fetches public data from <code>TCGA</code> and <code>TARGET</code> data. In this process, we will get to know which APIs are working and which are not.</li>
 
 <li>Fix the broken APIs and remove them which are obsolete.
 </li>
@@ -155,13 +139,10 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td><em>Week 3</em>: Jun 10 - Jun 16
    </td>
    <td>
-<ul>
-
-<li>Start working on adding missing data.
-
-<li>Add and wrangle the data from <code>FM</code> program by the end of this week.
-</li>
-</ul>
+      <ul>
+         <li>Start working on adding missing data.</li>
+         <li>Add and wrangle the data from <code>FM</code> program by the end of this week.</li>
+      </ul>
    </td>
   </tr>
   <tr>
@@ -170,9 +151,9 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Modify the <code>gdc2xena</code> script such that it is able to load <code>FM data</code> into xena.
+<li>Modify the <code>gdc2xena</code> script such that it is able to load <code>FM data</code> into xena.</li>
 
-<li>Document the whole process. 
+<li>Document the whole process.
 </li>
 </ul>
    </td>
@@ -191,9 +172,9 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Add and wrangle <code>GISTIC - Copy Number Score</code> data by the end of this week.
+<li>Add and wrangle <code>GISTIC - Copy Number Score</code> data by the end of this week.</li>
 
-<li>Modify the gdc2xena script such that it is able to load <code>GISTIC - Copy Number Score</code> data into xena. Since in the last week most part of the APIs would be already done, it should not take much longer.
+<li>Modify the gdc2xena script such that it is able to load <code>GISTIC - Copy Number Score</code> data into xena. Since in the last week most part of the APIs would be already done, it should not take much longer.</li>
 
 <li>Document the whole process.
 </li>
@@ -206,9 +187,9 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Add <code>DNAcopy</code> data by the end of this week.
+<li>Add <code>DNAcopy</code> data by the end of this week.</li>
 
-<li>Modify the <code>gdc2xena</code> script such that it is able to load <code>DNAcopy</code> data into xena.
+<li>Modify the <code>gdc2xena</code> script such that it is able to load <code>DNAcopy</code> data into xena.</li>
 
 <li>Document the whole process.
 </li>
@@ -221,9 +202,9 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Add gene expression data <code>STAR - Counts</code> data by the end of this week.
+<li>Add gene expression data <code>STAR - Counts</code> data by the end of this week.</li>
 
-<li>Modify the <code>gdc2xena</code> script such that it is able to load <code>STAR - Counts</code> data into xena.
+<li>Modify the <code>gdc2xena</code> script such that it is able to load <code>STAR - Counts</code> data into xena.</li>
 
 <li>Document the whole process
 </li>
@@ -244,7 +225,7 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Finish uploading data to xena.
+<li>Finish uploading data to xena.</li>
 
 <li>Fix any broken codes.
 </li>
@@ -268,7 +249,7 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Add a cron job using Travis CI which will run the pipeline automatically bi-weekly or monthly and will update the data in xena, in this way it will be never out of sync and even if GDC updates their API, the job will fail and actions can be taken.
+<li>Add a cron job using Travis CI which will run the pipeline automatically bi-weekly or monthly and will update the data in xena, in this way it will be never out of sync and even if GDC updates their API, the job will fail and actions can be taken.</li>
 
 <li>Check the robustness of the cron job.
 </li>
@@ -281,11 +262,11 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Finish up documentation and tests.
+<li>Finish up documentation and tests.</li>
 
-<li>Add tests for the code inside docs. Also setup CI for the same.
+<li>Add tests for the code inside docs. Also setup CI for the same.</li>
 
-<li>Finish setup for writing docs using <strong>Sphinx</strong>.
+<li>Finish setup for writing docs using <strong>Sphinx</strong>.</li>
 
 <li>Release the existing docs in <a href="https://readthedocs.io">https://readthedocs.io</a> as sometimes GitHub wiki does not play well with small screens.
 </li>
@@ -306,7 +287,7 @@ This week-by-week timeline provides a rough guideline of how the project will be
    <td>
 <ul>
 
-<li>Keep an eye on the cron job and fix failures if the API structure changes.
+<li>Keep an eye on the cron job and fix failures if the API structure changes.</li>
 
 <li>Help the newcomers to get started in the UCSCXena organization.
 </li>
@@ -314,8 +295,6 @@ This week-by-week timeline provides a rough guideline of how the project will be
    </td>
   </tr>
 </table>
-
-
 
 ## Personal Background
 
@@ -325,11 +304,11 @@ This week-by-week timeline provides a rough guideline of how the project will be
 - **Timezone**: Indian Standard Time (UTC +05:30)
 - **Postal Address**: Nutan Mahula, Mahula, Murshidabad, West Bengal, India - 742 134
 - **Links**:
-  - GitHub_: [https://github.com/ayan-b](https://github.com/ayan-b)
-  - GitLab_: [https://gitlab.com/ayan-b](https://gitlab.com/ayan-b)
-  - Gitter_: [https://gitter.im/ayan-b](https://gitter.im/ayan-b) 
-  - CodeChef_: [https://codechef.com/users/ayan_nitd](https://codechef.com/users/ayan_nitd)
-  - LinkedIn_: [https://linkedin.com/in/ayanb](https://linkedin.com/in/ayanb) 
+  - _GitHub_: [https://github.com/ayan-b](https://github.com/ayan-b)
+  - _GitLab_: [https://gitlab.com/ayan-b](https://gitlab.com/ayan-b)
+  - _Gitter_: [https://gitter.im/ayan-b](https://gitter.im/ayan-b)
+  - _CodeChef_: [https://codechef.com/users/ayan_nitd](https://codechef.com/users/ayan_nitd)
+  - _LinkedIn_: [https://linkedin.com/in/ayanb](https://linkedin.com/in/ayanb)
 - **Education**
   - _Bachelor of Technology_
     - _Department of Electronics and Communication Engineering_
