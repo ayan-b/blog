@@ -1,0 +1,395 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><meta data-react-helmet="true" name="description" content="Table of Contents Table of Contents Project: Update GDC Data on Xena Project Proposal Phase 1 (Week 1-4): Phase 2 (Week 5-7): Phase 3 (Week 8-11): Timeline…"/><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="icon" href="/icons/icon-48x48.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=63e133fdd20479ddec853e4699cd245f"/><title data-react-helmet="true">GSoC Proposal UCSC Xena | Ayan&#x27;s Blog</title><meta name="generator" content="Gatsby 2.19.17"/><meta data-react-helmet="true" property="og:title" content="GSoC Proposal UCSC Xena"/><meta data-react-helmet="true" property="og:description" content="Table of Contents Table of Contents Project: Update GDC Data on Xena Project Proposal Phase 1 (Week 1-4): Phase 2 (Week 5-7): Phase 3 (Week 8-11): Timeline…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="Ayan Banerjee"/><meta data-react-helmet="true" name="twitter:title" content="GSoC Proposal UCSC Xena"/><meta data-react-helmet="true" name="twitter:description" content="Table of Contents Table of Contents Project: Update GDC Data on Xena Project Proposal Phase 1 (Week 1-4): Phase 2 (Week 5-7): Phase 3 (Week 8-11): Timeline…"/><style data-href="/styles.491a16106869c73de5f8.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><link as="script" rel="preload" href="/component---src-templates-blog-post-js-bda189dd101d38aa10c6.js"/><link as="script" rel="preload" href="/commons-26ec6ade17531ec48284.js"/><link as="script" rel="preload" href="/app-ece0e46e80d37f361ed3.js"/><link as="script" rel="preload" href="/styles-47121d392bbea5e6e153.js"/><link as="script" rel="preload" href="/webpack-runtime-a940c8dbbb149277ca9c.js"/><link as="fetch" rel="preload" href="/page-data/GSoC19-Proposal/page-data.json" crossorigin="anonymous"/></head><body><script>(function() { try {
+        var mode = localStorage.getItem('theme-ui-color-mode');
+        if (!mode) return
+        document.body.classList.add('theme-ui-' + mode);
+      } catch (e) {} })();</script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/">Ayan&#x27;s Blog</a></h3></header><main><article><header><h1 style="margin-top:1.75rem;margin-bottom:0">GSoC Proposal UCSC Xena</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">June 12, 2019</p></header><section><h1>Table of Contents</h1>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li>
+<p><a href="#project-update-gdc-data-on-xena">Project: Update GDC Data on Xena</a></p>
+<ul>
+<li>
+<p><a href="#project-proposal">Project Proposal</a></p>
+<ul>
+<li><a href="#phase-1-week-1-4">Phase 1 (Week 1-4):</a></li>
+<li><a href="#phase-2-week-5-7">Phase 2 (Week 5-7):</a></li>
+<li><a href="#phase-3-week-8-11">Phase 3 (Week 8-11):</a></li>
+</ul>
+</li>
+<li><a href="#timeline">Timeline</a></li>
+<li><a href="#personal-background">Personal Background</a></li>
+<li><a href="#relevant-skills">Relevant Skills</a></li>
+<li><a href="#what-are-your-languages-of-choice-and-how-do-they-relate-to-the-project">What are your languages of choice and how do they relate to the project?</a></li>
+<li><a href="#any-prior-experience-with-open-source-development">Any prior experience with open source development?</a></li>
+<li><a href="#please-point-us-to-a-code-sample-you-have-written">Please point us to a code sample you have written.</a></li>
+<li><a href="#any-prior-experience-in-bioinformatics-or-cancer-genomics">Any prior experience in bioinformatics or cancer genomics?</a></li>
+<li><a href="#your-availability">Your Availability</a></li>
+<li><a href="#do-you-have-any-school-related-activities-scheduled-during-the-coding-period">Do you have any school-related activities scheduled during the coding period?</a></li>
+<li><a href="#do-you-have-a-full--or-part-time-job-or-internship-planned-for-this-summer">Do you have a full- or part-time job or internship planned for this summer?</a></li>
+<li><a href="#any-other-plans-during-the-coding-period-that-might-impact-what-hours-or-days-you-can-work">Any other plans during the coding period that might impact what hours or days you can work?</a></li>
+<li><a href="#how-many-hours-per-week-do-you-have-for-a-summer-project">How many hours per week do you have for a summer project?</a></li>
+</ul>
+</li>
+</ul>
+<h1>Project: Update GDC Data on Xena</h1>
+<h2>Project Proposal</h2>
+<ul>
+<li>
+<h3>A high-level description of what you plan to work on</h3>
+<p>UCSC Xena is a functional genomics visualization and analysis platform. For this (genomics visualization and analysis),
+there are many datasets which are provided by data hubs available with Xenabrowser itself which users can use. The data
+hubs are: <em>UCSC Public Hub</em>, <em>TCGA Hub</em>, <em>Pan-Cancer Atlas Hub</em>, <em>ICGC Hub</em>, <em>UCSC Toil RNAseq Recompute</em>, <em>Treehouse Hub</em>
+and <em>GDC Hub</em>. Our discussion of interest lies in the GDC Hub.</p>
+<p>GDC (Genomic Data Commons) Hub fetches data from the GDC repository:
+<a href="https://portal.gdc.cancer.gov/repository">https://portal.gdc.cancer.gov/repository</a> via the GDC API. However, the data on
+the Xena is not updated. Current Xena data was updated on <em>release 10</em>, roughly 1.5 yrs ago. This project mainly revolves
+around updating data on xena with the current release (<em>release 15</em>). This will also simplify the process of adding data
+to Xena removing the XML files as a source.</p>
+</li>
+<li>
+<h3>Specific details, key aspects and anticipated challenges</h3>
+<p>The process involves two high-level goals:</p>
+<ul>
+<li><em><span style="text-decoration:underline;">Updating GDC data wrangling pipeline</span></em>: The pipeline code (<em>i.e.</em> <a href="https://github.com/yunhailuo/xena-GDC-ETL">https://github.com/yunhailuo/xena-GDC-ETL</a> currently fetches the data from GDC repository via GDC API) is outdated. This part of the goals aims to update with the latest release.</li>
+<li><em><span style="text-decoration:underline;">Updating GDC data on Xena</span></em>: As the data wrangling pipeline will be updated, this part of the goals will aim to update the GDC data on xena.</li>
+</ul>
+</li>
+<li>
+<h3>Tell us what research into this project you have done</h3>
+<ul>
+<li>I have analyzed the gdc module of the <code class="language-text">xena-GDC-ETL</code> package and added tests for the same. The module currently has 82% test coverage. In my analysis, I have found that the code and APIs used in the module are updated with the upstream.</li>
+<li>During my contributions to the repo, I got sound knowledge on the modules and what task each of them performs.</li>
+</ul>
+</li>
+<li>
+<h3>Break the project down into smaller tasks</h3>
+<h4>Phase 1 (Week 1-4):</h4>
+<ul>
+<li>Improve the overall project in this phase, <em>i.e.</em> adding tests, fixing lint issues, improving CLI and setting up
+doctests for existing ones and release the project to pypi.</li>
+<li>Fix broken APIs and code for fetching new data from API.</li>
+<li>Start adding code for the new data provided by GDC API. The package should be able to fetch and upload
+FM Simple Somatic Mutation data by the end of this period.</li>
+</ul>
+<h4>Phase 2 (Week 5-7):</h4>
+<ul>
+<li>Add and upload GISTIC - Copy Number Score, DNAcopy data and Star - Counts data into xena and document the process.</li>
+</ul>
+<h4>Phase 3 (Week 8-11):</h4>
+<ul>
+<li>Finish uploading the data into xena, add docs and doctests.</li>
+</ul>
+</li>
+</ul>
+<h3>Timeline</h3>
+<p>This week-by-week timeline provides a rough guideline of how the project will be done.</p>
+<table>
+  <tr><td>Phase</td><td>Date</td><td>Tasks</td></tr>
+  <tr><td>Community Bonding</td><td>May 7 - May 26</td><td>
+   <ul>
+      <li>Familiarising myself with the mentors and the codebase. I will dive deep into the code and learn all the ins and outs of the code with the help of mentors.</li>
+      <li>Also, check how the data is uploaded into xena cohorts after downloading and transforming.</li>
+   </ul>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="5" >Phase 1
+   </td>
+   <td><em>Week 1</em>: May 27 - Jun 2
+   </td>
+   <td>
+<ul>
+<li>Fix all the linting issue as reported by <em>flake8.</em></li>
+<li>Also, as the linting issues are fixed, in CI no longer allow lint to fail.</li>
+<li>Identify parts of the code which will be incompatible for Python3, especially Python 3.8 and rectify them. This will make the current code future-proof.</li>
+<li>Add tests for the existing untested code for the smaller modules, <em>i.e.</em> under scripts <code>panTCGA</code>, <code>merge_xena</code>, <code>make_metadata,</code> and <code>TARGET-CCSK_phenotype_ETL</code> modules.</li>
+<li>Setup CI for doctests. Example of one such test can be found inside the docstrings utils module.</li>
+<li><code>xena-GDC-ETL 0.2</code> should be released by now in GitHub/pypi.</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><em>Week 2</em>: Jun 3 - Jun 9
+   </td>
+   <td>
+<ul>
+<li>Currently, the package has only ~11% code coverage. Good code coverage is required to enhance the maintainability of the project. I will identify parts of the code base (other than the <code>xena_dataset</code> module) which is out of coverage and add tests for the same.</li>
+<li>Investigate the xena_datasets module and add tests for the code which fetches public data from <code>TCGA</code> and <code>TARGET</code> data. In this process, we will get to know which APIs are working and which are not.</li>
+<li>Fix the broken APIs and remove them which are obsolete.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><em>Week 3</em>: Jun 10 - Jun 16
+   </td>
+   <td>
+      <ul>
+         <li>Start working on adding missing data.</li>
+         <li>Add and wrangle the data from <code>FM</code> program by the end of this week.</li>
+      </ul>
+   </td>
+  </tr>
+  <tr>
+   <td><em>Week</em> <em>4</em>: Jun 17 - Jun 24 
+   </td>
+   <td>
+<ul>
+<li>Modify the <code>gdc2xena</code> script such that it is able to load <code>FM data</code> into xena.</li>
+<li>Document the whole process.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>Jun 24 - Jun 28
+   </td>
+   <td><em>Phase 1 Evaluation</em>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="4" >Phase 2
+   </td>
+   <td><em>Week 5</em>: Jul 1 - Jul 7
+   </td>
+   <td>
+<ul>
+<li>Add and wrangle <code>GISTIC - Copy Number Score</code> data by the end of this week.</li>
+<li>Modify the gdc2xena script such that it is able to load <code>GISTIC - Copy Number Score</code> data into xena. Since in the last week most part of the APIs would be already done, it should not take much longer.</li>
+<li>Document the whole process.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><em>Week 6</em>: Jul 8 - Jul 14
+   </td>
+   <td>
+<ul>
+<li>Add <code>DNAcopy</code> data by the end of this week.</li>
+<li>Modify the <code>gdc2xena</code> script such that it is able to load <code>DNAcopy</code> data into xena.</li>
+<li>Document the whole process.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><em>Week 7</em>: Jul 15 - Jul 21
+   </td>
+   <td>
+<ul>
+<li>Add gene expression data <code>STAR - Counts</code> data by the end of this week.</li>
+<li>Modify the <code>gdc2xena</code> script such that it is able to load <code>STAR - Counts</code> data into xena.</li>
+<li>Document the whole process
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>Jul 22 - Jul 26
+   </td>
+   <td><em>Phase 2 Evaluation</em>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="5" >Phase 3
+   </td>
+   <td><em>Week 8</em>: Jul 29 - Aug 4
+   </td>
+   <td>
+<ul>
+<li>Finish uploading data to xena.</li>
+<li>Fix any broken codes.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><em>Week 9</em>: Aug 5 - Aug 12
+   </td>
+   <td>
+<ul>
+<li>Buffer week for any unfinished task.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><em>Week 10</em>: Aug 13 - Aug 19
+   </td>
+   <td>
+<ul>
+<li>Add a cron job using Travis CI which will run the pipeline automatically bi-weekly or monthly and will update the data in xena, in this way it will be never out of sync and even if GDC updates their API, the job will fail and actions can be taken.</li>
+<li>Check the robustness of the cron job.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><em>Week 11</em>: Aug 20 - Aug 26
+   </td>
+   <td>
+<ul>
+<li>Finish up documentation and tests.</li>
+<li>Add tests for the code inside docs. Also setup CI for the same.</li>
+<li>Finish setup for writing docs using <strong>Sphinx</strong>.</li>
+<li>Release the existing docs in <a href="https://readthedocs.io">https://readthedocs.io</a> as sometimes GitHub wiki does not play well with small screens.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>Aug 26 - Sep 2
+   </td>
+   <td><em>Final Evaluation</em>
+   </td>
+  </tr>
+  <tr>
+   <td>Post GSoC
+   </td>
+   <td><em>-</em>
+   </td>
+   <td>
+<ul>
+<li>Keep an eye on the cron job and fix failures if the API structure changes.</li>
+<li>Help the newcomers to get started in the UCSCXena organization.
+</li>
+</ul>
+   </td>
+  </tr>
+</table>
+<h2>Personal Background</h2>
+<ul>
+<li><strong>Name</strong>: Ayan Banerjee</li>
+<li><strong>Email</strong>: <a href="mailto:ayanbn7@gmail.com">ayanbn7@gmail.com</a></li>
+<li><strong>Mobile</strong>: +91 8016399022</li>
+<li><strong>Timezone</strong>: Indian Standard Time (UTC +05:30)</li>
+<li><strong>Postal Address</strong>: Nutan Mahula, Mahula, Murshidabad, West Bengal, India - 742 134</li>
+<li>
+<p><strong>Links</strong>:</p>
+<ul>
+<li><em>GitHub</em>: <a href="https://github.com/ayan-b">https://github.com/ayan-b</a></li>
+<li><em>GitLab</em>: <a href="https://gitlab.com/ayan-b">https://gitlab.com/ayan-b</a></li>
+<li><em>Gitter</em>: <a href="https://gitter.im/ayan-b">https://gitter.im/ayan-b</a></li>
+<li><em>CodeChef</em>: <a href="https://codechef.com/users/ayan_nitd">https://codechef.com/users/ayan_nitd</a></li>
+<li><em>LinkedIn</em>: <a href="https://linkedin.com/in/ayanb">https://linkedin.com/in/ayanb</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Education</strong></p>
+<ul>
+<li><em>Bachelor of Technology</em></li>
+<li>
+<p><em>Department of Electronics and Communication Engineering</em></p>
+<ul>
+<li><a href="https://www.nitdgp.ac.in/">National Institute of Technology, Durgapur</a></li>
+<li>July 2016 - Present</li>
+<li>CGPA: 9.30/10 <em>(till 5th semester)</em></li>
+</ul>
+</li>
+<li>
+<p><em>Higher Secondary (10+2)</em></p>
+<ul>
+<li>February 2016</li>
+<li><a href="http://www.rkmsargachi.org/">Sargachi Ramakrishna Mission High School</a>, West Bengal</li>
+<li>Mathematics &#x26; Biology</li>
+<li>Score: 96%</li>
+</ul>
+</li>
+<li>
+<p><em>Secondary (10th)</em></p>
+<ul>
+<li>January 2014</li>
+<li><a href="http://www.rkmsargachi.org/">Sargachi Ramakrishna Mission High School,</a> West Bengal</li>
+<li>Mathematics, Biology, History &#x26; Geography</li>
+<li>Score: 92.43%</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Work Experience</strong>:</p>
+<ul>
+<li>
+<p><em>Student mentor, <a href="https://codein.withgoogle.com/">Google Code In</a></em></p>
+<p><em>Oct - Dec 2018</em></p>
+<ul>
+<li>Mentored pre-university students to get started in open source</li>
+<li>Mentored the students for the organization <em>coala</em></li>
+</ul>
+</li>
+<li>
+<p><em>Summer Intern at <a href="http://www.iitb.ac.in/">Indian Institute of Technology, Bombay</a></em></p>
+<p><em>May - July 2018</em></p>
+<ul>
+<li>Integrated a plagiarism checker for Python programming language with <em>Yaksh</em>, a course-taking application
+written in Django.</li>
+<li>Wrote an elaborate test suite for the same.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>Relevant Skills</h2>
+<h3>What are your languages of choice and how do they relate to the project?</h3>
+<p>   <strong>Python</strong>: Since the current data wrangler is completely written in Python, naturally The language of choice for this
+project is <strong>Python</strong>. Some <strong>shell</strong> scripting may be required for automating stuff (tests, linting, etc.).
+Some other technology requirements are <strong>Git</strong> (for version control), <strong>Jinja2</strong>(for templating), <strong>CI</strong>(Continuous Integration) and writing docs using <strong>Sphinx</strong>.</p>
+<h3>Any prior experience with open source development?</h3>
+<ul>
+<li>I have been a core developer at the organization <strong>moremoban</strong> for the last 4 months. I am mainly involved with the
+project <strong>moban</strong>, <em>a jinja2 CLI command for static text generation</em>
+(<a href="https://github.com/moremoban/moban/commits?author=ayan-b">contributions</a>) and
+<strong>pypi-mobans</strong> (<a href="https://github.com/moremoban/pypi-moban/commits?author=ayan-b">contributions</a>).
+These 2 projects are used as repository management tools, and they are written in <strong>Python</strong> and <strong>Jinja2</strong>.
+I developed 2 plugins for the project: <a href="https://github.com/moremoban/moban-velocity">moban-velocity</a>,
+<a href="https://github.com/moremoban/moban-haml">moban-haml</a> and released them into <a href="https://pypi.org/user/ayanb/">PyPi</a>.</li>
+<li>I have also contributed to the <code class="language-text">xena-GDC-ETL</code> repository. My contributions can be
+found <a href="https://github.com/yunhailuo/xena-GDC-ETL/pulls?utf8=%E2%9C%93&#x26;q=is%3Apr+author%3Aayan-b+">here</a>.
+Also, I have created some <a href="https://github.com/yunhailuo/xena-GDC-ETL/issues?utf8=%E2%9C%93&#x26;q=is%3Aissue+author%3Aayan-b+">issues</a>
+for the overall improvement of the project.</li>
+<li>I have also developed some personal projects, mostly in Python and Vanilla JavaScript, all of those are open-sourced
+and can be found in my GitHub and GitLab profile.</li>
+</ul>
+<h3>Please point us to a code sample you have written.</h3>
+<p>My contributions to the project can be taken as code samples as well as the projects I contributed mentioned previously:</p>
+<ul>
+<li>Commits: <a href="https://github.com/yunhailuo/xena-GDC-ETL/commits?author=ayan-b">https://github.com/yunhailuo/xena-GDC-ETL/commits?author=ayan-b</a></li>
+<li>PRs: <a href="https://github.com/yunhailuo/xena-GDC-ETL/pulls?utf8=%E2%9C%93&#x26;q=is%3Apr+author%3Aayan-b">https://github.com/yunhailuo/xena-GDC-ETL/pulls?q=is%3Apr+author%3Aayan-b</a></li>
+<li>Reviews: <a href="https://github.com/yunhailuo/xena-GDC-ETL/pulls?q=is%3Apr+reviewed-by%3Aayan-b">https://github.com/yunhailuo/xena-GDC-ETL/pulls?q=is%3Apr+reviewed-by%3Aayan-b</a> </li>
+</ul>
+<h3>Any prior experience in bioinformatics or cancer genomics?</h3>
+<p>  I have high-school level knowledge of genomics and am familiar with the basics of it. Also, I am familiar with the commonly
+used terms related to Genomics.</p>
+<h2>Your Availability</h2>
+<h3>Do you have any school-related activities scheduled during the coding period?</h3>
+<p>  Summer vacation at my university starts from first week of May and ends on the second week of July. So, from second week of
+July, I will be at my university and will continue coding there.</p>
+<h3>Do you have a full- or part-time job or internship planned for this summer?</h3>
+<p>  No.</p>
+<h3>Any other plans during the coding period that might impact what hours or days you can work?</h3>
+<p>  No.</p>
+<h3>How many hours per week do you have for a summer project?</h3>
+<p>  Since I can do this project full-time, I will be able to devote 50-60 hrs per week for the same.
+Once my university starts in mid-july, I will be able to give 3-4 hrs per day during weekdays
+and 8-10 hrs per day during weekends.</p></section><hr style="margin-bottom:1.75rem"/><footer><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABm5HNM3FA55GiC1MOf//EABoQAAMAAwEAAAAAAAAAAAAAAAECAwAREyH/2gAIAQEAAQUC6EBDWblxjHR8zeUc9L+SSrEf/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAIxEBH/2gAIAQMBAT8BSHRZn//EABgRAQEAAwAAAAAAAAAAAAAAAAEQAhEx/9oACAECAQE/AVdzLpP/xAAgEAABAwIHAAAAAAAAAAAAAAABABAxAgMREiEiQVFx/9oACAEBAAY/AtsntY1XRWDw2qgN4swlv//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExYRBR/9oACAEBAAE/IWmrdQ6HYN2SXzkQwTQJFAV5X7bWQC4MHEsbU//aAAwDAQACAAMAAAAQbPD9/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxBFbZRuQ//EABcRAQADAAAAAAAAAAAAAAAAAAEAEBH/2gAIAQIBAT8QMAm3P//EABsQAQEBAAIDAAAAAAAAAAAAAAERACFBMVFx/9oACAEBAAE/EOJ0gH0XwM23iLmmL6S5ys1rBke8pwJBOjzl3zgl4FD3cIEoPRugFtlk3//Z" alt="Ayan Banerjee" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/static/c8200cce63fc4e1467b52c3bb1278662/99438/profile-pic.jpg 1x,
+/static/c8200cce63fc4e1467b52c3bb1278662/aba1d/profile-pic.jpg 1.5x,
+/static/c8200cce63fc4e1467b52c3bb1278662/b315d/profile-pic.jpg 2x" /><img loading="lazy" width="50" height="50" srcset="/static/c8200cce63fc4e1467b52c3bb1278662/99438/profile-pic.jpg 1x,
+/static/c8200cce63fc4e1467b52c3bb1278662/aba1d/profile-pic.jpg 1.5x,
+/static/c8200cce63fc4e1467b52c3bb1278662/b315d/profile-pic.jpg 2x" src="/static/c8200cce63fc4e1467b52c3bb1278662/99438/profile-pic.jpg" alt="Ayan Banerjee" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>Ayan Banerjee</strong> is a software developer.<!-- --> <a href="https://twitter.com/ayanbn7">You should follow him on Twitter</a></p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li></li><li><a rel="next" href="/fixing-awk-error/">Fixing `awk: error while loading shared libraries: libreadline.so.7: cannot open shared object file: No such file or directory`<!-- --> →</a></li></ul></nav></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-121107357-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/GSoC19-Proposal/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-ece0e46e80d37f361ed3.js"],"component---node-modules-gatsby-theme-notes-src-templates-notes-js":["/component---node-modules-gatsby-theme-notes-src-templates-notes-js-47dac932235fb5fafdec.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-bda189dd101d38aa10c6.js"],"component---src-pages-404-js":["/component---src-pages-404-js-dfd5f3ab6314ed13a0f9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-06b15f9730f21c212651.js"]};/*]]>*/</script><script src="/webpack-runtime-a940c8dbbb149277ca9c.js" async=""></script><script src="/styles-47121d392bbea5e6e153.js" async=""></script><script src="/app-ece0e46e80d37f361ed3.js" async=""></script><script src="/commons-26ec6ade17531ec48284.js" async=""></script><script src="/component---src-templates-blog-post-js-bda189dd101d38aa10c6.js" async=""></script></body></html>

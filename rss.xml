@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Feb 2020 21:09:35 GMT</lastBuildDate><item><title><![CDATA[Generating a Table of Commits of a User for a Repository]]></title><description><![CDATA[First check out to the desired branch: . Here,
+I am checking into the  branch of  alias. Now, you can use gits author argument to generate a…]]></description><link>https://ayan-b.github.io/blog/generating-a-table-of-commits/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/generating-a-table-of-commits/</guid><pubDate>Wed, 21 Aug 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;First check out to the desired branch: &lt;code class=&quot;language-text&quot;&gt;git checkout upstream/master&lt;/code&gt;. Here,
+I am checking into the &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch of &lt;code class=&quot;language-text&quot;&gt;upstream&lt;/code&gt; alias.&lt;/p&gt;
+&lt;p&gt;Now, you can use gits author argument to generate a list of commits of that
+particular user. Using that on this repo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git log --author=&amp;quot;Ayan Banerjee&amp;quot;
+
+commit 6bfaed7f39827f15d4f66ffc756f77af74bde4e2
+Author: Ayan Banerjee &amp;lt;ayanbanerjee7777@gmail.com&amp;gt;
+Date:   Thu Jun 13 23:35:45 2019 +0530
+
+    Show bullets
+
+commit e734af7e0658449ed0262c830d04b2990182b306
+Author: Ayan Banerjee &amp;lt;ayanbanerjee7777@gmail.com&amp;gt;
+Date:   Thu Jun 13 21:58:31 2019 +0530
+
+    Add GSoC proposal&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now, you can use git’s &lt;a href=&quot;https://git-scm.com/docs/pretty-formats&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;pretty-formats&lt;/code&gt;&lt;/a&gt; to generate a table.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git log --author=&amp;quot;Ayan Banerjee&amp;quot; --pretty=format:&amp;quot;&amp;lt;tr&amp;gt;&amp;lt;th&amp;gt;%h&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;%ad&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;%s&amp;lt;/th&amp;gt;&amp;lt;/tr&amp;gt;&amp;quot; &amp;gt; commits.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here, I am saving the output into a file &lt;code class=&quot;language-text&quot;&gt;commits.txt&lt;/code&gt;, which ends up looking
+like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;6433d44&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Mon Aug 19 23:15:16 2019 +0530&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Update docs (#96)&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;5373a5b&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Mon Aug 19 22:51:30 2019 +0530&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Drop list fields from XML files (#95)&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;6538ed1&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Mon Aug 19 22:43:45 2019 +0530&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Add Pan-Can phenotype (#94)&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;d559739&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Mon Aug 19 22:33:25 2019 +0530&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Add GISTIC and CNV Pan-can (#93)&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;4b97675&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Mon Aug 5 21:53:58 2019 +0530&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Add GDCAPIPhenoset (#91)&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;5ce4f9b&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Thu Aug 1 00:02:50 2019 +0530&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Update illuminaMethyl probemaps (#92)&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;674ff02&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Mon Jul 29 21:47:39 2019 +0530&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Reorder merge (#90)&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After adding the &lt;code class=&quot;language-text&quot;&gt;table&lt;/code&gt; tag and some proper headers it ends up looking
+like this:&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Commit SHA&lt;/th&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Commit Message&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6433d44&lt;/td&gt;&lt;td&gt;Mon Aug 19 23:15:16 2019 +0530&lt;/td&gt;&lt;td&gt;Update docs (#96)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5373a5b&lt;/td&gt;&lt;td&gt;Mon Aug 19 22:51:30 2019 +0530&lt;/td&gt;&lt;td&gt;Drop list fields from XML files (#95)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6538ed1&lt;/td&gt;&lt;td&gt;Mon Aug 19 22:43:45 2019 +0530&lt;/td&gt;&lt;td&gt;Add Pan-Can phenotype (#94)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;d559739&lt;/td&gt;&lt;td&gt;Mon Aug 19 22:33:25 2019 +0530&lt;/td&gt;&lt;td&gt;Add GISTIC and CNV Pan-can (#93)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4b97675&lt;/td&gt;&lt;td&gt;Mon Aug 5 21:53:58 2019 +0530&lt;/td&gt;&lt;td&gt;Add GDCAPIPhenoset (#91)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5ce4f9b&lt;/td&gt;&lt;td&gt;Thu Aug 1 00:02:50 2019 +0530&lt;/td&gt;&lt;td&gt;Update illuminaMethyl probemaps (#92)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;674ff02&lt;/td&gt;&lt;td&gt;Mon Jul 29 21:47:39 2019 +0530&lt;/td&gt;&lt;td&gt;Reorder merge (#90)&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;In this way you can generate a table of commits for a particular user in a
+repository!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fixing `awk: error while loading shared libraries: libreadline.so.7: cannot open shared object file: No such file or directory`]]></title><description><![CDATA[First install libreadline using your package installer: . Now make a symlink between your current libreadline version and to libreadline.so…]]></description><link>https://ayan-b.github.io/blog/fixing-awk-error/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/fixing-awk-error/</guid><pubDate>Tue, 25 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;First install libreadline using your package installer: &lt;code class=&quot;language-text&quot;&gt;sudo pacman -S readline&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now make a symlink between your current libreadline version and to libreadline.so.7,
+like: &lt;code class=&quot;language-text&quot;&gt;ln -s /usr/lib/libreadline.so.8 /usr/lib/libreadline.so.7&lt;/code&gt;, since &lt;code class=&quot;language-text&quot;&gt;8&lt;/code&gt; is
+the version as of the time when this blog is written.&lt;/p&gt;
+&lt;p&gt;This should solve the issue!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GSoC Proposal UCSC Xena]]></title><description><![CDATA[Table of Contents Table of Contents Project: Update GDC Data on Xena Project Proposal Phase 1 (Week 1-4): Phase 2 (Week 5-7): Phase 3 (Week…]]></description><link>https://ayan-b.github.io/blog/GSoC19-Proposal/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/GSoC19-Proposal/</guid><pubDate>Wed, 12 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Table of Contents&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#table-of-contents&quot;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#project-update-gdc-data-on-xena&quot;&gt;Project: Update GDC Data on Xena&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#project-proposal&quot;&gt;Project Proposal&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#phase-1-week-1-4&quot;&gt;Phase 1 (Week 1-4):&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#phase-2-week-5-7&quot;&gt;Phase 2 (Week 5-7):&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#phase-3-week-8-11&quot;&gt;Phase 3 (Week 8-11):&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#timeline&quot;&gt;Timeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#personal-background&quot;&gt;Personal Background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#relevant-skills&quot;&gt;Relevant Skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#what-are-your-languages-of-choice-and-how-do-they-relate-to-the-project&quot;&gt;What are your languages of choice and how do they relate to the project?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#any-prior-experience-with-open-source-development&quot;&gt;Any prior experience with open source development?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#please-point-us-to-a-code-sample-you-have-written&quot;&gt;Please point us to a code sample you have written.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#any-prior-experience-in-bioinformatics-or-cancer-genomics&quot;&gt;Any prior experience in bioinformatics or cancer genomics?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#your-availability&quot;&gt;Your Availability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#do-you-have-any-school-related-activities-scheduled-during-the-coding-period&quot;&gt;Do you have any school-related activities scheduled during the coding period?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#do-you-have-a-full--or-part-time-job-or-internship-planned-for-this-summer&quot;&gt;Do you have a full- or part-time job or internship planned for this summer?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#any-other-plans-during-the-coding-period-that-might-impact-what-hours-or-days-you-can-work&quot;&gt;Any other plans during the coding period that might impact what hours or days you can work?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#how-many-hours-per-week-do-you-have-for-a-summer-project&quot;&gt;How many hours per week do you have for a summer project?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Project: Update GDC Data on Xena&lt;/h1&gt;
+&lt;h2&gt;Project Proposal&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3&gt;A high-level description of what you plan to work on&lt;/h3&gt;
+&lt;p&gt;UCSC Xena is a functional genomics visualization and analysis platform. For this (genomics visualization and analysis),
+there are many datasets which are provided by data hubs available with Xenabrowser itself which users can use. The data
+hubs are: &lt;em&gt;UCSC Public Hub&lt;/em&gt;, &lt;em&gt;TCGA Hub&lt;/em&gt;, &lt;em&gt;Pan-Cancer Atlas Hub&lt;/em&gt;, &lt;em&gt;ICGC Hub&lt;/em&gt;, &lt;em&gt;UCSC Toil RNAseq Recompute&lt;/em&gt;, &lt;em&gt;Treehouse Hub&lt;/em&gt;
+and &lt;em&gt;GDC Hub&lt;/em&gt;. Our discussion of interest lies in the GDC Hub.&lt;/p&gt;
+&lt;p&gt;GDC (Genomic Data Commons) Hub fetches data from the GDC repository:
+&lt;a href=&quot;https://portal.gdc.cancer.gov/repository&quot;&gt;https://portal.gdc.cancer.gov/repository&lt;/a&gt; via the GDC API. However, the data on
+the Xena is not updated. Current Xena data was updated on &lt;em&gt;release 10&lt;/em&gt;, roughly 1.5 yrs ago. This project mainly revolves
+around updating data on xena with the current release (&lt;em&gt;release 15&lt;/em&gt;). This will also simplify the process of adding data
+to Xena removing the XML files as a source.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3&gt;Specific details, key aspects and anticipated challenges&lt;/h3&gt;
+&lt;p&gt;The process involves two high-level goals:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Updating GDC data wrangling pipeline&lt;/span&gt;&lt;/em&gt;: The pipeline code (&lt;em&gt;i.e.&lt;/em&gt; &lt;a href=&quot;https://github.com/yunhailuo/xena-GDC-ETL&quot;&gt;https://github.com/yunhailuo/xena-GDC-ETL&lt;/a&gt; currently fetches the data from GDC repository via GDC API) is outdated. This part of the goals aims to update with the latest release.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Updating GDC data on Xena&lt;/span&gt;&lt;/em&gt;: As the data wrangling pipeline will be updated, this part of the goals will aim to update the GDC data on xena.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3&gt;Tell us what research into this project you have done&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I have analyzed the gdc module of the &lt;code class=&quot;language-text&quot;&gt;xena-GDC-ETL&lt;/code&gt; package and added tests for the same. The module currently has 82% test coverage. In my analysis, I have found that the code and APIs used in the module are updated with the upstream.&lt;/li&gt;
+&lt;li&gt;During my contributions to the repo, I got sound knowledge on the modules and what task each of them performs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3&gt;Break the project down into smaller tasks&lt;/h3&gt;
+&lt;h4&gt;Phase 1 (Week 1-4):&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve the overall project in this phase, &lt;em&gt;i.e.&lt;/em&gt; adding tests, fixing lint issues, improving CLI and setting up
+doctests for existing ones and release the project to pypi.&lt;/li&gt;
+&lt;li&gt;Fix broken APIs and code for fetching new data from API.&lt;/li&gt;
+&lt;li&gt;Start adding code for the new data provided by GDC API. The package should be able to fetch and upload
+FM Simple Somatic Mutation data by the end of this period.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Phase 2 (Week 5-7):&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add and upload GISTIC - Copy Number Score, DNAcopy data and Star - Counts data into xena and document the process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Phase 3 (Week 8-11):&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Finish uploading the data into xena, add docs and doctests.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Timeline&lt;/h3&gt;
+&lt;p&gt;This week-by-week timeline provides a rough guideline of how the project will be done.&lt;/p&gt;
+&lt;table&gt;
+  &lt;tr&gt;&lt;td&gt;Phase&lt;/td&gt;&lt;td&gt;Date&lt;/td&gt;&lt;td&gt;Tasks&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Community Bonding&lt;/td&gt;&lt;td&gt;May 7 - May 26&lt;/td&gt;&lt;td&gt;
+   &lt;ul&gt;
+      &lt;li&gt;Familiarising myself with the mentors and the codebase. I will dive deep into the code and learn all the ins and outs of the code with the help of mentors.&lt;/li&gt;
+      &lt;li&gt;Also, check how the data is uploaded into xena cohorts after downloading and transforming.&lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td rowspan=&quot;5&quot; &gt;Phase 1
+   &lt;/td&gt;
+   &lt;td&gt;&lt;em&gt;Week 1&lt;/em&gt;: May 27 - Jun 2
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix all the linting issue as reported by &lt;em&gt;flake8.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Also, as the linting issues are fixed, in CI no longer allow lint to fail.&lt;/li&gt;
+&lt;li&gt;Identify parts of the code which will be incompatible for Python3, especially Python 3.8 and rectify them. This will make the current code future-proof.&lt;/li&gt;
+&lt;li&gt;Add tests for the existing untested code for the smaller modules, &lt;em&gt;i.e.&lt;/em&gt; under scripts &lt;code&gt;panTCGA&lt;/code&gt;, &lt;code&gt;merge_xena&lt;/code&gt;, &lt;code&gt;make_metadata,&lt;/code&gt; and &lt;code&gt;TARGET-CCSK_phenotype_ETL&lt;/code&gt; modules.&lt;/li&gt;
+&lt;li&gt;Setup CI for doctests. Example of one such test can be found inside the docstrings utils module.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;xena-GDC-ETL 0.2&lt;/code&gt; should be released by now in GitHub/pypi.&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;em&gt;Week 2&lt;/em&gt;: Jun 3 - Jun 9
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Currently, the package has only ~11% code coverage. Good code coverage is required to enhance the maintainability of the project. I will identify parts of the code base (other than the &lt;code&gt;xena_dataset&lt;/code&gt; module) which is out of coverage and add tests for the same.&lt;/li&gt;
+&lt;li&gt;Investigate the xena_datasets module and add tests for the code which fetches public data from &lt;code&gt;TCGA&lt;/code&gt; and &lt;code&gt;TARGET&lt;/code&gt; data. In this process, we will get to know which APIs are working and which are not.&lt;/li&gt;
+&lt;li&gt;Fix the broken APIs and remove them which are obsolete.
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;em&gt;Week 3&lt;/em&gt;: Jun 10 - Jun 16
+   &lt;/td&gt;
+   &lt;td&gt;
+      &lt;ul&gt;
+         &lt;li&gt;Start working on adding missing data.&lt;/li&gt;
+         &lt;li&gt;Add and wrangle the data from &lt;code&gt;FM&lt;/code&gt; program by the end of this week.&lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;em&gt;Week&lt;/em&gt; &lt;em&gt;4&lt;/em&gt;: Jun 17 - Jun 24 
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Modify the &lt;code&gt;gdc2xena&lt;/code&gt; script such that it is able to load &lt;code&gt;FM data&lt;/code&gt; into xena.&lt;/li&gt;
+&lt;li&gt;Document the whole process.
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Jun 24 - Jun 28
+   &lt;/td&gt;
+   &lt;td&gt;&lt;em&gt;Phase 1 Evaluation&lt;/em&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td rowspan=&quot;4&quot; &gt;Phase 2
+   &lt;/td&gt;
+   &lt;td&gt;&lt;em&gt;Week 5&lt;/em&gt;: Jul 1 - Jul 7
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Add and wrangle &lt;code&gt;GISTIC - Copy Number Score&lt;/code&gt; data by the end of this week.&lt;/li&gt;
+&lt;li&gt;Modify the gdc2xena script such that it is able to load &lt;code&gt;GISTIC - Copy Number Score&lt;/code&gt; data into xena. Since in the last week most part of the APIs would be already done, it should not take much longer.&lt;/li&gt;
+&lt;li&gt;Document the whole process.
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;em&gt;Week 6&lt;/em&gt;: Jul 8 - Jul 14
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Add &lt;code&gt;DNAcopy&lt;/code&gt; data by the end of this week.&lt;/li&gt;
+&lt;li&gt;Modify the &lt;code&gt;gdc2xena&lt;/code&gt; script such that it is able to load &lt;code&gt;DNAcopy&lt;/code&gt; data into xena.&lt;/li&gt;
+&lt;li&gt;Document the whole process.
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;em&gt;Week 7&lt;/em&gt;: Jul 15 - Jul 21
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Add gene expression data &lt;code&gt;STAR - Counts&lt;/code&gt; data by the end of this week.&lt;/li&gt;
+&lt;li&gt;Modify the &lt;code&gt;gdc2xena&lt;/code&gt; script such that it is able to load &lt;code&gt;STAR - Counts&lt;/code&gt; data into xena.&lt;/li&gt;
+&lt;li&gt;Document the whole process
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Jul 22 - Jul 26
+   &lt;/td&gt;
+   &lt;td&gt;&lt;em&gt;Phase 2 Evaluation&lt;/em&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td rowspan=&quot;5&quot; &gt;Phase 3
+   &lt;/td&gt;
+   &lt;td&gt;&lt;em&gt;Week 8&lt;/em&gt;: Jul 29 - Aug 4
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Finish uploading data to xena.&lt;/li&gt;
+&lt;li&gt;Fix any broken codes.
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;em&gt;Week 9&lt;/em&gt;: Aug 5 - Aug 12
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Buffer week for any unfinished task.
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;em&gt;Week 10&lt;/em&gt;: Aug 13 - Aug 19
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a cron job using Travis CI which will run the pipeline automatically bi-weekly or monthly and will update the data in xena, in this way it will be never out of sync and even if GDC updates their API, the job will fail and actions can be taken.&lt;/li&gt;
+&lt;li&gt;Check the robustness of the cron job.
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;em&gt;Week 11&lt;/em&gt;: Aug 20 - Aug 26
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Finish up documentation and tests.&lt;/li&gt;
+&lt;li&gt;Add tests for the code inside docs. Also setup CI for the same.&lt;/li&gt;
+&lt;li&gt;Finish setup for writing docs using &lt;strong&gt;Sphinx&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Release the existing docs in &lt;a href=&quot;https://readthedocs.io&quot;&gt;https://readthedocs.io&lt;/a&gt; as sometimes GitHub wiki does not play well with small screens.
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Aug 26 - Sep 2
+   &lt;/td&gt;
+   &lt;td&gt;&lt;em&gt;Final Evaluation&lt;/em&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Post GSoC
+   &lt;/td&gt;
+   &lt;td&gt;&lt;em&gt;-&lt;/em&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Keep an eye on the cron job and fix failures if the API structure changes.&lt;/li&gt;
+&lt;li&gt;Help the newcomers to get started in the UCSCXena organization.
+&lt;/li&gt;
+&lt;/ul&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2&gt;Personal Background&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: Ayan Banerjee&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&quot;mailto:ayanbn7@gmail.com&quot;&gt;ayanbn7@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile&lt;/strong&gt;: +91 8016399022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Timezone&lt;/strong&gt;: Indian Standard Time (UTC +05:30)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Postal Address&lt;/strong&gt;: Nutan Mahula, Mahula, Murshidabad, West Bengal, India - 742 134&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;GitHub&lt;/em&gt;: &lt;a href=&quot;https://github.com/ayan-b&quot;&gt;https://github.com/ayan-b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;GitLab&lt;/em&gt;: &lt;a href=&quot;https://gitlab.com/ayan-b&quot;&gt;https://gitlab.com/ayan-b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Gitter&lt;/em&gt;: &lt;a href=&quot;https://gitter.im/ayan-b&quot;&gt;https://gitter.im/ayan-b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;CodeChef&lt;/em&gt;: &lt;a href=&quot;https://codechef.com/users/ayan_nitd&quot;&gt;https://codechef.com/users/ayan_nitd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;LinkedIn&lt;/em&gt;: &lt;a href=&quot;https://linkedin.com/in/ayanb&quot;&gt;https://linkedin.com/in/ayanb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Bachelor of Technology&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Department of Electronics and Communication Engineering&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nitdgp.ac.in/&quot;&gt;National Institute of Technology, Durgapur&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;July 2016 - Present&lt;/li&gt;
+&lt;li&gt;CGPA: 9.30/10 &lt;em&gt;(till 5th semester)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Higher Secondary (10+2)&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.rkmsargachi.org/&quot;&gt;Sargachi Ramakrishna Mission High School&lt;/a&gt;, West Bengal&lt;/li&gt;
+&lt;li&gt;Mathematics &amp;#x26; Biology&lt;/li&gt;
+&lt;li&gt;Score: 96%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Secondary (10th)&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;January 2014&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.rkmsargachi.org/&quot;&gt;Sargachi Ramakrishna Mission High School,&lt;/a&gt; West Bengal&lt;/li&gt;
+&lt;li&gt;Mathematics, Biology, History &amp;#x26; Geography&lt;/li&gt;
+&lt;li&gt;Score: 92.43%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Work Experience&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Student mentor, &lt;a href=&quot;https://codein.withgoogle.com/&quot;&gt;Google Code In&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Oct - Dec 2018&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mentored pre-university students to get started in open source&lt;/li&gt;
+&lt;li&gt;Mentored the students for the organization &lt;em&gt;coala&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Summer Intern at &lt;a href=&quot;http://www.iitb.ac.in/&quot;&gt;Indian Institute of Technology, Bombay&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;May - July 2018&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrated a plagiarism checker for Python programming language with &lt;em&gt;Yaksh&lt;/em&gt;, a course-taking application
+written in Django.&lt;/li&gt;
+&lt;li&gt;Wrote an elaborate test suite for the same.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Relevant Skills&lt;/h2&gt;
+&lt;h3&gt;What are your languages of choice and how do they relate to the project?&lt;/h3&gt;
+&lt;p&gt;   &lt;strong&gt;Python&lt;/strong&gt;: Since the current data wrangler is completely written in Python, naturally The language of choice for this
+project is &lt;strong&gt;Python&lt;/strong&gt;. Some &lt;strong&gt;shell&lt;/strong&gt; scripting may be required for automating stuff (tests, linting, etc.).
+Some other technology requirements are &lt;strong&gt;Git&lt;/strong&gt; (for version control), &lt;strong&gt;Jinja2&lt;/strong&gt;(for templating), &lt;strong&gt;CI&lt;/strong&gt;(Continuous Integration) and writing docs using &lt;strong&gt;Sphinx&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Any prior experience with open source development?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I have been a core developer at the organization &lt;strong&gt;moremoban&lt;/strong&gt; for the last 4 months. I am mainly involved with the
+project &lt;strong&gt;moban&lt;/strong&gt;, &lt;em&gt;a jinja2 CLI command for static text generation&lt;/em&gt;
+(&lt;a href=&quot;https://github.com/moremoban/moban/commits?author=ayan-b&quot;&gt;contributions&lt;/a&gt;) and
+&lt;strong&gt;pypi-mobans&lt;/strong&gt; (&lt;a href=&quot;https://github.com/moremoban/pypi-moban/commits?author=ayan-b&quot;&gt;contributions&lt;/a&gt;).
+These 2 projects are used as repository management tools, and they are written in &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;Jinja2&lt;/strong&gt;.
+I developed 2 plugins for the project: &lt;a href=&quot;https://github.com/moremoban/moban-velocity&quot;&gt;moban-velocity&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/moremoban/moban-haml&quot;&gt;moban-haml&lt;/a&gt; and released them into &lt;a href=&quot;https://pypi.org/user/ayanb/&quot;&gt;PyPi&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I have also contributed to the &lt;code class=&quot;language-text&quot;&gt;xena-GDC-ETL&lt;/code&gt; repository. My contributions can be
+found &lt;a href=&quot;https://github.com/yunhailuo/xena-GDC-ETL/pulls?utf8=%E2%9C%93&amp;#x26;q=is%3Apr+author%3Aayan-b+&quot;&gt;here&lt;/a&gt;.
+Also, I have created some &lt;a href=&quot;https://github.com/yunhailuo/xena-GDC-ETL/issues?utf8=%E2%9C%93&amp;#x26;q=is%3Aissue+author%3Aayan-b+&quot;&gt;issues&lt;/a&gt;
+for the overall improvement of the project.&lt;/li&gt;
+&lt;li&gt;I have also developed some personal projects, mostly in Python and Vanilla JavaScript, all of those are open-sourced
+and can be found in my GitHub and GitLab profile.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Please point us to a code sample you have written.&lt;/h3&gt;
+&lt;p&gt;My contributions to the project can be taken as code samples as well as the projects I contributed mentioned previously:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Commits: &lt;a href=&quot;https://github.com/yunhailuo/xena-GDC-ETL/commits?author=ayan-b&quot;&gt;https://github.com/yunhailuo/xena-GDC-ETL/commits?author=ayan-b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PRs: &lt;a href=&quot;https://github.com/yunhailuo/xena-GDC-ETL/pulls?utf8=%E2%9C%93&amp;#x26;q=is%3Apr+author%3Aayan-b&quot;&gt;https://github.com/yunhailuo/xena-GDC-ETL/pulls?q=is%3Apr+author%3Aayan-b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reviews: &lt;a href=&quot;https://github.com/yunhailuo/xena-GDC-ETL/pulls?q=is%3Apr+reviewed-by%3Aayan-b&quot;&gt;https://github.com/yunhailuo/xena-GDC-ETL/pulls?q=is%3Apr+reviewed-by%3Aayan-b&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Any prior experience in bioinformatics or cancer genomics?&lt;/h3&gt;
+&lt;p&gt;  I have high-school level knowledge of genomics and am familiar with the basics of it. Also, I am familiar with the commonly
+used terms related to Genomics.&lt;/p&gt;
+&lt;h2&gt;Your Availability&lt;/h2&gt;
+&lt;h3&gt;Do you have any school-related activities scheduled during the coding period?&lt;/h3&gt;
+&lt;p&gt;  Summer vacation at my university starts from first week of May and ends on the second week of July. So, from second week of
+July, I will be at my university and will continue coding there.&lt;/p&gt;
+&lt;h3&gt;Do you have a full- or part-time job or internship planned for this summer?&lt;/h3&gt;
+&lt;p&gt;  No.&lt;/p&gt;
+&lt;h3&gt;Any other plans during the coding period that might impact what hours or days you can work?&lt;/h3&gt;
+&lt;p&gt;  No.&lt;/p&gt;
+&lt;h3&gt;How many hours per week do you have for a summer project?&lt;/h3&gt;
+&lt;p&gt;  Since I can do this project full-time, I will be able to devote 50-60 hrs per week for the same.
+Once my university starts in mid-july, I will be able to give 3-4 hrs per day during weekdays
+and 8-10 hrs per day during weekends.&lt;/p&gt;</content:encoded></item></channel></rss>
