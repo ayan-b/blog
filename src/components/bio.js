@@ -56,7 +56,7 @@ const Bio = () => {
       <p>
         Written by <strong>{author}</strong> is a software developer.
         {` `}
-        <a href={`https://ayanb.me/profile`}>
+        <a href={`https://ayan-b.github.io`}>
           Here's his profile.
         </a>
       </p>

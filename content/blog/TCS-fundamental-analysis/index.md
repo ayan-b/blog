@@ -1,7 +1,7 @@
 ---
-title: "Fundamental Analysis: Tata Consultancy Services Limited (TCS) (2020 - 2023)"
+title: "Fundamental Analysis: Tata Consultancy Services Limited (TCS) (2021 - 2023)"
 date: "2020-06-07"
-description: "Fundamental Analysis: Tata Consultancy Services Limited (TCS) (2020 - 2023)"
+description: "Fundamental Analysis: Tata Consultancy Services Limited (TCS) (2021 - 2023)"
 ---
 
 Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
@@ -10,4 +10,4 @@ interesting to see how I did in the coming years. :)
 
 The sources I used: Moneycontrol, TCS annual and quarterly reports and WikiPedia.
 
-The content is available under [MIT License](https://choosealicense.com/licenses/mit/).
+The content is available under the [MIT License](https://choosealicense.com/licenses/mit/).
