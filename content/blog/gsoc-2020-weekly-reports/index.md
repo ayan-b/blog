@@ -4,9 +4,9 @@ date: "2020-06-12"
 description: "GSoC 2020 Weekly Reports"
 ---
 
-# Work done till Jun 12, 2020
+## Work done till Jun 12, 2020
 
-## Pull Requests
+### Pull Requests
 
 - [#27](https://github.com/the-virtual-brain/tvb-gdist/pull/27): Modernizes the travis syntax
 - [#28](https://github.com/the-virtual-brain/tvb-gdist/pull/28): Adds missing files to the `geodesic_library`
@@ -17,7 +17,7 @@ description: "GSoC 2020 Weekly Reports"
 - [#38](https://github.com/the-virtual-brain/tvb-gdist/pull/38): Add local_gdist_matrix tests and fix Bug 21
 - [#39](https://github.com/the-virtual-brain/tvb-gdist/pull/39): pyproject.toml: Set up minimum build system
 
-## Issues Fixed
+### Issues Fixed
 
 - [#19](https://github.com/the-virtual-brain/tvb-gdist/issues/19): Numpy requirement in setup is causing installation problems
 - [#21](https://github.com/the-virtual-brain/tvb-gdist/issues/21): local distances return faulty output
