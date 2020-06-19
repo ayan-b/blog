@@ -21,3 +21,23 @@ description: "GSoC 2020 Weekly Reports"
 
 - [#19](https://github.com/the-virtual-brain/tvb-gdist/issues/19): Numpy requirement in setup is causing installation problems
 - [#21](https://github.com/the-virtual-brain/tvb-gdist/issues/21): local distances return faulty output
+---
+
+## Weekly Report for Week 3 (Jun 13 - Jun 19)
+
+This week I mostly focused on issue [#11](https://github.com/the-virtual-brain/tvb-gdist/issues/11) where we planned to use `ctypes`
+instead of the current implementation in `cython`. PR [#40](https://github.com/the-virtual-brain/tvb-gdist/pull/40) addressed issue [#11](https://github.com/the-virtual-brain/tvb-gdist/issues/11) and as of now implementation
+in Linux and macOS is completed.
+
+I also worked on issue [#22](https://github.com/the-virtual-brain/tvb-gdist/issues/22) and the [surface data](https://github.com/the-virtual-brain/tvb-data/blob/master/tvb_data/surfaceData/) datasets in the current
+implementation worked fine for all the datasets except [cortex 2x120k](https://github.com/the-virtual-brain/tvb-gdist/issues/41). I am currently
+investigating why the code failed for that dataset.
+
+### Pull Requests
+
+- [#40](https://github.com/the-virtual-brain/tvb-gdist/pull/40): Use ctypes instead of cython
+
+### Issues Addressed
+
+- [#11](https://github.com/the-virtual-brain/tvb-gdist/issues/11): Commit C source
+- [#22](https://github.com/the-virtual-brain/tvb-gdist/issues/22): Crash on small meshes
