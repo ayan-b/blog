@@ -9,7 +9,7 @@ intro_pic: "https://developers.google.com/open-source/gsoc/resources/downloads/G
 hide: true
 ---
 
-![Google Summer of Code]("https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png")
+![Google Summer of Code](https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png)
 
 # Table of Contents
 
