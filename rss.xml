@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Jun 2020 08:59:05 GMT</lastBuildDate><item><title><![CDATA[GSoC 2020 Weekly Reports]]></title><description><![CDATA[Work done till Jun 12, 2020 Pull Requests #27: Modernizes the travis syntax #28: Adds missing files to the  #31: Adds a job which enables…]]></description><link>https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</guid><pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Work done till Jun 12, 2020&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 19 Jun 2020 14:38:01 GMT</lastBuildDate><item><title><![CDATA[GSoC 2020 Weekly Reports]]></title><description><![CDATA[Work done till Jun 12, 2020 Pull Requests #27: Modernizes the travis syntax #28: Adds missing files to the  #31: Adds a job which enables…]]></description><link>https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</guid><pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Work done till Jun 12, 2020&lt;/h2&gt;
 &lt;h3&gt;Pull Requests&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/27&quot;&gt;#27&lt;/a&gt;: Modernizes the travis syntax&lt;/li&gt;
@@ -13,7 +13,25 @@
 &lt;h3&gt;Issues Fixed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/19&quot;&gt;#19&lt;/a&gt;: Numpy requirement in setup is causing installation problems&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/21&quot;&gt;#21&lt;/a&gt;: local distances return faulty output&lt;/li&gt;
+&lt;li&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/21&quot;&gt;#21&lt;/a&gt;: local distances return faulty output&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Weekly Report for Week 3 (Jun 13 - Jun 19)&lt;/h2&gt;
+&lt;p&gt;This week I mostly focused on issue &lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/11&quot;&gt;#11&lt;/a&gt; where we planned to use &lt;code class=&quot;language-text&quot;&gt;ctypes&lt;/code&gt;
+instead of the current implementation in &lt;code class=&quot;language-text&quot;&gt;cython&lt;/code&gt;. PR &lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/40&quot;&gt;#40&lt;/a&gt; addressed issue &lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/11&quot;&gt;#11&lt;/a&gt; and as of now implementation
+in Linux and macOS is completed.&lt;/p&gt;
+&lt;p&gt;I also worked on issue &lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/22&quot;&gt;#22&lt;/a&gt; and the &lt;a href=&quot;https://github.com/the-virtual-brain/tvb-data/blob/master/tvb_data/surfaceData/&quot;&gt;surface data&lt;/a&gt; datasets in the current
+implementation worked fine for all the datasets except &lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/41&quot;&gt;cortex 2x120k&lt;/a&gt;. I am currently
+investigating why the code failed for that dataset.&lt;/p&gt;
+&lt;h3&gt;Pull Requests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/40&quot;&gt;#40&lt;/a&gt;: Use ctypes instead of cython&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Issues Addressed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/11&quot;&gt;#11&lt;/a&gt;: Commit C source&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/22&quot;&gt;#22&lt;/a&gt;: Crash on small meshes&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Fundamental Analysis: Tata Consultancy Services Limited (TCS) (2021 - 2023)]]></title><description><![CDATA[Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: link. It…]]></description><link>https://ayan-b.github.io/blog/TCS-fundamental-analysis/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/TCS-fundamental-analysis/</guid><pubDate>Sun, 07 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: &lt;a href=&quot;/blog/0c6ca5e69f2add52d2bf5dea143b2829/TCS-Fundamental-Analysis.pdf&quot;&gt;link&lt;/a&gt;. It would be

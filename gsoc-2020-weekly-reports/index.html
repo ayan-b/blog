@@ -17,7 +17,25 @@
 <h3>Issues Fixed</h3>
 <ul>
 <li><a href="https://github.com/the-virtual-brain/tvb-gdist/issues/19">#19</a>: Numpy requirement in setup is causing installation problems</li>
-<li><a href="https://github.com/the-virtual-brain/tvb-gdist/issues/21">#21</a>: local distances return faulty output</li>
+<li>
+<h2><a href="https://github.com/the-virtual-brain/tvb-gdist/issues/21">#21</a>: local distances return faulty output</h2>
+</li>
+</ul>
+<h2>Weekly Report for Week 3 (Jun 13 - Jun 19)</h2>
+<p>This week I mostly focused on issue <a href="https://github.com/the-virtual-brain/tvb-gdist/issues/11">#11</a> where we planned to use <code class="language-text">ctypes</code>
+instead of the current implementation in <code class="language-text">cython</code>. PR <a href="https://github.com/the-virtual-brain/tvb-gdist/pull/40">#40</a> addressed issue <a href="https://github.com/the-virtual-brain/tvb-gdist/issues/11">#11</a> and as of now implementation
+in Linux and macOS is completed.</p>
+<p>I also worked on issue <a href="https://github.com/the-virtual-brain/tvb-gdist/issues/22">#22</a> and the <a href="https://github.com/the-virtual-brain/tvb-data/blob/master/tvb_data/surfaceData/">surface data</a> datasets in the current
+implementation worked fine for all the datasets except <a href="https://github.com/the-virtual-brain/tvb-gdist/issues/41">cortex 2x120k</a>. I am currently
+investigating why the code failed for that dataset.</p>
+<h3>Pull Requests</h3>
+<ul>
+<li><a href="https://github.com/the-virtual-brain/tvb-gdist/pull/40">#40</a>: Use ctypes instead of cython</li>
+</ul>
+<h3>Issues Addressed</h3>
+<ul>
+<li><a href="https://github.com/the-virtual-brain/tvb-gdist/issues/11">#11</a>: Commit C source</li>
+<li><a href="https://github.com/the-virtual-brain/tvb-gdist/issues/22">#22</a>: Crash on small meshes</li>
 </ul></section><hr style="margin-bottom:1.75rem"/><footer><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABm5HNM3FA55GiC1MOf//EABoQAAMAAwEAAAAAAAAAAAAAAAECAwAREyH/2gAIAQEAAQUC6EBDWblxjHR8zeUc9L+SSrEf/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAIxEBH/2gAIAQMBAT8BSHRZn//EABgRAQEAAwAAAAAAAAAAAAAAAAEQAhEx/9oACAECAQE/AVdzLpP/xAAgEAABAwIHAAAAAAAAAAAAAAABABAxAgMREiEiQVFx/9oACAEBAAY/AtsntY1XRWDw2qgN4swlv//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExYRBR/9oACAEBAAE/IWmrdQ6HYN2SXzkQwTQJFAV5X7bWQC4MHEsbU//aAAwDAQACAAMAAAAQbPD9/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxBFbZRuQ//EABcRAQADAAAAAAAAAAAAAAAAAAEAEBH/2gAIAQIBAT8QMAm3P//EABsQAQEBAAIDAAAAAAAAAAAAAAERACFBMVFx/9oACAEBAAE/EOJ0gH0XwM23iLmmL6S5ys1rBke8pwJBOjzl3zgl4FD3cIEoPRugFtlk3//Z" alt="Ayan Banerjee" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/blog/static/c8200cce63fc4e1467b52c3bb1278662/99438/profile-pic.jpg 1x,
 /blog/static/c8200cce63fc4e1467b52c3bb1278662/aba1d/profile-pic.jpg 1.5x,
 /blog/static/c8200cce63fc4e1467b52c3bb1278662/b315d/profile-pic.jpg 2x" /><img loading="lazy" width="50" height="50" srcset="/blog/static/c8200cce63fc4e1467b52c3bb1278662/99438/profile-pic.jpg 1x,
