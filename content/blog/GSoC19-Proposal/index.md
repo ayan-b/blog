@@ -8,6 +8,9 @@ permalink: "GSoC19-Proposal"
 intro_pic: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png"
 hide: true
 ---
+
+![Google Summer of Code]("https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png")
+
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
