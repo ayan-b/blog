@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 19 Jun 2020 14:46:15 GMT</lastBuildDate><item><title><![CDATA[GSoC 2020 Weekly Reports]]></title><description><![CDATA[Work done till Jun 12, 2020 Pull Requests #27: Modernizes the travis syntax #28: Adds missing files to the  #31: Adds a job which enables…]]></description><link>https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</guid><pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Work done till Jun 12, 2020&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 19 Jun 2020 14:48:47 GMT</lastBuildDate><item><title><![CDATA[GSoC 2020 Weekly Reports]]></title><description><![CDATA[Work done till Jun 12, 2020 Pull Requests #27: Modernizes the travis syntax #28: Adds missing files to the  #31: Adds a job which enables…]]></description><link>https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</guid><pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Work done till Jun 12, 2020&lt;/h2&gt;
 &lt;h3&gt;Pull Requests&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/27&quot;&gt;#27&lt;/a&gt;: Modernizes the travis syntax&lt;/li&gt;
@@ -13,10 +13,9 @@
 &lt;h3&gt;Issues Fixed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/19&quot;&gt;#19&lt;/a&gt;: Numpy requirement in setup is causing installation problems&lt;/li&gt;
-&lt;li&gt;
-&lt;h2&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/21&quot;&gt;#21&lt;/a&gt;: local distances return faulty output&lt;/h2&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/21&quot;&gt;#21&lt;/a&gt;: local distances return faulty output&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2&gt;Weekly Report for Week 3 (Jun 13 - Jun 19)&lt;/h2&gt;
 &lt;p&gt;This week I mostly focused on issue &lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/11&quot;&gt;#11&lt;/a&gt; where we planned to use &lt;code class=&quot;language-text&quot;&gt;ctypes&lt;/code&gt;
 instead of the current implementation in &lt;code class=&quot;language-text&quot;&gt;cython&lt;/code&gt;. PR &lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/40&quot;&gt;#40&lt;/a&gt; addressed issue &lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/11&quot;&gt;#11&lt;/a&gt; and as of now implementation
