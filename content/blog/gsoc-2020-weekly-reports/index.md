@@ -21,6 +21,7 @@ description: "GSoC 2020 Weekly Reports"
 
 - [#19](https://github.com/the-virtual-brain/tvb-gdist/issues/19): Numpy requirement in setup is causing installation problems
 - [#21](https://github.com/the-virtual-brain/tvb-gdist/issues/21): local distances return faulty output
+
 ---
 
 ## Weekly Report for Week 3 (Jun 13 - Jun 19)
