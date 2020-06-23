@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import TelegramComments from "../components/telegram"
 import { rhythm, scale } from "../utils/typography"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
@@ -74,6 +75,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </li>
         </ul>
       </nav>
+      <TelegramComments></TelegramComments>
     </Layout>
   )
 }
