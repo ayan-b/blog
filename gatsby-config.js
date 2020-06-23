@@ -2,11 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Ayan's Blog`,
     author: `Ayan Banerjee`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Ayan's Blog`,
     siteUrl: `https://ayan-b.github.io/blog`,
     social: {
       twitter: `ayanbn7`,
     },
+    telegramSiteId: `zxyJ98F6`,
   },
   pathPrefix: `/blog`,
   plugins: [
