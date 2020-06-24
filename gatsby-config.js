@@ -85,5 +85,6 @@ module.exports = {
         basePath: `/notes`,
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 }
