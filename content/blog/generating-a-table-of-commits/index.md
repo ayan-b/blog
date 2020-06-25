@@ -32,7 +32,7 @@ Date:   Thu Jun 13 21:58:31 2019 +0530
 Now, you can use git's [`pretty-formats`](https://git-scm.com/docs/pretty-formats) to generate a table.
 
 ```shell
-git log --author="Ayan Banerjee" --pretty=format:"<tr><th>%h</th><th>%ad</th><th>%s</th></tr>" > commits.txt
+git log --author="Ayan Banerjee" --pretty=format:"<tr><td>%h</td><td>%ad</td><td>%s</td></tr>" > commits.txt
 ```
 
 Here, I am saving the output into a file `commits.txt`, which ends up looking
