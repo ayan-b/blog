@@ -4,7 +4,7 @@ date: "2020-06-25"
 description: "Aka save seconds of your development time!"
 ---
 
-![cover-image-for-git-squash](../../../static/blog/bash-function-for-git-squash/clock.jpg)
+![cover-image-for-git-squash](./clock.jpg)
 
 <small><i><span>Cover photo by <a href="https://unsplash.com/@moritz_photography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Moritz Kindler</a> on <a href="/s/photos/clock?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></i></small>
 
