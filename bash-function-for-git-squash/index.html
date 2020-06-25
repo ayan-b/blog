@@ -2,7 +2,38 @@
         var mode = localStorage.getItem('theme-ui-color-mode');
         if (!mode) return
         document.body.classList.add('theme-ui-' + mode);
-      } catch (e) {} })();</script><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/blog/">Ayan&#x27;s Blog</a></h3></header><main><article><header><h1 style="margin-top:1.75rem;margin-bottom:0">Bash Function for Git Squash</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">June 25, 2020</p></header><section><p><img src="../../../static/blog/bash-function-for-git-squash/clock.jpg" alt="cover-image-for-git-squash"></p>
+      } catch (e) {} })();</script><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/blog/">Ayan&#x27;s Blog</a></h3></header><main><article><header><h1 style="margin-top:1.75rem;margin-bottom:0">Bash Function for Git Squash</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">June 25, 2020</p></header><section><p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/12609/clock.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBP/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB6ytZUrL/xAAYEAEAAwEAAAAAAAAAAAAAAAABAAIQEf/aAAgBAQABBQKUexMM/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAACBh/9oACAEBAAY/Air/AP/EABoQAAICAwAAAAAAAAAAAAAAAAABEBEhMUH/2gAIAQEAAT8hLVNUnDJG4z//2gAMAwEAAgADAAAAEAM//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhAAAgMBAQAAAAAAAAAAAAAAAREAIXEQQf/aAAgBAQABPxA1GbQLIKnWwBBjyPiaIyf/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="cover-image-for-git-squash"
+        title="cover-image-for-git-squash"
+        src="/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/1c72d/clock.jpg"
+        srcset="/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/a80bd/clock.jpg 148w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/1c91a/clock.jpg 295w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/1c72d/clock.jpg 590w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/a8a14/clock.jpg 885w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/fbd2c/clock.jpg 1180w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/12609/clock.jpg 3000w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <p><small><i><span>Cover photo by <a href="https://unsplash.com/@moritz_photography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Moritz Kindler</a> on <a href="/s/photos/clock?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></i></small></p>
 <p>I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using <code class="language-text">rebase</code> or <code class="language-text">soft reset</code>. I personally prefer to use <code class="language-text">soft reset</code>.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment"># soft reset some commits</span>

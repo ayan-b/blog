@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Jun 2020 06:49:32 GMT</lastBuildDate><item><title><![CDATA[Bash Function for Git Squash]]></title><description><![CDATA[cover-image-for-git-squash Cover photo by Moritz Kindler on Unsplash I often find myself squashing a lot of unnecessary commits. The usual…]]></description><link>https://ayan-b.github.io/blog/bash-function-for-git-squash/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/bash-function-for-git-squash/</guid><pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;../../../static/blog/bash-function-for-git-squash/clock.jpg&quot; alt=&quot;cover-image-for-git-squash&quot;&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Jun 2020 06:55:01 GMT</lastBuildDate><item><title><![CDATA[Bash Function for Git Squash]]></title><description><![CDATA[Cover photo by Moritz Kindler on Unsplash I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using…]]></description><link>https://ayan-b.github.io/blog/bash-function-for-git-squash/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/bash-function-for-git-squash/</guid><pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/12609/clock.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBP/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB6ytZUrL/xAAYEAEAAwEAAAAAAAAAAAAAAAABAAIQEf/aAAgBAQABBQKUexMM/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAACBh/9oACAEBAAY/Air/AP/EABoQAAICAwAAAAAAAAAAAAAAAAABEBEhMUH/2gAIAQEAAT8hLVNUnDJG4z//2gAMAwEAAgADAAAAEAM//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhAAAgMBAQAAAAAAAAAAAAAAAREAIXEQQf/aAAgBAQABPxA1GbQLIKnWwBBjyPiaIyf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;cover-image-for-git-squash&quot;
+        title=&quot;cover-image-for-git-squash&quot;
+        src=&quot;/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/1c72d/clock.jpg&quot;
+        srcset=&quot;/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/a80bd/clock.jpg 148w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/1c91a/clock.jpg 295w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/1c72d/clock.jpg 590w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/a8a14/clock.jpg 885w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/fbd2c/clock.jpg 1180w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/12609/clock.jpg 3000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;&lt;i&gt;&lt;span&gt;Cover photo by &lt;a href=&quot;https://unsplash.com/@moritz_photography?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Moritz Kindler&lt;/a&gt; on &lt;a href=&quot;/s/photos/clock?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using &lt;code class=&quot;language-text&quot;&gt;rebase&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;soft reset&lt;/code&gt;. I personally prefer to use &lt;code class=&quot;language-text&quot;&gt;soft reset&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# soft reset some commits&lt;/span&gt;
