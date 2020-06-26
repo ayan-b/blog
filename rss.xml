@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 26 Jun 2020 04:45:01 GMT</lastBuildDate><item><title><![CDATA[Bash Function for Git Squash]]></title><description><![CDATA[Cover photo by Moritz Kindler on Unsplash I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using…]]></description><link>https://ayan-b.github.io/blog/bash-function-for-git-squash/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/bash-function-for-git-squash/</guid><pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 26 Jun 2020 04:53:56 GMT</lastBuildDate><item><title><![CDATA[Bash Function for Git Squash]]></title><description><![CDATA[Cover photo by Moritz Kindler on Unsplash I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using…]]></description><link>https://ayan-b.github.io/blog/bash-function-for-git-squash/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/bash-function-for-git-squash/</guid><pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -66,7 +66,38 @@
 &lt;p&gt;I hope that you have learned something useful from this post and save some seconds of your development time! Let me know if something is not clear.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This post originally appeared on &lt;a href=&quot;https://dev.to/ayanb/bash-function-for-git-squash-lno&quot;&gt;Dev&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Generate a LaTeX Resume in Minutes]]></title><description><![CDATA[How about creating a LaTeX resume without even learning LaTeX!? Check out my project resume generator 🎉! Here you can create a LaTeX resume…]]></description><link>https://ayan-b.github.io/blog/resume-generator/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/resume-generator/</guid><pubDate>Mon, 22 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;How about creating a LaTeX resume without even learning LaTeX!? Check out my project &lt;a href=&quot;https://github.com/ayan-b/resume-generator&quot;&gt;resume generator&lt;/a&gt; 🎉! Here you can create a LaTeX resume by simply changing the &lt;a href=&quot;https://github.com/ayan-b/resume-generator/blob/master/config/data.yml&quot;&gt;data&lt;/a&gt;. For detailed instructions please see the README file 📝. The current template is based on &lt;a href=&quot;https://github.com/sb2nov/resume&quot;&gt;sb2nov resume&lt;/a&gt; which has over 1.6k ⭐ on GitHub.&lt;/p&gt;
 &lt;p&gt;The obtained resume will look something like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./resume.png&quot; alt=&quot;resume&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/425dfd79ec28821e5a0ab2821d86d28f/e8950/resume-preview.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 129.39999999999998%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAIAAAA44esqAAAACXBIWXMAAAsSAAALEgHS3X78AAAB/0lEQVQ4y52UjXKCMBCEef939AetiAoCFVFaKP24jQlDrZ3pzpg5IJvd7CVGwzD0ff9poBh+x5eBOYx6E1Edj8ckSeI4Pp1OL8i32y3P86IoDocDMyGO5Kqqsiyr6/p+v38Yuq7TOOPjjvdt2zKOyvwgx4bdboeF1Wq12WwWi0WappfL5d3AnOv1ihJvcIrYqAy5aRps8Ao/ZVkyrzAwmx2i3z/AZDT5xBxHxjCCbwZ2dT6fGbWRpztHiTmOTLVer5mtwLsHFOwUag3OMevIbAkyG5Zh1lYq5KdsWgMFn9gXylhzacOHs91u4acGbVhRoYN/itowbYELDOZyuSQw9Xy/31NIHDUpU+CZRZENgbFV1DAjHdbmDbOfHjgtB4JtmIgj6JfAzs9DMkOk1mUGzMAsDZCHv+BOGB0WUyPKlYFVdCRUawQ6ApFap6j4pmxJRdlqFVzMMpcvFxiHGXEtOSND4NGT9YkxKCcGjhpL6g6Q53QV1d4CmYc+Q1D6rzG9J47MkvQJ2/SJzI8G3TP/RiPh4VwHO9j2TfL3cZoz28EtHZ0dm5GME/U5N0hNhe6mL5S2NhzI005K2T9C4FFXwisH25Lisy4AWyI8RhQagx4F5a+TO5JR4B+Lvy66pUim50mmdFrUdorwB8h6JKl/H0Y5V00hU7pnAo54dOR/4xvsENkZE3C3iAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;resume&quot;
+        title=&quot;resume&quot;
+        src=&quot;/blog/static/425dfd79ec28821e5a0ab2821d86d28f/fcda8/resume-preview.png&quot;
+        srcset=&quot;/blog/static/425dfd79ec28821e5a0ab2821d86d28f/12f09/resume-preview.png 148w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/e4a3f/resume-preview.png 295w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/fcda8/resume-preview.png 590w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/efc66/resume-preview.png 885w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/c83ae/resume-preview.png 1180w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/e8950/resume-preview.png 2000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Please let me know if something is not clear in the README or if you want me to add any other features. Thank you! ❤️&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This post originally appeared on &lt;a href=&quot;https://dev.to/ayanb/generate-a-latex-resume-in-minutes-45hb&quot;&gt;Dev&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GSoC 2020 Weekly Reports]]></title><description><![CDATA[Work done till Jun 12, 2020 Pull Requests #27: Modernizes the travis syntax #28: Adds missing files to the  #31: Adds a job which enables…]]></description><link>https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/</guid><pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Work done till Jun 12, 2020&lt;/h2&gt;
 &lt;h3&gt;Pull Requests&lt;/h3&gt;
