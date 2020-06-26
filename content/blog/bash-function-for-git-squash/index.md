@@ -1,5 +1,5 @@
 ---
-title: "Bash Function for Git Squash"
+title: "Bash Shortcut for Git Squash"
 date: "2020-06-25"
 description: "Aka save seconds of your development time!"
 ---
@@ -8,7 +8,7 @@ description: "Aka save seconds of your development time!"
 
 <small><i><span>Cover photo by <a href="https://unsplash.com/@moritz_photography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Moritz Kindler</a> on <a href="/s/photos/clock?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></i></small>
 
-I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using `rebase` or `soft reset`. I personally prefer to use the `soft reset` metho.
+I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using `rebase` or `soft reset`. I personally prefer to use the `soft reset` method.
 
 ```shell
 # soft reset some commits
