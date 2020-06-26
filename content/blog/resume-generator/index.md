@@ -8,7 +8,7 @@ How about creating a LaTeX resume without even learning LaTeX!? Check out my pro
 
 The obtained resume will look something like this:
 
-![resume](./resume.png)
+![resume](./resume-preview.png)
 
 Please let me know if something is not clear in the README or if you want me to add any other features. Thank you! ❤️
 
