@@ -59,3 +59,5 @@ This gives the number of commits made after branching off. Try running `cnt` for
 Now simply run `sq "$(cnt my_branch)"` to squash the commits made after branching off from `my_branch` with the recent-most commit message.
 
 I hope that you have learned something useful from this post and save some seconds of your development time! Let me know if something is not clear.
+
+_This post originally appeared on [Dev](https://dev.to/ayanb/bash-function-for-git-squash-lno)_.
