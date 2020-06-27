@@ -42,3 +42,21 @@ investigating why the code failed for that dataset.
 
 - [#11](https://github.com/the-virtual-brain/tvb-gdist/issues/11): Commit C source
 - [#22](https://github.com/the-virtual-brain/tvb-gdist/issues/22): Crash on small meshes
+
+---
+
+## Weekly Report for Week 4 (Jun 20 - Jun 26)
+
+This week I finished PR [#40](https://github.com/the-virtual-brain/tvb-gdist/pull/40) (moving from `cython` to `ctypes`) which was made last week. Also, I figured out what was causing the failure of cortex 2x120k mesh and fixed that in PR [#44](https://github.com/the-virtual-brain/tvb-gdist/pull/44).
+
+### Pull Requests
+
+- [#40](https://github.com/the-virtual-brain/tvb-gdist/pull/40): Use ctypes instead of cython
+- [#44](https://github.com/the-virtual-brain/tvb-gdist/pull/44): Add ability to specify if faces' vertices are 1-indexed
+
+### Issues Fixed
+
+- [#11](https://github.com/the-virtual-brain/tvb-gdist/issues/11): Commit C source
+- [#36](https://github.com/the-virtual-brain/tvb-gdist/issues/36): Add Coverage report
+- [#41](https://github.com/the-virtual-brain/tvb-gdist/issues/41): Failing on cortex 2x120k
+
