@@ -60,3 +60,17 @@ This week I finished PR [#40](https://github.com/the-virtual-brain/tvb-gdist/pul
 - [#36](https://github.com/the-virtual-brain/tvb-gdist/issues/36): Add Coverage report
 - [#41](https://github.com/the-virtual-brain/tvb-gdist/issues/41): Failing on cortex 2x120k
 
+---
+
+## Weekly Report for Week 5 (Jun 27 - Jul 3)
+
+This week I faced an issue on windows where the current implementation of ctypes is throwing segmentation fault occasionally. I am still investigating what's causing the segmentation fault. I also wrote a test for `local_gdist_matrix` for `inner_skull_642` surface.
+
+### Pull Requests
+
+- [#40](https://github.com/the-virtual-brain/tvb-gdist/pull/40): Use ctypes instead of cython
+- [#46](https://github.com/the-virtual-brain/tvb-gdist/pull/46): Test equality with stable (`local_gdist_matrix` test for `inner_skull_642` surface)
+
+### Issues Addressed
+
+- [#11](https://github.com/the-virtual-brain/tvb-gdist/issues/11): Commit C source
