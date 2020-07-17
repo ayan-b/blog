@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 04 Jul 2020 04:40:35 GMT</lastBuildDate><item><title><![CDATA[Bash Shortcut for Git Squash]]></title><description><![CDATA[Cover photo by Moritz Kindler on Unsplash I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using…]]></description><link>https://ayan-b.github.io/blog/bash-function-for-git-squash/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/bash-function-for-git-squash/</guid><pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Jul 2020 17:57:06 GMT</lastBuildDate><item><title><![CDATA[Bash Shortcut for Git Squash]]></title><description><![CDATA[Cover photo by Moritz Kindler on Unsplash I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using…]]></description><link>https://ayan-b.github.io/blog/bash-function-for-git-squash/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/bash-function-for-git-squash/</guid><pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -158,6 +158,19 @@ investigating why the code failed for that dataset.&lt;/p&gt;
 &lt;h3&gt;Issues Addressed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/11&quot;&gt;#11&lt;/a&gt;: Commit C source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Weekly Report for Week 6 &amp;#x26; 7 (Jul 4 - Jul 17)&lt;/h2&gt;
+&lt;p&gt;Last couple of weeks I continued my investigation on the Ctypes segmentation fault issue. At the same time, I have also started working on the Cython implementation.&lt;/p&gt;
+&lt;h3&gt;Pull Requests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/48&quot;&gt;#48&lt;/a&gt;: Add ability to specify if faces’ vertices are 1-indexed (Cython implementation)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/49&quot;&gt;#49&lt;/a&gt;: Cython parallel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Issues Addressed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/41&quot;&gt;#41&lt;/a&gt;: Failing on cortex 2x120k&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/10&quot;&gt;#10&lt;/a&gt;: Use Cython parallel&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Fundamental Analysis: Tata Consultancy Services Limited (TCS) (2021 - 2023)]]></title><description><![CDATA[Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: link. It…]]></description><link>https://ayan-b.github.io/blog/TCS-fundamental-analysis/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/TCS-fundamental-analysis/</guid><pubDate>Sun, 07 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: &lt;a href=&quot;/blog/0c6ca5e69f2add52d2bf5dea143b2829/TCS-Fundamental-Analysis.pdf&quot;&gt;link&lt;/a&gt;. It would be
