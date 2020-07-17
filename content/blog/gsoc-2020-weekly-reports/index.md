@@ -74,3 +74,20 @@ This week I faced an issue on windows where the current implementation of ctypes
 ### Issues Addressed
 
 - [#11](https://github.com/the-virtual-brain/tvb-gdist/issues/11): Commit C source
+
+---
+
+## Weekly Report for Week 6 & 7 (Jul 4 - Jul 17)
+
+Last couple of weeks I continued my investigation on the Ctypes segmentation fault issue. At the same time, I have also started working on the Cython implementation.
+
+### Pull Requests
+
+- [#48](https://github.com/the-virtual-brain/tvb-gdist/pull/48): Add ability to specify if faces' vertices are 1-indexed (Cython implementation)
+- [#49](https://github.com/the-virtual-brain/tvb-gdist/pull/49): Cython parallel
+
+### Issues Addressed
+
+- [#41](https://github.com/the-virtual-brain/tvb-gdist/issues/41): Failing on cortex 2x120k
+- [#10](https://github.com/the-virtual-brain/tvb-gdist/issues/10): Use Cython parallel
+
