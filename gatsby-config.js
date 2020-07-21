@@ -3,7 +3,7 @@ module.exports = {
     title: `Ayan's Blog`,
     author: `Ayan Banerjee`,
     description: `Ayan's Blog`,
-    siteUrl: `https://ayan-b.github.io/blog`,
+    siteUrl: `https://ayan-b.github.io`,
     social: {
       twitter: `ayanbn7`,
     },
