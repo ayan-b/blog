@@ -91,3 +91,38 @@ Last couple of weeks I continued my investigation on the Ctypes segmentation fau
 - [#41](https://github.com/the-virtual-brain/tvb-gdist/issues/41): Failing on cortex 2x120k
 - [#10](https://github.com/the-virtual-brain/tvb-gdist/issues/10): Use Cython parallel
 
+---
+
+## Weekly Report for Week 8 (Jul 18 - Jul 24)
+
+This week a user reported an issue regarding memory leak. I fixed this issue and also added an API to address a new use case.
+
+### Pull Requests
+
+- [#50](https://github.com/the-virtual-brain/tvb-gdist/pull/50): Improve documentation
+- [#53](https://github.com/the-virtual-brain/tvb-gdist/pull/53): Fix memory leak issue
+- [#54](https://github.com/the-virtual-brain/tvb-gdist/pull/54): gdist.pyx: New API distance_matrix_of_selected_points
+
+### Issues Fixed
+
+- [#43](https://github.com/the-virtual-brain/tvb-gdist/issues/43): Add documentation
+- [#51](https://github.com/the-virtual-brain/tvb-gdist/issues/51): Possible memory leak
+- [#52](https://github.com/the-virtual-brain/tvb-gdist/issues/52): Add API for new use case
+
+---
+
+## Weekly Report for Week 9 (Jul 25 - Jul 31)
+
+This week I worked on adding coverage report functionality and OpenMP for parallelization. I also added a PR removing 2 redundant files.
+
+### Pull Requests
+
+- [#49](https://github.com/the-virtual-brain/tvb-gdist/pull/49): Use OpenMP parallel
+- [#55](https://github.com/the-virtual-brain/tvb-gdist/pull/55): Add coverage report functionality
+- [#56](https://github.com/the-virtual-brain/tvb-gdist/pull/56): Remove 2 files
+
+### Issues Fixed
+
+- [#10](https://github.com/the-virtual-brain/tvb-gdist/issues/10): Use Cython parallel
+- [#36](https://github.com/the-virtual-brain/tvb-gdist/issues/36): Add coverage report
+
