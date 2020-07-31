@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Jul 2020 18:03:50 GMT</lastBuildDate><item><title><![CDATA[Bash Shortcut for Git Squash]]></title><description><![CDATA[Cover photo by Moritz Kindler on Unsplash I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using…]]></description><link>https://ayan-b.github.io/bash-function-for-git-squash/</link><guid isPermaLink="false">https://ayan-b.github.io/bash-function-for-git-squash/</guid><pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Jul 2020 13:33:40 GMT</lastBuildDate><item><title><![CDATA[Bash Shortcut for Git Squash]]></title><description><![CDATA[Cover photo by Moritz Kindler on Unsplash I often find myself squashing a lot of unnecessary commits. The usual way to do this is by using…]]></description><link>https://ayan-b.github.io/bash-function-for-git-squash/</link><guid isPermaLink="false">https://ayan-b.github.io/bash-function-for-git-squash/</guid><pubDate>Thu, 25 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -171,6 +171,35 @@ investigating why the code failed for that dataset.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/41&quot;&gt;#41&lt;/a&gt;: Failing on cortex 2x120k&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/10&quot;&gt;#10&lt;/a&gt;: Use Cython parallel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Weekly Report for Week 8 (Jul 18 - Jul 24)&lt;/h2&gt;
+&lt;p&gt;This week a user reported an issue regarding memory leak. I fixed this issue and also added an API to address a new use case.&lt;/p&gt;
+&lt;h3&gt;Pull Requests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/50&quot;&gt;#50&lt;/a&gt;: Improve documentation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/53&quot;&gt;#53&lt;/a&gt;: Fix memory leak issue&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/54&quot;&gt;#54&lt;/a&gt;: gdist.pyx: New API distance&lt;em&gt;matrix&lt;/em&gt;of&lt;em&gt;selected&lt;/em&gt;points&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Issues Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/43&quot;&gt;#43&lt;/a&gt;: Add documentation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/51&quot;&gt;#51&lt;/a&gt;: Possible memory leak&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/52&quot;&gt;#52&lt;/a&gt;: Add API for new use case&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Weekly Report for Week 9 (Jul 25 - Jul 31)&lt;/h2&gt;
+&lt;p&gt;This week I worked on adding coverage report functionality and OpenMP for parallelization. I also added a PR removing 2 redundant files.&lt;/p&gt;
+&lt;h3&gt;Pull Requests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/49&quot;&gt;#49&lt;/a&gt;: Use OpenMP parallel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/55&quot;&gt;#55&lt;/a&gt;: Add coverage report functionality&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/56&quot;&gt;#56&lt;/a&gt;: Remove 2 files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Issues Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/10&quot;&gt;#10&lt;/a&gt;: Use Cython parallel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/36&quot;&gt;#36&lt;/a&gt;: Add coverage report&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Fundamental Analysis: Tata Consultancy Services Limited (TCS) (2021 - 2023)]]></title><description><![CDATA[Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: link. It…]]></description><link>https://ayan-b.github.io/TCS-fundamental-analysis/</link><guid isPermaLink="false">https://ayan-b.github.io/TCS-fundamental-analysis/</guid><pubDate>Sun, 07 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: &lt;a href=&quot;/blog/0c6ca5e69f2add52d2bf5dea143b2829/TCS-Fundamental-Analysis.pdf&quot;&gt;link&lt;/a&gt;. It would be
