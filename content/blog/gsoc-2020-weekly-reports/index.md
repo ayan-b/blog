@@ -126,3 +126,22 @@ This week I worked on adding coverage report functionality and OpenMP for parall
 - [#10](https://github.com/the-virtual-brain/tvb-gdist/issues/10): Use Cython parallel
 - [#36](https://github.com/the-virtual-brain/tvb-gdist/issues/36): Add coverage report
 
+---
+
+## Weekly Report for Week 10 (Aug 1 - Aug 7)
+
+This week I continued to improve previous week's OpenMP PR and also made 2 new PRs releated to linting and more rigorous testing.
+
+### Pull Requests
+
+- [#49](https://github.com/the-virtual-brain/tvb-gdist/pull/49): Use OpenMP parallel
+- [#58](https://github.com/the-virtual-brain/tvb-gdist/pull/58): Add 100% test coverage
+- [#62](https://github.com/the-virtual-brain/tvb-gdist/pull/62): .travis.yml: Test on multiple versions of python
+- [#63](https://github.com/the-virtual-brain/tvb-gdist/pull/63): lint: Use same convention everywhere
+
+### Issues Addressed
+
+- [#10](https://github.com/the-virtual-brain/tvb-gdist/issues/10): Use Cython parallel
+- [#57](https://github.com/the-virtual-brain/tvb-gdist/issues/57): Improve code coverage
+- [#59](https://github.com/the-virtual-brain/tvb-gdist/issues/59): Run different versions of python in windows
+- [#60](https://github.com/the-virtual-brain/tvb-gdist/issues/60): Lint: Use same convention everywhere
