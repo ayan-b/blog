@@ -33,6 +33,7 @@ The package exposes 3 APIs which can be used for various purposes: `compute_gdis
   - Running different versions of Python on Windows
   - Enabing users to specify if a the faces vertices' are 1-indexed
   - Adding googletest to test and measure coverage of the c++ library
+  - Adding parallelism using OpenMP
 
 - **Incomplete Work**
   - Using ctypes instead of cython
@@ -50,6 +51,7 @@ The package exposes 3 APIs which can be used for various purposes: `compute_gdis
 
 <table>
 <tr><th>Commit SHA</th><th>Date</th><th>Commit Message</th></tr>
+<tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/2d3505febd70bd8d4eb19a393540b3d621fb587f"> 2d3505f </a></td><td>Aug 26</td><td>Add parallelism using OpenMP</td></tr>
 <tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/69aef68cd16572308bdea0743c7e4bd439343234"> 69aef68 </a></td><td>Aug 24</td><td>Merge multiple codecov reports</td></tr>
 <tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/553ea7d188c1c392a7ffd6cc869b6c7ed802971b"> 553ea7d </a></td><td>Aug 24</td><td>Checking why pyx is no longer reported</td></tr>
 <tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/0d585f22631e80fc11ce6427ba094422d979cb1a"> 0d585f2 </a></td><td>Aug 24</td><td>On top of master</td></tr>
