@@ -18,9 +18,34 @@ However, the code is now outdated and users have reported various issues. In thi
 
 The package exposes 3 APIs which can be used for various purposes: `compute_gdist`, `local_gdist_matrix` and `distance_matrix_of_selected_points`. Examples and detailed instructions can be found in the project [readme](https://github.com/the-virtual-brain/tvb-gdist) page.
 
-<details>
-    <summary><b>List of Commits</b></summary>
-<table>
+## Project Status
+
+- **Completed Work**
+  - Fixing an issue where numpy requirement is causing installation problems using `pyproject.toml`
+  - Lint fixes, the codebase is now PEP8 compliant
+  - Adding coverge report functionality
+  - Updating the travis CI configuration
+  - Fixing memory leak issue for `compute_gdist`
+  - Adding a new API for pairwise distance computation
+  - Adding documentation in the README file
+  - Running different versions of Python on Windows
+  - Enabing users to specify if a the faces vertices' are 1-indexed
+  - Adding googletest to test and measure coverage of the c++ library
+
+- **Incomplete Work**
+  - Using ctypes instead of cython
+
+## Links
+
+- [Link](https://github.com/the-virtual-brain/tvb-gdist) to the project in GitHub
+- [Link](https://pypi.org/project/tvb-gdist) to the project in PyPI
+- [Link](https://github.com/the-virtual-brain/tvb-gdist/commits?author=ayan-b) to the list of commits
+- [Link](https://github.com/the-virtual-brain/tvb-gdist/pulls?q=is%3Apr+author%3Aayan-b+) to the pull requests
+- [Link](https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/) to the weekly reports
+- [Link](https://req.thevirtualbrain.org/projects/TVB/issues/TVB-2719) to Jira story
+
+## List of Commits
+
 <tr><th>Commit SHA</th><th>Date</th><th>Commit Message</th></tr>
 <tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/69aef68cd16572308bdea0743c7e4bd439343234"> 69aef68 </a></td><td>Aug 24</td><td>Merge multiple codecov reports</td></tr>
 <tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/553ea7d188c1c392a7ffd6cc869b6c7ed802971b"> 553ea7d </a></td><td>Aug 24</td><td>Checking why pyx is no longer reported</td></tr>
@@ -75,30 +100,3 @@ The package exposes 3 APIs which can be used for various purposes: `compute_gdis
 <tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/ec15b2ff5f76c4358955cf10786484b1d7871797"> ec15b2f </a></td><td>Mar 13</td><td>Downsize .gitignore</td></tr>
 <tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/062a4466f32ec5c11477a64f91efe0a3f12727be"> 062a446 </a></td><td>Mar 13</td><td>Restore License text</td></tr>
 </table>
-</details>
-
-## Project Status
-
-- **Completed Work**
-  - Fixing an issue where numpy requirement is causing installation problems using `pyproject.toml`
-  - Lint fixes, the codebase is now PEP8 compliant
-  - Adding coverge report functionality
-  - Updating the travis CI configuration
-  - Fixing memory leak issue for `compute_gdist`
-  - Adding a new API for pairwise distance computation
-  - Adding documentation in the README file
-  - Running different versions of Python on Windows
-  - Enabing users to specify if a the faces vertices' are 1-indexed
-  - Adding googletest to test and measure coverage of the c++ library
-
-- **Incomplete Work**
-  - Using ctypes instead of cython
-
-## Links
-
-- [Link](https://github.com/the-virtual-brain/tvb-gdist) to the project in GitHub
-- [Link](https://pypi.org/project/tvb-gdist) to the project in PyPI
-- [Link](https://github.com/the-virtual-brain/tvb-gdist/commits?author=ayan-b) to the list of commits
-- [Link](https://github.com/the-virtual-brain/tvb-gdist/pulls?q=is%3Apr+author%3Aayan-b+) to the pull requests
-- [Link](https://ayan-b.github.io/blog/gsoc-2020-weekly-reports/) to the weekly reports
-- [Link](https://req.thevirtualbrain.org/projects/TVB/issues/TVB-2719) to Jira story
