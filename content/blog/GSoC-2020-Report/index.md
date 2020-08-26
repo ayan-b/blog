@@ -10,9 +10,11 @@ It was a pleasure working under my mentors Lia and Paula. Thank you for the cons
 
 ## About
 
-While running simulation on cortical surfaces we need to calculate geodesic distance as opposed to euclidean distance due to the shape of the cortical surface. The virtual brain uses geodesic_library for this calculation. The library implements the original paper in C++. The original source code can be found in Google Code Archive: <https://code.google.com/archive/p/geodesic>. tvb_geodesic repository implements a cython wrapper on top of the C++ code which then is released to Pypi (tvb-gdist) and conda-forge (Tvb Gdist).
+While running simulation on cortical surfaces we need to calculate geodesic distance as opposed to euclidean distance due to the shape of the cortical surface. The virtual brain uses geodesic\_library for this calculation. The library implements the original paper in C++. The original source code can be found in Google Code Archive: <https://code.google.com/archive/p/geodesic>. tvb\_geodesic repository implements a cython wrapper on top of the C++ code which then is released to Pypi (tvb-gdist) and conda-forge (Tvb Gdist).
 
 However, the code is now outdated and users have reported various issues. In this project, we aim to update the code and fix those issues.
+
+In this project, we fixed the 5 existing issues. Along with that, we fixed issues reported by users during the GSoC period (excessive memory usage, issue [#51](https://github.com/the-virtual-brain/tvb-gdist/issues/51)), added new API (issue [#52](https://github.com/the-virtual-brain/tvb-gdist/issues/52)), added a documentation (issue [#43](https://github.com/the-virtual-brain/tvb-gdist/issues/43)) so that users do not need to go through the code and made the code more maintainable by adding tests, implementing coverage reporting (issue [#57](https://github.com/the-virtual-brain/tvb-gdist/issues/57)) and following lint conventions (issue [#60](https://github.com/the-virtual-brain/tvb-gdist/issues/60)). A detailed descriptions of work done is mentioned below.
 
 ## Usage
 
