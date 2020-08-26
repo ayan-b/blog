@@ -48,6 +48,7 @@ The package exposes 3 APIs which can be used for various purposes: `compute_gdis
 
 ## List of Commits
 
+<table>
 <tr><th>Commit SHA</th><th>Date</th><th>Commit Message</th></tr>
 <tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/69aef68cd16572308bdea0743c7e4bd439343234"> 69aef68 </a></td><td>Aug 24</td><td>Merge multiple codecov reports</td></tr>
 <tr><td><a href="https://github.com/the-virtual-brain/tvb-gdist/commit/553ea7d188c1c392a7ffd6cc869b6c7ed802971b"> 553ea7d </a></td><td>Aug 24</td><td>Checking why pyx is no longer reported</td></tr>
