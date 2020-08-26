@@ -1,10 +1,8 @@
 ---
-title: "GSoC 2020 Report"
+title: "GSoC 2020 Report: Upgrade and Fix tvb-gdist C++ Library"
 date: "2020-08-26"
 description: "GSoC 2020 Report for my work at INCF"
 ---
-
-## Google Summer of Code, 2020: Upgrade and Fix tvb-gdist C++ Library
 
 ## Thank You Note
 
