@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 26 Aug 2020 13:03:19 GMT</lastBuildDate><item><title><![CDATA[GSoC 2020 Report: Upgrade and Fix tvb-gdist C++ Library]]></title><description><![CDATA[Thank You Note It was a pleasure working under my mentors Lia and Paula. Thank you for the constant guidance and valuable feedback whenever…]]></description><link>https://ayan-b.github.io/GSoC-2020-Report/</link><guid isPermaLink="false">https://ayan-b.github.io/GSoC-2020-Report/</guid><pubDate>Wed, 26 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Thank You Note&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 28 Aug 2020 14:31:32 GMT</lastBuildDate><item><title><![CDATA[GSoC 2020 Report: Upgrade and Fix tvb-gdist C++ Library]]></title><description><![CDATA[Thank You Note It was a pleasure working under my mentors Lia and Paula. Thank you for the constant guidance and valuable feedback whenever…]]></description><link>https://ayan-b.github.io/GSoC-2020-Report/</link><guid isPermaLink="false">https://ayan-b.github.io/GSoC-2020-Report/</guid><pubDate>Wed, 26 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Thank You Note&lt;/h2&gt;
 &lt;p&gt;It was a pleasure working under my mentors Lia and Paula. Thank you for the constant guidance and valuable feedback whenever I was stuck. I express my heartfelt gratitude to Lia, Paula, the whole The Virual Brain and INCF team and, Google for making the last four months such a rewarding experience!&lt;/p&gt;
 &lt;h2&gt;About&lt;/h2&gt;
 &lt;p&gt;While running simulation on cortical surfaces we need to calculate geodesic distance as opposed to euclidean distance due to the shape of the cortical surface. The virtual brain uses geodesic_library for this calculation. The library implements the original paper in C++. The original source code can be found in Google Code Archive: &lt;a href=&quot;https://code.google.com/archive/p/geodesic&quot;&gt;https://code.google.com/archive/p/geodesic&lt;/a&gt;. tvb_geodesic repository implements a cython wrapper on top of the C++ code which then is released to Pypi (tvb-gdist) and conda-forge (Tvb Gdist).&lt;/p&gt;
@@ -315,6 +315,19 @@ investigating why the code failed for that dataset.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/57&quot;&gt;#57&lt;/a&gt;: Improve code coverage&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/59&quot;&gt;#59&lt;/a&gt;: Run different versions of python in windows&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/60&quot;&gt;#60&lt;/a&gt;: Lint: Use same convention everywhere&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Weekly Report for Week 11 &amp;#x26; 12 (Aug 8 - Aug 21)&lt;/h2&gt;
+&lt;p&gt;In the last couple of weeks, I wrote the final report and also worked on improving test coverage and the parallelization PR.&lt;/p&gt;
+&lt;h3&gt;Pull Requests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/64&quot;&gt;#64&lt;/a&gt;: Add googletest set-up&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/pull/65&quot;&gt;#65&lt;/a&gt;: Add parallelism using OpenMP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Issues Addressed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/57&quot;&gt;#57&lt;/a&gt;: Improve code coverage&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/10&quot;&gt;#10&lt;/a&gt;: Use Cython parallel&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Fundamental Analysis: Tata Consultancy Services Limited (TCS) (2021 - 2023)]]></title><description><![CDATA[Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: link. It…]]></description><link>https://ayan-b.github.io/TCS-fundamental-analysis/</link><guid isPermaLink="false">https://ayan-b.github.io/TCS-fundamental-analysis/</guid><pubDate>Sun, 07 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: &lt;a href=&quot;/blog/0c6ca5e69f2add52d2bf5dea143b2829/TCS-Fundamental-Analysis.pdf&quot;&gt;link&lt;/a&gt;. It would be
