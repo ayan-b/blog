@@ -145,3 +145,19 @@ This week I continued to improve previous week's OpenMP PR and also made 2 new P
 - [#57](https://github.com/the-virtual-brain/tvb-gdist/issues/57): Improve code coverage
 - [#59](https://github.com/the-virtual-brain/tvb-gdist/issues/59): Run different versions of python in windows
 - [#60](https://github.com/the-virtual-brain/tvb-gdist/issues/60): Lint: Use same convention everywhere
+
+---
+
+## Weekly Report for Week 11 & 12 (Aug 8 - Aug 21)
+
+In the last couple of weeks, I wrote the final report and also worked on improving test coverage and the parallelization PR.
+
+### Pull Requests
+
+- [#64](https://github.com/the-virtual-brain/tvb-gdist/pull/64): Add googletest set-up
+- [#65](https://github.com/the-virtual-brain/tvb-gdist/pull/65): Add parallelism using OpenMP
+
+### Issues Addressed
+
+- [#57](https://github.com/the-virtual-brain/tvb-gdist/issues/57): Improve code coverage
+- [#10](https://github.com/the-virtual-brain/tvb-gdist/issues/10): Use Cython parallel
