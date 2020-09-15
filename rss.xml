@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 28 Aug 2020 14:31:32 GMT</lastBuildDate><item><title><![CDATA[GSoC 2020 Report: Upgrade and Fix tvb-gdist C++ Library]]></title><description><![CDATA[Thank You Note It was a pleasure working under my mentors Lia and Paula. Thank you for the constant guidance and valuable feedback whenever…]]></description><link>https://ayan-b.github.io/GSoC-2020-Report/</link><guid isPermaLink="false">https://ayan-b.github.io/GSoC-2020-Report/</guid><pubDate>Wed, 26 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Thank You Note&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Sep 2020 04:25:42 GMT</lastBuildDate><item><title><![CDATA[Tabifier Action - Convert Leading White spaces to Tabs]]></title><description><![CDATA[Want to work at Piep Piper? 👨‍💻 👩‍💻
+You must use this action in all of your repository! My Workflow This action converts leading…]]></description><link>https://ayan-b.github.io/tabifier-action/</link><guid isPermaLink="false">https://ayan-b.github.io/tabifier-action/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Want to work at Piep Piper? 👨‍💻 👩‍💻
+You must use this action in all of your repository!&lt;/p&gt;
+&lt;h3&gt;My Workflow&lt;/h3&gt;
+&lt;p&gt;This action converts leading whitespaces in your repository to tabs. Richard Hendricks will be happy!&lt;/p&gt;
+&lt;p&gt;This action takes 1 optional input - &lt;code class=&quot;language-text&quot;&gt;tabLength&lt;/code&gt; (default value is 4 - means 4
+spaces will be replaced by 1 tab. The values are always rounded up, &lt;em&gt;e.g.&lt;/em&gt; 7
+spaces will be replaced by 2 tabs). Note that, files inside &lt;code class=&quot;language-text&quot;&gt;.github&lt;/code&gt; directory
+are ignored. Along with this, you also need to specify the &lt;code class=&quot;language-text&quot;&gt;github_token&lt;/code&gt; environment variable.&lt;/p&gt;
+&lt;p&gt;Here is an example workflow:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Tabify
+
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest
+    &lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Repo checkout
+      &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/checkout@v2
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Tabify
+      &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ayan&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;b/tabifier&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;action@master
+      &lt;span class=&quot;token key atrule&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;github_token&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.GITHUB_TOKEN &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;tabLength&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Commit and push
+      &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+        git status
+        git add .
+        git config --global user.name &quot;github-actions[bot]&quot;
+        git config --global user.email &quot;41898282+github-actions[bot]@users.noreply.github.com&quot;
+        git commit -m &quot;Tabify&quot;
+        # change the link according to your repository
+        git push https://ayan-b:${GITHUB_TOKEN}@github.com/ayan-b/tabifier-playground HEAD:master&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Submission Category:&lt;/h3&gt;
+&lt;p&gt;Wacky Wildcards&lt;/p&gt;
+&lt;h3&gt;Link to Code&lt;/h3&gt;
+&lt;p&gt;The action can be found in this repo: &lt;a href=&quot;https://github.com/ayan-b/tabifier-action&quot;&gt;tabifier-action&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Additional Resources / Info&lt;/h3&gt;
+&lt;p&gt;You can see this action in action &lt;a href=&quot;https://github.com/ayan-b/tabifier-playground&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jump responsibly!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 433px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/405ad2774c91e0a47bc409c08ba5dcba/3561e/Richard-Jumping.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.2055427251732%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAGRGlTpSTif/8QAGRAAAwEBAQAAAAAAAAAAAAAAAQIRABIi/9oACAEBAAEFAno3rdGUkMLleD//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwFn/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABoQAAICAwAAAAAAAAAAAAAAAAARASEQMUH/2gAIAQEABj8CldLKxsSP/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERITH/2gAIAQEAAT8hqprZg2tyJiPSJFY9LWD+5D//2gAMAwEAAgADAAAAENfP/8QAFhEAAwAAAAAAAAAAAAAAAAAAECEx/9oACAEDAQE/EKQ//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEhEf/aAAgBAgEBPxBJTD//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhMXH/2gAIAQEAAT8QKXQNcB90siBxzCCFGZEKzCUx4HuIoU42b//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Richard Jumping&quot;
+        title=&quot;Richard Jumping&quot;
+        src=&quot;/blog/static/405ad2774c91e0a47bc409c08ba5dcba/3561e/Richard-Jumping.jpg&quot;
+        srcset=&quot;/blog/static/405ad2774c91e0a47bc409c08ba5dcba/a80bd/Richard-Jumping.jpg 148w,
+/blog/static/405ad2774c91e0a47bc409c08ba5dcba/1c91a/Richard-Jumping.jpg 295w,
+/blog/static/405ad2774c91e0a47bc409c08ba5dcba/3561e/Richard-Jumping.jpg 433w&quot;
+        sizes=&quot;(max-width: 433px) 100vw, 433px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;i&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=SsoOG6ZeyUI&quot;&gt;Source&lt;/a&gt;&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub Action - Create a LaTeX Resume and Website from a Single Data File]]></title><description><![CDATA[My Workflow How about creating a site without touching HTML or creating a LaTeX resume without knowing LaTeX!? Enter resume-generator-action…]]></description><link>https://ayan-b.github.io/latex-resume-website-github-action/</link><guid isPermaLink="false">https://ayan-b.github.io/latex-resume-website-github-action/</guid><pubDate>Sun, 06 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;My Workflow&lt;/h3&gt;
+&lt;p&gt;How about creating a site without touching HTML or creating a LaTeX resume without knowing LaTeX!? Enter &lt;a href=&quot;github.com/ayan-b/resume-generator-action/&quot;&gt;resume-generator-action&lt;/a&gt;! 🎉&lt;/p&gt;
+&lt;p&gt;Simply fill in this &lt;a href=&quot;https://github.com/ayan-b/resume-generator-action/blob/master/data.yml&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;data.yml&lt;/code&gt;&lt;/a&gt; file and your website and resume will be live in GitHub pages. Make sure to &lt;a href=&quot;https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site&quot;&gt;enable GitHub Pages&lt;/a&gt; in your repository. Point the publishing source to &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More Customization&lt;/strong&gt;: 🎨&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Change the Jekyll theme in the &lt;a href=&quot;https://github.com/ayan-b/resume-generator-action/blob/master/templates/_config.yml_jj2&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;_config.yml_jj2&lt;/code&gt;&lt;/a&gt; file for a different look of your site&lt;/li&gt;
+&lt;li&gt;Modify the &lt;a href=&quot;https://github.com/ayan-b/resume-generator-action/blob/master/templates/resume.tex_jj2&quot;&gt;resume template&lt;/a&gt; and &lt;a href=&quot;https://github.com/ayan-b/resume-generator-action/blob/master/templates/resume.md_jj2&quot;&gt;markdown template&lt;/a&gt; for a different layout of resume and your site respectively&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Submission Category:&lt;/h3&gt;
+&lt;p&gt;DIY Deployments&lt;/p&gt;
+&lt;h3&gt;Yaml File or Link to Code&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ayan-b/resume-generator-action/&quot;&gt;GitHub Repo&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Additional Resources / Info&lt;/h3&gt;
+&lt;p&gt;Live demo: &lt;a href=&quot;https://ayan-b.github.io/resume-generator-action/&quot;&gt;Website&lt;/a&gt; | &lt;a href=&quot;https://ayan-b.github.io/resume-generator-action/main.pdf&quot;&gt;Resume&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This project would not have been possible without the following open source projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/moremoban/moban&quot;&gt;moban&lt;/a&gt;: for generating the tex and markdown file from template&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/dante-ev/latex-action&quot;&gt;latex-action&lt;/a&gt;: for compiling LaTeX and creating PDF&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;peaceiris/actions-gh-pages&quot;&gt;actions-gh-pages&lt;/a&gt;: for deploying to GitHub pages&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sb2nov/resume&quot;&gt;sb2nov/resume&lt;/a&gt;: for the awesome resume design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please let me know if you have any feedback or if you want me to add new features! Thank you!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GSoC 2020 Report: Upgrade and Fix tvb-gdist C++ Library]]></title><description><![CDATA[Thank You Note It was a pleasure working under my mentors Lia and Paula. Thank you for the constant guidance and valuable feedback whenever…]]></description><link>https://ayan-b.github.io/GSoC-2020-Report/</link><guid isPermaLink="false">https://ayan-b.github.io/GSoC-2020-Report/</guid><pubDate>Wed, 26 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Thank You Note&lt;/h2&gt;
 &lt;p&gt;It was a pleasure working under my mentors Lia and Paula. Thank you for the constant guidance and valuable feedback whenever I was stuck. I express my heartfelt gratitude to Lia, Paula, the whole The Virual Brain and INCF team and, Google for making the last four months such a rewarding experience!&lt;/p&gt;
 &lt;h2&gt;About&lt;/h2&gt;
 &lt;p&gt;While running simulation on cortical surfaces we need to calculate geodesic distance as opposed to euclidean distance due to the shape of the cortical surface. The virtual brain uses geodesic_library for this calculation. The library implements the original paper in C++. The original source code can be found in Google Code Archive: &lt;a href=&quot;https://code.google.com/archive/p/geodesic&quot;&gt;https://code.google.com/archive/p/geodesic&lt;/a&gt;. tvb_geodesic repository implements a cython wrapper on top of the C++ code which then is released to Pypi (tvb-gdist) and conda-forge (Tvb Gdist).&lt;/p&gt;
