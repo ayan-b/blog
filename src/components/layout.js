@@ -6,8 +6,13 @@ import { rhythm, scale } from "../utils/typography"
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
+  const pageNumber = location.pathname
+      .split('/')
+      .filter(Boolean)
+      .pop()
+  const isPaginatedPath = pageNumber && Boolean(pageNumber.match(/^[0-9]+$/))
 
-  if (location.pathname === rootPath) {
+  if (location.pathname === rootPath || isPaginatedPath) {
     header = (
       <h1
         style={{
