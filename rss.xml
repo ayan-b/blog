@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 04 Oct 2020 13:19:23 GMT</lastBuildDate><item><title><![CDATA[Tabifier Action - Convert Leading White spaces to Tabs]]></title><description><![CDATA[Want to work at Piep Piper? 👨‍💻 👩‍💻
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 07 Oct 2020 16:34:16 GMT</lastBuildDate><item><title><![CDATA[Tabifier Action - Convert Leading White spaces to Tabs]]></title><description><![CDATA[Want to work at Piep Piper? 👨‍💻 👩‍💻
 You must use this action in all of your repository! My Workflow This action converts leading…]]></description><link>https://ayan-b.github.io/tabifier-action/</link><guid isPermaLink="false">https://ayan-b.github.io/tabifier-action/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Want to work at Piep Piper? 👨‍💻 👩‍💻
 You must use this action in all of your repository!&lt;/p&gt;
 &lt;h3&gt;My Workflow&lt;/h3&gt;
@@ -845,4 +845,21 @@ July, I will be at my university and will continue coding there.&lt;/p&gt;
 &lt;h3&gt;How many hours per week do you have for a summer project?&lt;/h3&gt;
 &lt;p&gt;  Since I can do this project full-time, I will be able to devote 50-60 hrs per week for the same.
 Once my university starts in mid-july, I will be able to give 3-4 hrs per day during weekdays
-and 8-10 hrs per day during weekends.&lt;/p&gt;</content:encoded></item></channel></rss>
+and 8-10 hrs per day during weekends.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Change Your Desktop Wallpaper Anytime from a Variety of Source]]></title><description><![CDATA[Are you bored out of same wallpaper on your machine? Check out Desktop Wallpaper
+Changer🖥️! How to install? You can install from  using the…]]></description><link>https://ayan-b.github.io/change-your-desktop-wallpaper/</link><guid isPermaLink="false">https://ayan-b.github.io/change-your-desktop-wallpaper/</guid><pubDate>Fri, 01 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Are you bored out of same wallpaper on your machine? Check out &lt;a href=&quot;https://github.com/ayan-b/Desktop-Wallpaper-Changer&quot;&gt;Desktop Wallpaper
+Changer&lt;/a&gt;🖥️!&lt;/p&gt;
+&lt;h2&gt;How to install?&lt;/h2&gt;
+&lt;p&gt;You can install from &lt;code class=&quot;language-text&quot;&gt;pip&lt;/code&gt; using the command &lt;code class=&quot;language-text&quot;&gt;pip install dtwc&lt;/code&gt;. You can also
+get the latest code from GitHub by running: &lt;code class=&quot;language-text&quot;&gt;pip install git+https://github.com/ayan-b/Desktop-Wallpaper-Changer&lt;/code&gt;.
+If you do not have pip on your system, follow this &lt;a href=&quot;https://pip.pypa.io/en/stable/installing&quot;&gt;page&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;How to use?&lt;/h2&gt;
+&lt;p&gt;In order to change the background you can use the CLI:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;dwc -i&lt;/code&gt; will open all the wallpaper sources and you can select the one you like.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;dwc &amp;lt;number&amp;gt;&lt;/code&gt; will update the wallpaper from the number-th source as specified above.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As of now, Windows and some Linux distributions are supported. See this &lt;a href=&quot;https://github.com/ayan-b/Desktop-Wallpaper-Changer/issues/4&quot;&gt;issue&lt;/a&gt;
+for more info.&lt;/p&gt;
+&lt;h2&gt;Update Wallpaper Periodically&lt;/h2&gt;
+&lt;p&gt;You can use &lt;a href=&quot;https://en.wikipedia.org/wiki/Cron&quot;&gt;cron&lt;/a&gt; to schedule the program to update the wallpaper in Unix-like OSes.
+&lt;a href=&quot;https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page&quot;&gt;Task scheduler&lt;/a&gt; can be used for the same in Windows.&lt;/p&gt;</content:encoded></item></channel></rss>
