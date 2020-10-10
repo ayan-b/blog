@@ -73,8 +73,8 @@ The project can be split into various parts and they are discussed below:
 
     Some of the possible improvements:
 
-*   _Remove the use of deprecated <code>auto_ptr</code> and replace it by <code>unique_ptr</code>_: <code>auto_ptr</code></em> was deprecated in C++ 11 in favor of <code>unique_ptr</code> and will be deleted in a future version of C++. There are a number of instances where <code>auto_ptr</code> is used in the code. We need to replace it by <code>unique_ptr</code> and test the code.
-*   <em>Include <code>cstring</code> where <code>memcpy</code> is used</em>: <code>cstring</code> needs to be included while using <code>memcpy</code>. This is to be done for the file <code>[geodesic_algorithm_exact.h](https://github.com/the-virtual-brain/tvb-geodesic/blob/trunk/geodesic_library/geodesic_algorithm_exact.h)</code>.
+*   _Remove the use of deprecated `auto_ptr` and replace it by `unique_ptr`_: `auto_ptr` was deprecated in C++ 11 in favor of `unique_ptr` and will be deleted in a future version of C++. There are a number of instances where `auto_ptr` is used in the code. We need to replace it by `unique_ptr` and test the code.
+*   _Include `cstring` where `memcpy` is used_: `cstring` needs to be included while using `memcpy`. This is to be done for the file [`geodesic_algorithm_exact.h`](https://github.com/the-virtual-brain/tvb-geodesic/blob/trunk/geodesic_library/geodesic_algorithm_exact.h).
 
 2. **Fix warning while running setup.py install:**
 
@@ -149,201 +149,162 @@ Fixing these warnings should be fairly straightforward.
 
 #### 2.5.3. Detailed timeline
 
+
+
 <table>
-  <tr>
-   <td>Phase
-   </td>
-   <td>Date
-   </td>
-   <td>Tasks
-   </td>
-  </tr>
-  <tr>
-   <td>Community Bonding: May 4 - Jun 1
-   </td>
-   <td>May 4 - Jun 1
-   </td>
-   <td>
-<ul>
-
-<li>Study the original paper on Geodesic distance calculation and get a basic idea.
-
-<li>Study the <code>geodesic_library.</code>
-
-<li>Set up a time for weekly meetings.
-
-<li>Set up a communication channel.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="5" >Phase 1: Jun 1 - Jul 3
-   </td>
-   <td>Week 1: Jun 1 - Jun 7 
-   </td>
-   <td>
-<ul>
-
-<li>Make sure the Jenkins CI is working properly.
-
-<li>Add some basic tests to the C++ library <a href="https://github.com/google/googletest">using Google Test framework</a>.
-
-<li>Fix lints following the <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a> guidelines.
-
-<li>Document the testing part.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Week 2: Jun 8 - Jun 14
-   </td>
-   <td>
-<ul>
-
-<li>Make <code>geodesic_library</code> C++ 17 compatible.
-
-<li>Implement the code which will fix warnings while running the <code>python setup.py install</code> command.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Week 3: Jun 15 - Jun 21
-   </td>
-   <td>
-<ul>
-
-<li>Make the code python 3 compatible.
-
-<li>Write unit tests and documentation.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Week 4: Jun 22 - Jun 28
-   </td>
-   <td>
-<ul>
-
-<li>Investigate and fix the problem while installing numpy.
-
-<li>Prepare a report that is to be submitted for phase 1 evaluation.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Jun 29 - Jul 3
-   </td>
-   <td>Phase 1 Evaluation
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="3" >Phase 2: Jul 6 - Jul 31
-   </td>
-   <td>Week 5 - 6: Jul 6 - Jul 19
-   </td>
-   <td>
-<ul>
-
-<li>Work on mentor’s feedback from phase 1.
-
-<li>Investigate and fix the issue of <em>local distances return faulty output</em> and <em>crash on small meshes.</em>
-
-<li>Write tests and documentation.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Week 7: Jul 20 - Jul 26
-   </td>
-   <td>
-<ul>
-
-<li>Work on <em>commit C source</em> issue.
-
-<li>Write tests and documentation.
-
-<li>Prepare a report that is to be submitted for phase 2 evaluation.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Jul 27 - Jul 31
-   </td>
-   <td>Phase 2 Evaluation
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="4" >Phase 3: Aug 3 - Aug 31
-   </td>
-   <td>Week 8: Aug 3 - Aug 9
-   </td>
-   <td>
-<ul>
-
-<li>Work on mentor’s feedback from phase 2.
-
-<li>Work on <em>using Cython parallel </em>issue.
-
-<li>Write performance tests.
-
-<li>Write documentation.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Week 9: Aug 10 - Aug 16
-   </td>
-   <td>
-<ul>
-
-<li>Update tvb-gdist package to pypi and conda-forge.
-
-<li>Build docs using <a href="https://www.sphinx-doc.org">Sphinx</a> and publish it to readthedocs/GitHub pages.
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Week 10: Aug 17 - Aug 23
-   </td>
-   <td>
-<ul>
-
-<li>Buffer week for any unfinished work
-
-<li>Write any leftover unit tests
-
-<li>Write any leftover documentation
-
-<li>Prepare a report that is to be submitted for final evaluation
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Aug 24 - Aug 31
-   </td>
-   <td>Final Evaluation
-   </td>
-  </tr>
-  <tr>
-   <td>Post - GSoC
-   </td>
-   <td>-
-   </td>
-   <td>Maintain the package, fix bugs and implement feature requests
-   </td>
-  </tr>
+   <tr>
+      <td>Phase
+      </td>
+      <td>Date
+      </td>
+      <td>Tasks
+      </td>
+   </tr>
+   <tr>
+      <td>Community Bonding: May 4 - Jun 1
+      </td>
+      <td>May 4 - Jun 1
+      </td>
+      <td>
+         <ul>
+            <li>Study the original paper on Geodesic distance calculation and get a basic idea.
+            <li>Study the <code>geodesic_library.</code>
+            <li>Set up a time for weekly meetings.
+            <li>Set up a communication channel.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td rowspan="5" >Phase 1: Jun 1 - Jul 3
+      </td>
+      <td>Week 1: Jun 1 - Jun 7 
+      </td>
+      <td>
+         <ul>
+            <li>Make sure the Jenkins CI is working properly.
+            <li>Add some basic tests to the C++ library <a href="https://github.com/google/googletest">using Google Test framework</a>.
+            <li>Fix lints following the <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a> guidelines.
+            <li>Document the testing part.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>Week 2: Jun 8 - Jun 14
+      </td>
+      <td>
+         <ul>
+            <li>Make <code>geodesic_library</code> C++ 17 compatible.
+            <li>Implement the code which will fix warnings while running the <code>python setup.py install</code> command.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>Week 3: Jun 15 - Jun 21
+      </td>
+      <td>
+         <ul>
+            <li>Make the code python 3 compatible.
+            <li>Write unit tests and documentation.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>Week 4: Jun 22 - Jun 28
+      </td>
+      <td>
+         <ul>
+            <li>Investigate and fix the problem while installing numpy.
+            <li>Prepare a report that is to be submitted for phase 1 evaluation.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>Jun 29 - Jul 3
+      </td>
+      <td>Phase 1 Evaluation
+      </td>
+   </tr>
+   <tr>
+      <td rowspan="3" >Phase 2: Jul 6 - Jul 31
+      </td>
+      <td>Week 5 - 6: Jul 6 - Jul 19
+      </td>
+      <td>
+         <ul>
+            <li>Work on mentor’s feedback from phase 1.
+            <li>Investigate and fix the issue of <em>local distances return faulty output</em> and <em>crash on small meshes.</em>
+            <li>Write tests and documentation.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>Week 7: Jul 20 - Jul 26
+      </td>
+      <td>
+         <ul>
+            <li>Work on <em>commit C source</em> issue.
+            <li>Write tests and documentation.
+            <li>Prepare a report that is to be submitted for phase 2 evaluation.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>Jul 27 - Jul 31
+      </td>
+      <td>Phase 2 Evaluation
+      </td>
+   </tr>
+   <tr>
+      <td rowspan="4" >Phase 3: Aug 3 - Aug 31
+      </td>
+      <td>Week 8: Aug 3 - Aug 9
+      </td>
+      <td>
+         <ul>
+            <li>Work on mentor’s feedback from phase 2.
+            <li>Work on <em>using Cython parallel </em>issue.
+            <li>Write performance tests.
+            <li>Write documentation.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>Week 9: Aug 10 - Aug 16
+      </td>
+      <td>
+         <ul>
+            <li>Update tvb-gdist package to pypi and conda-forge.
+            <li>Build docs using <a href="https://www.sphinx-doc.org">Sphinx</a> and publish it to readthedocs/GitHub pages.</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>Week 10: Aug 17 - Aug 23
+      </td>
+      <td>
+         <ul>
+            <li>Buffer week for any unfinished work
+            <li>Write any leftover unit tests
+            <li>Write any leftover documentation
+            <li>Prepare a report that is to be submitted for final evaluation</li>
+         </ul>
+      </td>
+   </tr>
+   <tr>
+      <td>Aug 24 - Aug 31
+      </td>
+      <td>Final Evaluation
+      </td>
+   </tr>
+   <tr>
+      <td>Post - GSoC
+      </td>
+      <td>-
+      </td>
+      <td>Maintain the package, fix bugs and implement feature requests
+      </td>
+   </tr>
 </table>
-
 
 
 #### 2.5.4. Plan for communication with mentors: How will you and the mentors keep in contact?
