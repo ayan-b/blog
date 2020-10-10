@@ -167,9 +167,9 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Study the original paper on Geodesic distance calculation and get a basic idea.
-            <li>Study the <code>geodesic_library.</code>
-            <li>Set up a time for weekly meetings.
+            <li>Study the original paper on Geodesic distance calculation and get a basic idea.</li>
+            <li>Study the <code>geodesic_library.</code></li>
+            <li>Set up a time for weekly meetings.</li>
             <li>Set up a communication channel.</li>
          </ul>
       </td>
@@ -181,9 +181,9 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Make sure the Jenkins CI is working properly.
-            <li>Add some basic tests to the C++ library <a href="https://github.com/google/googletest">using Google Test framework</a>.
-            <li>Fix lints following the <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a> guidelines.
+            <li>Make sure the Jenkins CI is working properly.</li>
+            <li>Add some basic tests to the C++ library <a href="https://github.com/google/googletest">using Google Test framework</a>.</li>
+            <li>Fix lints following the <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a> guidelines.</li>
             <li>Document the testing part.</li>
          </ul>
       </td>
@@ -193,7 +193,7 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Make <code>geodesic_library</code> C++ 17 compatible.
+            <li>Make <code>geodesic_library</code> C++ 17 compatible.</li>
             <li>Implement the code which will fix warnings while running the <code>python setup.py install</code> command.</li>
          </ul>
       </td>
@@ -203,7 +203,7 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Make the code python 3 compatible.
+            <li>Make the code python 3 compatible.</li>
             <li>Write unit tests and documentation.</li>
          </ul>
       </td>
@@ -213,7 +213,7 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Investigate and fix the problem while installing numpy.
+            <li>Investigate and fix the problem while installing numpy.</li>
             <li>Prepare a report that is to be submitted for phase 1 evaluation.</li>
          </ul>
       </td>
@@ -231,8 +231,8 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Work on mentor’s feedback from phase 1.
-            <li>Investigate and fix the issue of <em>local distances return faulty output</em> and <em>crash on small meshes.</em>
+            <li>Work on mentor’s feedback from phase 1.</li>
+            <li>Investigate and fix the issue of <em>local distances return faulty output</em> and <em>crash on small meshes.</em></li>
             <li>Write tests and documentation.</li>
          </ul>
       </td>
@@ -242,8 +242,8 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Work on <em>commit C source</em> issue.
-            <li>Write tests and documentation.
+            <li>Work on <em>commit C source</em> issue.</li>
+            <li>Write tests and documentation.</li>
             <li>Prepare a report that is to be submitted for phase 2 evaluation.</li>
          </ul>
       </td>
@@ -261,9 +261,9 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Work on mentor’s feedback from phase 2.
-            <li>Work on <em>using Cython parallel </em>issue.
-            <li>Write performance tests.
+            <li>Work on mentor’s feedback from phase 2.</li>
+            <li>Work on <em>using Cython parallel </em>issue.</li>
+            <li>Write performance tests.</li>
             <li>Write documentation.</li>
          </ul>
       </td>
@@ -273,7 +273,7 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Update tvb-gdist package to pypi and conda-forge.
+            <li>Update tvb-gdist package to pypi and conda-forge.</li>
             <li>Build docs using <a href="https://www.sphinx-doc.org">Sphinx</a> and publish it to readthedocs/GitHub pages.</li>
          </ul>
       </td>
@@ -283,9 +283,9 @@ Fixing these warnings should be fairly straightforward.
       </td>
       <td>
          <ul>
-            <li>Buffer week for any unfinished work
-            <li>Write any leftover unit tests
-            <li>Write any leftover documentation
+            <li>Buffer week for any unfinished work</li>
+            <li>Write any leftover unit tests</li>
+            <li>Write any leftover documentation</li>
             <li>Prepare a report that is to be submitted for final evaluation</li>
          </ul>
       </td>
