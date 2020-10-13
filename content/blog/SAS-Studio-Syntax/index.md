@@ -235,7 +235,7 @@ TITLE;
 
 Common syntax errors: unmatched quotes, missing semicolons, misspelled keywords, and invalid options. Syntax errors might result in a warning or error in the log.
 
-During running the code, SAS corrects misspelled keywords (daat → data or prco —> proc).
+During running the code, SAS corrects misspelled keywords (daat → data or prco → proc).
 
 ```sas
 /* data misspelled */
@@ -305,7 +305,7 @@ Q: Open **p101a04.sas** from the **activities** folder and perform the following
 
 How many rows are in the **canadashoes** data?
 
-A:
+A: 37
 
 Original code:
 

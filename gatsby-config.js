@@ -86,5 +86,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://ayan-b.github.io/blog`,
+        stripQueryString: true,
+      },
+    },
   ],
 }

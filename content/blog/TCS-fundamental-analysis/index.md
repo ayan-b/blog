@@ -6,7 +6,7 @@ description: "Fundamental Analysis: Tata Consultancy Services Limited (TCS) (202
 
 Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: [link](./TCS-Fundamental-Analysis.pdf). It would be
-interesting to see how I did in the coming years. :)
+interesting to see how I did in the coming years. 😉
 
 The sources I used: Moneycontrol, TCS annual and quarterly reports and WikiPedia.
 
