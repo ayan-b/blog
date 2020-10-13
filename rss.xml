@@ -1,4 +1,476 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 10 Oct 2020 07:31:08 GMT</lastBuildDate><item><title><![CDATA[GSoC 2020 Proposal - INCF]]></title><description><![CDATA[Table of Contents Upgrade and Fix tvb-gdist C++ Library 1. Contact Details 2. Project details 2.1. Project synopsis/summary: What is the…]]></description><link>https://ayan-b.github.io/GSoC20-Proposal/</link><guid isPermaLink="false">https://ayan-b.github.io/GSoC20-Proposal/</guid><pubDate>Sat, 12 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Table of Contents&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 13 Oct 2020 06:49:47 GMT</lastBuildDate><item><title><![CDATA[Getting Started with SAS Programming - SAS Studio and Basic Syntax]]></title><description><![CDATA[This is first in a series of notes as I go through the course: Getting Started with SAS Programming. Welcome Welcome to the Course!  Fig…]]></description><link>https://ayan-b.github.io/SAS-Studio-Syntax/</link><guid isPermaLink="false">https://ayan-b.github.io/SAS-Studio-Syntax/</guid><pubDate>Mon, 12 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;This is first in a series of notes as I go through the course: &lt;a href=&quot;https://www.coursera.org/learn/sas-programming-basics&quot;&gt;Getting Started with SAS Programming&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;Welcome&lt;/h1&gt;
+&lt;h2&gt;Welcome to the Course!&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/42de8/steps-meaningful-accessible.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.78702807357212%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABtUlEQVQoz6WST0iTcRjHfxdDkaASPHSJwEPQpVOJBxU6SH9QCqGLeAjp1KGD5k0NSak1l9MtmBPDoWKam9vQNoaKo6lbm8tZJh4mEShOyD/TtPd99/GdexE9+8CX5/t9HvjBj+cjlFQKSZKPJcsKx1ntaSmKltUuaV7WlM7/Dg6QUX0qs0+pc8E56u9GAmV378xM/F7b4MOgG2PfKP0uHxPfvqP75OLtoBP31xCjkShvvvjQeSeY/LFE32IUfSiAKRxkamUJQ9RP23KQntUYSek/onvEg7hZxuWiSm7cf0rlKwM5j2q4+PgZxbXNlHZYyK1rJLe2gXJrL7eHbFyxGLlqNVM96eKS20Ses5MLdgOxrQSia3gccb2ErFsPuXa3iopGPaKsCnGvmjsvmihsMyOe16t6yYOujxTYrORbTeSYDTzxOch2Gsm2tyM+v2Mh/WD8zzod6nff2+z02j14ZsO0Djho6XcwMj3DcCjC6zEvreM+PAuLdM+HaQn40c8F8C7/RDfvR/criCUeY1c6PN9RthObKDvJs0dRFA0bWcMmjYisZdXLGjIn2JzKe/v7GYROYXMEY9QWTVqcgaEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Steps to make data meaningful and accessible&quot;
+        title=&quot;Steps to make data meaningful and accessible&quot;
+        src=&quot;/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/fcda8/steps-meaningful-accessible.png&quot;
+        srcset=&quot;/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/12f09/steps-meaningful-accessible.png 148w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/e4a3f/steps-meaningful-accessible.png 295w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/fcda8/steps-meaningful-accessible.png 590w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/efc66/steps-meaningful-accessible.png 885w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/42de8/steps-meaningful-accessible.png 1033w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Fig. Steps to make data meaningful and accessible&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;To make data meaningful and accessible:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;access data&lt;/strong&gt; or read it with a program&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;explore the data&lt;/strong&gt; to see what’s there what you might need to add or change&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;prepare the data&lt;/strong&gt; for analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;analyze and report on the data&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;export results&lt;/strong&gt; to various report and data formats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Choosing and Setting Up SAS Software for this Course&lt;/h2&gt;
+&lt;p&gt;SAS Studio can be practiced in 2 ways -&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://support.sas.com/software/products/ondemand-academics/&quot;&gt;SAS OnDemand for Analytics&lt;/a&gt;: Nothing to download, runs on cloud.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://support.sas.com/software/products/university-edition/index.html&quot;&gt;SAS University Edition (vApp)&lt;/a&gt;:  Need to download a software, runs offline.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Setting Up Practice Files&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://dl.liveweb.sas.com/eldata/setupPG1_oda_coursera.htm&quot;&gt;Follow these step-by-step instructions to set up your course practice files in SAS OnDemand for Academics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dl.liveweb.sas.com/eldata/setupPG1_ue_coursera.htm&quot;&gt;Follow these step-by-step instructions to set up your course practice files in SAS University Edition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Using SAS Programming Tools&lt;/h1&gt;
+&lt;h2&gt;SAS Programming Interfaces&lt;/h2&gt;
+&lt;p&gt;SAS has several programming interfaces that one can use to write and submit code:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SAS Studio&lt;/li&gt;
+&lt;li&gt;SAS Enterprise Studio&lt;/li&gt;
+&lt;li&gt;SAS Windowing Environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this course, we’ll be using SAS studio.&lt;/p&gt;
+&lt;p&gt;SAS studio contains 4 tabs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt; to write and submit code&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Log&lt;/strong&gt; to view messages from SAS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results&lt;/strong&gt;, and&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output Data&lt;/strong&gt; to view results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To make programming much easier the editor contains - code completion, formatting and syntax coloring.&lt;/p&gt;
+&lt;h2&gt;Programming with SAS Studio&lt;/h2&gt;
+&lt;p&gt;We can use the navigation pane on the left to access data in different folders.&lt;/p&gt;
+&lt;p&gt;SAS contains few reference. Let us open the CLASS table: Libraries → My Libraries → SASHELP → CLASS. Double clicking &lt;code class=&quot;language-text&quot;&gt;CLASS&lt;/code&gt; opens the table in the data grid.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/e2ccb503093cdc9e664d396c00490049/c72f7/class-table.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.07832898172324%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABl0lEQVQoz21RyU7DQAzNNyNxQgWB4Ia4whkk1nKAGx9QaIs4wBkJELtY0iyTmcz2sJ2kKgJLTia25y1OstYfobc3wOLBEMtHY8zvDDC3PcDC3gUWds/R2x9Kb0lyhKVDmqfzxukVts6usXp8ifWTK2ye3WClP0aC6PA34szR08P9rv0bQZ7Je1rg+SOFtg7OB3ylGb4mOXyI8DEiLxW+6bsyNSz1la4pDRz186KEqZ1kmhUw1iOpa4u7xxfEGBACA07wmeZTXk2XtdYIsVHovZfkqOta7kTqGTrzO9HEfP/0ikBDXOBvzi6MMagqLSDcd87BUsosK6U6g1ZMSm8BfHh+kwFPloJvdhFbRQVZTicZXTCkwkIReKk0kVpkZFlVRgRkeSF9AXx8eZele2KwtmHnMwczs5LOGit1rWVDd31bb+yTZUZ9IMtUlUZOTG5mT6qqmh22BL93aMWVAFrbABaqwu39kzQZvCzLKStHqRT9zWKqys0oZFXdbnnXAshAn98TUcDJirqh6U9g9va7m+vsd3Uv9Ygffjr9tgqMrLkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;CLASS table opened in SAS&quot;
+        title=&quot;CLASS table opened in SAS&quot;
+        src=&quot;/blog/static/e2ccb503093cdc9e664d396c00490049/fcda8/class-table.png&quot;
+        srcset=&quot;/blog/static/e2ccb503093cdc9e664d396c00490049/12f09/class-table.png 148w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/e4a3f/class-table.png 295w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/fcda8/class-table.png 590w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/efc66/class-table.png 885w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/c83ae/class-table.png 1180w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/c72f7/class-table.png 1915w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Fig. CLASS table opened in SAS&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On the left side, we have a panel that summarizes the columns and their attributes which can be minimized by clicking the left arrow button.&lt;/li&gt;
+&lt;li&gt;Let us write a new program to analyze the data. A new tab can be opened by pressing &lt;code class=&quot;language-text&quot;&gt;F4&lt;/code&gt; or by Options → New SAS Program.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/* Reads SASHELP.CLASS tablereads that SASHELP.CLASS table
+and creates a copy called myclass. */&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; myclass&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;class&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;/* Prints what in MYCLASS table */&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;myclass&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Clicking on run (or pressing &lt;code class=&quot;language-text&quot;&gt;F3&lt;/code&gt;) creates &lt;code class=&quot;language-text&quot;&gt;RESULT&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In the LOG tab, we can observe the notes. Since the program ran successfully we do not see any Errors or Warnings.&lt;/li&gt;
+&lt;li&gt;RESULTS includes the report that was created for the new MYCLASS table.&lt;/li&gt;
+&lt;li&gt;OUTPUT DATA displays the new table created: MYCLASS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To remove the extra space in the columns, we can right-click on any of the columns and choosing &lt;code class=&quot;language-text&quot;&gt;Size grid columns to content&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/1cd97e0296190d9a56aab3995d1bea53/d9199/size-grid.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABuklEQVQoz3VS2Y6cMBDk//8vb4l2h2NgWBjAFz4wlWqTmZWixFLJTbtcXd2mOlMAcOC9zgxkfudY8vlIiFE4J5H/cDP+t6ppUdiMQ4gJKR2w1hX4ELH7gE0ZzM+Vu8Y4r1B2h2Peuh2RfGUsDPma+6YNKu8j6m5ApEAIAeumsKwbzvPEkTOMtlgpGMjbeDbPM9y+Ix1H4SsWMhTzLNLde1QhJHzWHRyriOj0XNAO09U9RR3da7o86Ebc9l8zVuYcuSkl+N0XCLdtO1SRrTYMUvBFRFpZNv0WtLxslOV5utyuGpq7oniMHAv5gsxu2oaCi434cRswcVc+icr3+zA2nItiq+JenOQjF7cSi6BzrkAEm6ZB5Tibn7eOw2bLJMtchCg4OCetdYF8e+/fZ7vfr53zFBSHbXu1XLd37Nbwj8kc/FYqirDEy7Lw1W25HPx3MRH522HXsWVH678+a87KlFcVNyImBHnRaZqKoLgVAckLhHPlQollCbf6Gid8fNxKxVeLUlEuGxYZhgF1XePxeKDve4zjWCB5yd2Zk1gg3VTehTJwEXzZf0FmJqJKqX9iI+7DWJw9HrI/8Ru/2VNtux1MUAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;size-grid&quot;
+        title=&quot;size-grid&quot;
+        src=&quot;/blog/static/1cd97e0296190d9a56aab3995d1bea53/fcda8/size-grid.png&quot;
+        srcset=&quot;/blog/static/1cd97e0296190d9a56aab3995d1bea53/12f09/size-grid.png 148w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/e4a3f/size-grid.png 295w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/fcda8/size-grid.png 590w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/efc66/size-grid.png 885w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/d9199/size-grid.png 960w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Fig. Size grid columns to content&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;To keep this setting always in effect: Choose &lt;code class=&quot;language-text&quot;&gt;more application options&lt;/code&gt; on the top bar → Preferences → Size grid columns to content → Save.&lt;/p&gt;
+&lt;p&gt;To run a selected portion of code: Select the portion of the code → Click on Run (or press &lt;code class=&quot;language-text&quot;&gt;F3&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;The screen can be split into two halves by clicking the tab name (LOG or RESULTS or OUTPUT DATA ) and then dragging it into the left part of the screen. To unsplit simply click the tab name and drag it back to the original place (left half).&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/7c6809bf88496f4c07aec3b56dde2427/29114/split-screen.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABgUlEQVQoz32SSU/DMBCF+7s5AoeyiBtXhDiCEIjlwAXBEYFYJeAHIBVo43iNYyfOY+y0KS0VlkZOJjOf3/il1z+6Q//4Hptnz1g5vMXywQ2WaV/av8Pq0QPWTx9TbFCsnTyif9Luu1dv2Ll8xdb5M7YvXrB3/U6MJ/Qwv4IDGj9+af58rusa/63eiCtYX6EKDYwtMWQ5pCnAhYCQinIOQhtkQqc6qQooU+KbKQwzia8R1SkLVwWUrkYvhICmaZU4amBcJhVSaVRV1alyzsFai4oEUhkG3zmyjGE4yiClplxDEdqRp0CPzyGDj0pInfft6DUdGoHGmNTofCB1pExwCM6haaKFwLoOsKVLygwVdQo7YDEGNvgkhZxgeZ5D6zngBDoBx2sQQhKw7g6aAVJ8DEZgWQbGGJQyixVGgCVj4shK6ylwTmGMODLngmAapigXA8uyRFHYZAIjt6emRAfbO4ylk/om9aLLBfpTZk1xnqCuHVnKmTv09DwxKaFSz+9oOT9cf/7nNKLfVAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Split Screen&quot;
+        title=&quot;Split Screen&quot;
+        src=&quot;/blog/static/7c6809bf88496f4c07aec3b56dde2427/fcda8/split-screen.png&quot;
+        srcset=&quot;/blog/static/7c6809bf88496f4c07aec3b56dde2427/12f09/split-screen.png 148w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/e4a3f/split-screen.png 295w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/fcda8/split-screen.png 590w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/efc66/split-screen.png 885w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/c83ae/split-screen.png 1180w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/29114/split-screen.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Fig. Split Screen&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Practice: Exploring SAS Studio&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://d3c33hcgiwev3.cloudfront.net/KKYuHZQpEemX8g5wksC5BA_9125778769af4779ac8d98c3df3bd4d0_exploring_SAS_Studio.pdf?Expires=1602720000&amp;#x26;Signature=ILf12f32TUtfhsNvzeD6IXVDM1--X-MDIYmg8pNR4LNTqn-dOoHrKebR4UW~cocVq0Y2xnuj-9y~iMMMsPeQXsrmZw5QGqt2C2Y8ZlrW8-xzToufdBl52XdXdWMg1Rc4w7euIlFpUxzkAMVrgrLZNszXBj1pGlRTkQzOxPp~i7I_&amp;#x26;Key-Pair-Id=APKAJLTNE6QMUY6HBC5A&quot;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Understanding SAS Syntax&lt;/h1&gt;
+&lt;h2&gt;SAS Program Structure&lt;/h2&gt;
+&lt;p&gt;SAS programs consist of a number of steps. There are 2 types of steps: PROC step (procedure) and DATA step. A step generally ends with a &lt;code class=&quot;language-text&quot;&gt;run&lt;/code&gt; statement (some &lt;code class=&quot;language-text&quot;&gt;proc&lt;/code&gt; steps also ends with &lt;code class=&quot;language-text&quot;&gt;quit&lt;/code&gt; statement). If a &lt;code class=&quot;language-text&quot;&gt;run&lt;/code&gt; statement is not specified the beginning of &lt;code class=&quot;language-text&quot;&gt;proc&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;data&lt;/code&gt; keyword signals &lt;code class=&quot;language-text&quot;&gt;run&lt;/code&gt; statement of previous step.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; myclass&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;class&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	heightcm &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2.54&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;myclass&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;myclass&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; age heightcm&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The above program contains 3 steps - 1 DATA and 2 PROC steps.&lt;/p&gt;
+&lt;p&gt;A DATA step generally reads data from an input source, processes it, and creates a SAS table.  A DATA step might also filter rows, compute new columns, join tables, and perform other data manipulations. In this program, the DATA step is creating an output table and adding a new column.&lt;/p&gt;
+&lt;p&gt;A PROC or procedure step processes a SAS table in a specific a predefined way. In this program, the proc print step generates a list of all the rows and columns in the data, and the proc means step calculates basic summary statistics - Number (N), Mean, Standard Deviation, Maximum and Minimum.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 266px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 160.90225563909775%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAAAsSAAALEgHS3X78AAAFMElEQVRIx51WWW/bRhD2v+5DgQZ9SOM0aI4CeShQIE9JmzZAYsd2LMmHqJMSLx0UqfsgJVKUZEmRfMqSvs4uLcdOnAQogQ+z3OPjzO7Mx11bLpdgz2KxwP992NoVz9pNsul0ilqthmaziUbj22Bz6vU6XNe9Jmakaysy27ZxcHAAQ9dRyOdvIPcZPvWbBR3JRAKyLH8iZI2zszMIQhgNy0amaqPQ6kJvuhysbVgetzf7GXJ1B2XLQSIR5x5fh9xoNFA0DVjeEUR7gsJoidzRHPnhHJneBaTOFNn+DBnvHHnWf4XccAm55qLndSGmUjcJmzANAzYRyrTYHC+gH12iPAW2RB0v3gbwx+tNvArEkOmewhwtUKBx9mGt4aLf8yCKXxAWfELnmBOZ4yVKE0Cld9n+iFjJQbzqofgR1zAJauNODxs+Ye8IaVrMvEzbYw65M6GPTKG4J1CInI1L7QkkGtN65+Rh1ycUPyM06MS6o2NsCBIkLYNSrQ6jVIZRrnCYlSq3erGEjF5AjvB+X6A97NwVsk/oEuF2TEZGUyGl05AlCZqqQqc0UWQJ2YyGXDaD5WLOF0tZHamyhUG/93XCLSLU9TzMYpEnuWVZ6PV6vO04Dt/vxVVVpLQ8Edp3E7IkdYZTbMcVzC7OMbu85LnFCFutFjzPQ6fT4ZVRLJVwfnYKKVf4joeMMKbg9PSEKqeNcDhMCS9Q4iaQp7BFUYRKWxCPxzEcDKDoJsTSdwh34ipN6GM2m+GSvJzP5xysrJhl/asnlflGyKs9ZITRaAQ7Ox8QCoW4h2k6oL29PcRiMRqL4nLuH4qcN74dcnd8grcHCb6f7bYNq9WEbbXQdR3edpwOmo062iQkg14XISGKdOVrh0KJ3e6PESl3ETFbiJZsRIsMFgT2Tu2IaV1bodCkuQ7UZu/uSimaJhyvj0i2BI1URK62oVQ73N5Gh/crlNBShd4LZQyPjpCkA7tNWDTRdj3sUB6GNQOHSoEjrJmIZIoQyDKs+g/VAvZlHXFNx3BIhEnxjlomcdBIosonVPwkEKVjcBmTO8fIDS65hBUn/hgHzdNa/a+Jg4E2iYPc/sjlSR/MUKbFm4mcL19/b+DlrkDydQKDy9eM5GtB29O9u5Z9PRxw+WLSxCYbJGEa6Z/mHkOsD5BsDHgfI+Tg8tW928MS1W7b7eJd8BDBqIhAJMnB2gyhWIojICSvx3YO44ilVYzHI9rD5Gcemn7IYq2PvHuKLHmapb3TvTMY/QsO1s6xfgKzGecEKp28n4c3D6XpK7bVZb+AMxTHFPLQV+VYxcN2qoCAWkbY7NCvYU5hg0Jecqs2PB5y6mbI7P9aorSxvSFU95xLvzECKnTKAa2KN+E0XmwE8fpAJEL/pNl/xySrUWJ/4SGTJFVR0HJ7COuUtM0J0vUxh2JNoLWnUMlK9SHkJvU3RpAIqfoIMlVUo16Dpmk+4eoKwQo/l8tDUkUI8V1EkyEOIR5AJBH0Qe++DdJYkMaCXIj3Qnv81nGLkD3JRBpvtn9FzHyMcPY3HGYeIVV5hrj5FIniU2r/jgRrE8TyM+wrD/Fu419MJ8fXd5y11RXCv0sAEeUFBP0JXm7dI7F9iAPlMf7auYet6Dr+/OcHvI+s49XWT9hJPCJxfY6WXeVL51eSxj1cEV6cX2Iz9BwfUvcRTD0krGMrch8f4r9gN/kALzd/xG5infAAQvYJ3u7/jHLVuHUDu/ZwRer1XDStCiybflD0datdu0IVbafOLXtv0ZyWVcXFxQVuRvkfSxcD7AoQCkQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Step consists of Statements&quot;
+        title=&quot;Step consists of Statements&quot;
+        src=&quot;/blog/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png&quot;
+        srcset=&quot;/blog/static/be118c2f584422557df650a56996452a/12f09/steps-statements.png 148w,
+/blog/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png 266w&quot;
+        sizes=&quot;(max-width: 266px) 100vw, 266px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Fig. Step consists of Statements&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Statements must finish with a semicolon (;). A SAS program can also contain global statements - TITLE, OPTIONS, LIBNAME. They reside outside of the proc and data steps and do not need a run statement after them.&lt;/p&gt;
+&lt;h2&gt;Activity 1.01&lt;/h2&gt;
+&lt;p&gt;Open the file &lt;code class=&quot;language-text&quot;&gt;activities/p101a03.sas&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; mycars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	AvgMPG&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token function keyword&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mpg_city&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mpg_highway&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Cars with Average MPG Over 35&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; make model type avgmpg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; AvgMPG &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;35&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Average MPG by Car Type&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;proc means&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;mean&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;min&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;max&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;maxdec&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; avgmpg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; type&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Q: How many steps are in the program?&lt;/p&gt;
+&lt;p&gt;A: 3 (1 DATA and 2 PROC).&lt;/p&gt;
+&lt;p&gt;Q: How many statements are in the PROC PRINT step?&lt;/p&gt;
+&lt;p&gt;A: 4 (PROC, VAR, WHERE, and RUN).&lt;/p&gt;
+&lt;p&gt;Q: How many global statements are in the program?&lt;/p&gt;
+&lt;p&gt;A: 3 (TITLE)&lt;/p&gt;
+&lt;p&gt;Q: Run the program and view the log. How many observations (rows) are read by the PROC PRINT step?&lt;/p&gt;
+&lt;p&gt;A: 11&lt;/p&gt;
+&lt;h2&gt;SAS Program Syntax&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Spacing doesn’t matter in SAS code. However, consistent program spacing is a good practice to make programs legible.&lt;/li&gt;
+&lt;li&gt;Unquoted values can be lowercase, upper case, or mixed case.&lt;/li&gt;
+&lt;li&gt;To comment out multiple lines of code use: &lt;code class=&quot;language-text&quot;&gt;/* comment... */&lt;/code&gt; and add &lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt;to comment out a statement. We can comment using &lt;code class=&quot;language-text&quot;&gt;Ctrl + /&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Understanding SAS Program Syntax&lt;/h2&gt;
+&lt;p&gt;Consider the following code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; mycars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	AvgMPG&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token function keyword&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mpg_city&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mpg_highway&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Cars with Average MPG Over 35&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; make model type avgmpg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; AvgMPG &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;35&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Average MPG by Car Type&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;proc means&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt; 
+&lt;span class=&quot;token arg keyword&quot;&gt;mean&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;min&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;max&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;maxdec&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt; 
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; avgmpg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;class type&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;RUN&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;TITLE&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Even though it runs successfully, it is not properly indented and thus makes it harder to understand. We can use the &lt;code class=&quot;language-text&quot;&gt;format code&lt;/code&gt; button to format a code (proper spacing).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; mycars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	AvgMPG&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token function keyword&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mpg_city&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mpg_highway&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Cars with Average MPG Over 35&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; make model type avgmpg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; AvgMPG &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;35&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Average MPG by Car Type&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc means&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;mean&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;min&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;max&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;maxdec&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; avgmpg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; type&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;RUN&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;TITLE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Finding and Resolving Syntax Errors&lt;/h2&gt;
+&lt;p&gt;Common syntax errors: unmatched quotes, missing semicolons, misspelled keywords, and invalid options. Syntax errors might result in a warning or error in the log.&lt;/p&gt;
+&lt;p&gt;During running the code, SAS corrects misspelled keywords (daat → data or prco —&gt; proc).&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/* data misspelled */&lt;/span&gt;
+daat mycars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	AvgMPG&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token function keyword&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mpg_city&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mpg_highway&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Cars with Average MPG Over 35&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;/* missing semicolon */&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt;
+	&lt;span class=&quot;token arg keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;avgmpg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; AvgMPG &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;35&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Average MPG by Car Type&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;/* we cannot use average, mean can be used instead */&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;proc means&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;average&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;min&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;max&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;maxdec&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; avgmpg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; type&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Consider the above code. There are 3 syntax errors (commented). We can run the code and observe the log.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SAS assumes that &lt;code class=&quot;language-text&quot;&gt;daat&lt;/code&gt; is misspelled of &lt;code class=&quot;language-text&quot;&gt;data&lt;/code&gt; and runs successfully&lt;/li&gt;
+&lt;li&gt;SAS suggests that we can use semicolon (along with some more options) before &lt;code class=&quot;language-text&quot;&gt;var&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;SAS says that &lt;code class=&quot;language-text&quot;&gt;average&lt;/code&gt; is not expected and suggests a number of keywords&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s fix the errors.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; mycars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cars&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	AvgMPG&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token function keyword&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mpg_city&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mpg_highway&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Cars with Average MPG Over 35&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; make model type avgmpg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; AvgMPG &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;35&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Average MPG by Car Type&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc means&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;mycars&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;mean&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;min&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;max&lt;/span&gt; &lt;span class=&quot;token arg keyword&quot;&gt;maxdec&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; avgmpg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; type&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The above code runs successfully without any errors or warnings.&lt;/p&gt;
+&lt;h2&gt;Activity 1.02&lt;/h2&gt;
+&lt;p&gt;Q: Open &lt;strong&gt;p101a04.sas&lt;/strong&gt; from the &lt;strong&gt;activities&lt;/strong&gt; folder and perform the following tasks:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Format the program to improve the spacing. Notice that a syntax error is detected. Fix the error and run the program.&lt;/li&gt;
+&lt;li&gt;Read the log and identify any additional syntax errors. Correct the syntax errors and format the program again.&lt;/li&gt;
+&lt;li&gt;Add a comment to describe the changes that you made to the program.&lt;/li&gt;
+&lt;li&gt;Run the program and examine the log and results.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;How many rows are in the &lt;strong&gt;canadashoes&lt;/strong&gt; data?&lt;/p&gt;
+&lt;p&gt;A:&lt;/p&gt;
+&lt;p&gt;Original code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; canadashoes&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shoes&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; region&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;Canada&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	Profit&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Sales&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;Returns&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+porc &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;canadashoes&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Fixed code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; canadashoes&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shoes&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;/* missing semicolon */&lt;/span&gt; 
+	&lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; region&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Canada&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;/* unbalanced quote */&lt;/span&gt;
+	Profit&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Sales&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;Returns&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;canadashoes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;/* misspelled proc */&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Quiz&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;How many steps does this program contain?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; national&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;baseball&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    BatAvg&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nHits&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;nAtBat&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc contents&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;national&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;national&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc means&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;national&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; BatAvg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A: 4 (1 data, 3 proc).&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Running a SAS program can create which of the following? Select all that apply.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A: log, output data, results&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Which of the following is a SAS syntax requirement?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A: End each statement with a semicolon&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Which of the following steps is typically used to generate reports and graphs?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A: PROC&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Does this comment contain syntax errors?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/*
+Report created for budget
+presentation; revised October 15.
+  */&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;work.newloan&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A: No, the comment is correctly specified.&lt;/p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;What result would you expect from submitting this step?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;work.newsalesemps&lt;/span&gt;
+&lt;span class=&quot;token arg keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A: An error message in the log (semicolon missing).&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;What happens if you submit the following program?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;porc &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;work&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;newsalesemps&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A: SAS assumes PROC is misspelled and executes the step.&lt;/p&gt;
+&lt;ol start=&quot;8&quot;&gt;
+&lt;li&gt;This program contains a syntax error because National is in different cases.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token step keyword&quot;&gt;data&lt;/span&gt; national&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; sashelp&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;baseball&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    BatAvg&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nHits&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;nAtBat&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc means&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;NATIONAL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; BatAvg&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A: No. (unquoted values are case-insensitive).&lt;/p&gt;
+&lt;ol start=&quot;9&quot;&gt;
+&lt;li&gt;How many statements does this program contain?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sas&quot;&gt;&lt;pre class=&quot;language-sas&quot;&gt;&lt;code class=&quot;language-sas&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;*Create a cars report;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;European Cars Priced Over 30K&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+footnote &lt;span class=&quot;token string&quot;&gt;&quot;Internal Use Only&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token step keyword&quot;&gt;proc print&lt;/span&gt; &lt;span class=&quot;token proc-args&quot;&gt;&lt;span class=&quot;token arg keyword&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token arg-value&quot;&gt;sashelp.cars&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt; Origin&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Europe&apos;&lt;/span&gt;
+          &lt;span class=&quot;token keyword&quot;&gt;and&lt;/span&gt; MSRP&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;30000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; Make Model Type
+        Mpg_City Mpg_Highway&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token step keyword&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A: 6&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GSoC 2020 Proposal - INCF]]></title><description><![CDATA[Table of Contents Upgrade and Fix tvb-gdist C++ Library 1. Contact Details 2. Project details 2.1. Project synopsis/summary: What is the…]]></description><link>https://ayan-b.github.io/GSoC20-Proposal/</link><guid isPermaLink="false">https://ayan-b.github.io/GSoC20-Proposal/</guid><pubDate>Sat, 12 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#upgrade-and-fix-tvb-gdist-c---library&quot;&gt;Upgrade and Fix tvb-gdist C++ Library&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#1-contact-details&quot;&gt;1. Contact Details&lt;/a&gt;&lt;/li&gt;

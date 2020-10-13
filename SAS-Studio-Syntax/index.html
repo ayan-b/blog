@@ -1,0 +1,497 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><meta data-react-helmet="true" name="description" content="An overview of SAS Studio and Basic SAS Syntax"/><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml"/><link rel="icon" href="/blog/icons/icon-48x48.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="manifest" href="/blog/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/blog/icons/icon-48x48.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="72x72" href="/blog/icons/icon-72x72.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="96x96" href="/blog/icons/icon-96x96.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="144x144" href="/blog/icons/icon-144x144.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="192x192" href="/blog/icons/icon-192x192.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="256x256" href="/blog/icons/icon-256x256.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="384x384" href="/blog/icons/icon-384x384.png?v=63e133fdd20479ddec853e4699cd245f"/><link rel="apple-touch-icon" sizes="512x512" href="/blog/icons/icon-512x512.png?v=63e133fdd20479ddec853e4699cd245f"/><title data-react-helmet="true">Getting Started with SAS Programming - SAS Studio and Basic Syntax | Ayan&#x27;s Blog</title><meta name="generator" content="Gatsby 2.19.7"/><meta data-react-helmet="true" property="og:title" content="Getting Started with SAS Programming - SAS Studio and Basic Syntax"/><meta data-react-helmet="true" property="og:description" content="An overview of SAS Studio and Basic SAS Syntax"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="Ayan Banerjee"/><meta data-react-helmet="true" name="twitter:title" content="Getting Started with SAS Programming - SAS Studio and Basic Syntax"/><meta data-react-helmet="true" name="twitter:description" content="An overview of SAS Studio and Basic SAS Syntax"/><style data-href="/blog/styles.6e50da1a5581862dc05b.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/blog/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/blog/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/blog/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/blog/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/blog/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/blog/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/blog/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/blog/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/blog/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/blog/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/blog/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/blog/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/blog/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/blog/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/blog/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/blog/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/blog/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/blog/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/blog/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/blog/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/blog/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/blog/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/blog/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/blog/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/blog/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/blog/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/blog/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/blog/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/blog/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/blog/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/blog/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/blog/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/blog/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/blog/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/blog/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/blog/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/blog/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/blog/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/blog/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/blog/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/blog/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/blog/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/blog/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/blog/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/blog/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/blog/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/blog/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/blog/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/blog/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/blog/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/blog/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/blog/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><link rel="sitemap" type="application/xml" href="/blog/sitemap.xml"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-89f423fdba6ad932db5b.js"/><link as="script" rel="preload" href="/blog/commons-01943c0ffa6bebbbcbaf.js"/><link as="script" rel="preload" href="/blog/app-7dbfc4cf11f00f1d3b0b.js"/><link as="script" rel="preload" href="/blog/styles-47121d392bbea5e6e153.js"/><link as="script" rel="preload" href="/blog/webpack-runtime-e955bff69397da5bb88c.js"/><link as="fetch" rel="preload" href="/blog/page-data/SAS-Studio-Syntax/page-data.json" crossorigin="anonymous"/></head><body><script>(function() { try {
+        var mode = localStorage.getItem('theme-ui-color-mode');
+        if (!mode) return
+        document.body.classList.add('theme-ui-' + mode);
+      } catch (e) {} })();</script><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/blog/">Ayan&#x27;s Blog</a></h3></header><main><article><header><h1 style="margin-top:1.75rem;margin-bottom:0">Getting Started with SAS Programming - SAS Studio and Basic Syntax</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">October 12, 2020</p></header><section><p><em>This is first in a series of notes as I go through the course: <a href="https://www.coursera.org/learn/sas-programming-basics">Getting Started with SAS Programming</a>.</em></p>
+<h1>Welcome</h1>
+<h2>Welcome to the Course!</h2>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/42de8/steps-meaningful-accessible.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 39.78702807357212%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABtUlEQVQoz6WST0iTcRjHfxdDkaASPHSJwEPQpVOJBxU6SH9QCqGLeAjp1KGD5k0NSak1l9MtmBPDoWKam9vQNoaKo6lbm8tZJh4mEShOyD/TtPd99/GdexE9+8CX5/t9HvjBj+cjlFQKSZKPJcsKx1ntaSmKltUuaV7WlM7/Dg6QUX0qs0+pc8E56u9GAmV378xM/F7b4MOgG2PfKP0uHxPfvqP75OLtoBP31xCjkShvvvjQeSeY/LFE32IUfSiAKRxkamUJQ9RP23KQntUYSek/onvEg7hZxuWiSm7cf0rlKwM5j2q4+PgZxbXNlHZYyK1rJLe2gXJrL7eHbFyxGLlqNVM96eKS20Ses5MLdgOxrQSia3gccb2ErFsPuXa3iopGPaKsCnGvmjsvmihsMyOe16t6yYOujxTYrORbTeSYDTzxOch2Gsm2tyM+v2Mh/WD8zzod6nff2+z02j14ZsO0Djho6XcwMj3DcCjC6zEvreM+PAuLdM+HaQn40c8F8C7/RDfvR/criCUeY1c6PN9RthObKDvJs0dRFA0bWcMmjYisZdXLGjIn2JzKe/v7GYROYXMEY9QWTVqcgaEAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Steps to make data meaningful and accessible"
+        title="Steps to make data meaningful and accessible"
+        src="/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/fcda8/steps-meaningful-accessible.png"
+        srcset="/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/12f09/steps-meaningful-accessible.png 148w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/e4a3f/steps-meaningful-accessible.png 295w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/fcda8/steps-meaningful-accessible.png 590w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/efc66/steps-meaningful-accessible.png 885w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/42de8/steps-meaningful-accessible.png 1033w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><em>Fig. Steps to make data meaningful and accessible</em></p>
+<p>To make data meaningful and accessible:</p>
+<ul>
+<li><strong>access data</strong> or read it with a program</li>
+<li><strong>explore the data</strong> to see what’s there what you might need to add or change</li>
+<li><strong>prepare the data</strong> for analysis</li>
+<li><strong>analyze and report on the data</strong></li>
+<li><strong>export results</strong> to various report and data formats.</li>
+</ul>
+<h2>Choosing and Setting Up SAS Software for this Course</h2>
+<p>SAS Studio can be practiced in 2 ways -</p>
+<ul>
+<li><a href="http://support.sas.com/software/products/ondemand-academics/">SAS OnDemand for Analytics</a>: Nothing to download, runs on cloud.</li>
+<li><a href="http://support.sas.com/software/products/university-edition/index.html">SAS University Edition (vApp)</a>:  Need to download a software, runs offline.</li>
+</ul>
+<h2>Setting Up Practice Files</h2>
+<ul>
+<li><a href="http://dl.liveweb.sas.com/eldata/setupPG1_oda_coursera.htm">Follow these step-by-step instructions to set up your course practice files in SAS OnDemand for Academics</a></li>
+<li><a href="http://dl.liveweb.sas.com/eldata/setupPG1_ue_coursera.htm">Follow these step-by-step instructions to set up your course practice files in SAS University Edition</a></li>
+</ul>
+<h1>Using SAS Programming Tools</h1>
+<h2>SAS Programming Interfaces</h2>
+<p>SAS has several programming interfaces that one can use to write and submit code:</p>
+<ul>
+<li>SAS Studio</li>
+<li>SAS Enterprise Studio</li>
+<li>SAS Windowing Environment</li>
+</ul>
+<p>In this course, we’ll be using SAS studio.</p>
+<p>SAS studio contains 4 tabs</p>
+<ul>
+<li><strong>Editor</strong> to write and submit code</li>
+<li><strong>Log</strong> to view messages from SAS</li>
+<li><strong>Results</strong>, and</li>
+<li><strong>Output Data</strong> to view results</li>
+</ul>
+<p>To make programming much easier the editor contains - code completion, formatting and syntax coloring.</p>
+<h2>Programming with SAS Studio</h2>
+<p>We can use the navigation pane on the left to access data in different folders.</p>
+<p>SAS contains few reference. Let us open the CLASS table: Libraries → My Libraries → SASHELP → CLASS. Double clicking <code class="language-text">CLASS</code> opens the table in the data grid.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/e2ccb503093cdc9e664d396c00490049/c72f7/class-table.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.07832898172324%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABl0lEQVQoz21RyU7DQAzNNyNxQgWB4Ia4whkk1nKAGx9QaIs4wBkJELtY0iyTmcz2sJ2kKgJLTia25y1OstYfobc3wOLBEMtHY8zvDDC3PcDC3gUWds/R2x9Kb0lyhKVDmqfzxukVts6usXp8ifWTK2ye3WClP0aC6PA34szR08P9rv0bQZ7Je1rg+SOFtg7OB3ylGb4mOXyI8DEiLxW+6bsyNSz1la4pDRz186KEqZ1kmhUw1iOpa4u7xxfEGBACA07wmeZTXk2XtdYIsVHovZfkqOta7kTqGTrzO9HEfP/0ikBDXOBvzi6MMagqLSDcd87BUsosK6U6g1ZMSm8BfHh+kwFPloJvdhFbRQVZTicZXTCkwkIReKk0kVpkZFlVRgRkeSF9AXx8eZele2KwtmHnMwczs5LOGit1rWVDd31bb+yTZUZ9IMtUlUZOTG5mT6qqmh22BL93aMWVAFrbABaqwu39kzQZvCzLKStHqRT9zWKqys0oZFXdbnnXAshAn98TUcDJirqh6U9g9va7m+vsd3Uv9Ygffjr9tgqMrLkAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="CLASS table opened in SAS"
+        title="CLASS table opened in SAS"
+        src="/blog/static/e2ccb503093cdc9e664d396c00490049/fcda8/class-table.png"
+        srcset="/blog/static/e2ccb503093cdc9e664d396c00490049/12f09/class-table.png 148w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/e4a3f/class-table.png 295w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/fcda8/class-table.png 590w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/efc66/class-table.png 885w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/c83ae/class-table.png 1180w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/c72f7/class-table.png 1915w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><em>Fig. CLASS table opened in SAS</em></p>
+<ul>
+<li>On the left side, we have a panel that summarizes the columns and their attributes which can be minimized by clicking the left arrow button.</li>
+<li>Let us write a new program to analyze the data. A new tab can be opened by pressing <code class="language-text">F4</code> or by Options → New SAS Program.</li>
+</ul>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token comment">/* Reads SASHELP.CLASS tablereads that SASHELP.CLASS table
+and creates a copy called myclass. */</span>
+<span class="token step keyword">data</span> myclass<span class="token punctuation">;</span>
+	<span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>class<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token comment">/* Prints what in MYCLASS table */</span>
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">myclass</span><span class="token punctuation">;</span></span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span></code></pre></div>
+<p>Clicking on run (or pressing <code class="language-text">F3</code>) creates <code class="language-text">RESULT</code>.</p>
+<ul>
+<li>In the LOG tab, we can observe the notes. Since the program ran successfully we do not see any Errors or Warnings.</li>
+<li>RESULTS includes the report that was created for the new MYCLASS table.</li>
+<li>OUTPUT DATA displays the new table created: MYCLASS.</li>
+</ul>
+<p>To remove the extra space in the columns, we can right-click on any of the columns and choosing <code class="language-text">Size grid columns to content</code>.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/1cd97e0296190d9a56aab3995d1bea53/d9199/size-grid.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABuklEQVQoz3VS2Y6cMBDk//8vb4l2h2NgWBjAFz4wlWqTmZWixFLJTbtcXd2mOlMAcOC9zgxkfudY8vlIiFE4J5H/cDP+t6ppUdiMQ4gJKR2w1hX4ELH7gE0ZzM+Vu8Y4r1B2h2Peuh2RfGUsDPma+6YNKu8j6m5ApEAIAeumsKwbzvPEkTOMtlgpGMjbeDbPM9y+Ix1H4SsWMhTzLNLde1QhJHzWHRyriOj0XNAO09U9RR3da7o86Ebc9l8zVuYcuSkl+N0XCLdtO1SRrTYMUvBFRFpZNv0WtLxslOV5utyuGpq7oniMHAv5gsxu2oaCi434cRswcVc+icr3+zA2nItiq+JenOQjF7cSi6BzrkAEm6ZB5Tibn7eOw2bLJMtchCg4OCetdYF8e+/fZ7vfr53zFBSHbXu1XLd37Nbwj8kc/FYqirDEy7Lw1W25HPx3MRH522HXsWVH678+a87KlFcVNyImBHnRaZqKoLgVAckLhHPlQollCbf6Gid8fNxKxVeLUlEuGxYZhgF1XePxeKDve4zjWCB5yd2Zk1gg3VTehTJwEXzZf0FmJqJKqX9iI+7DWJw9HrI/8Ru/2VNtux1MUAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="size-grid"
+        title="size-grid"
+        src="/blog/static/1cd97e0296190d9a56aab3995d1bea53/fcda8/size-grid.png"
+        srcset="/blog/static/1cd97e0296190d9a56aab3995d1bea53/12f09/size-grid.png 148w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/e4a3f/size-grid.png 295w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/fcda8/size-grid.png 590w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/efc66/size-grid.png 885w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/d9199/size-grid.png 960w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><em>Fig. Size grid columns to content</em></p>
+<p>To keep this setting always in effect: Choose <code class="language-text">more application options</code> on the top bar → Preferences → Size grid columns to content → Save.</p>
+<p>To run a selected portion of code: Select the portion of the code → Click on Run (or press <code class="language-text">F3</code>).</p>
+<p>The screen can be split into two halves by clicking the tab name (LOG or RESULTS or OUTPUT DATA ) and then dragging it into the left part of the screen. To unsplit simply click the tab name and drag it back to the original place (left half).</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/7c6809bf88496f4c07aec3b56dde2427/29114/split-screen.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 47.65625%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABgUlEQVQoz32SSU/DMBCF+7s5AoeyiBtXhDiCEIjlwAXBEYFYJeAHIBVo43iNYyfOY+y0KS0VlkZOJjOf3/il1z+6Q//4Hptnz1g5vMXywQ2WaV/av8Pq0QPWTx9TbFCsnTyif9Luu1dv2Ll8xdb5M7YvXrB3/U6MJ/Qwv4IDGj9+af58rusa/63eiCtYX6EKDYwtMWQ5pCnAhYCQinIOQhtkQqc6qQooU+KbKQwzia8R1SkLVwWUrkYvhICmaZU4amBcJhVSaVRV1alyzsFai4oEUhkG3zmyjGE4yiClplxDEdqRp0CPzyGDj0pInfft6DUdGoHGmNTofCB1pExwCM6haaKFwLoOsKVLygwVdQo7YDEGNvgkhZxgeZ5D6zngBDoBx2sQQhKw7g6aAVJ8DEZgWQbGGJQyixVGgCVj4shK6ylwTmGMODLngmAapigXA8uyRFHYZAIjt6emRAfbO4ylk/om9aLLBfpTZk1xnqCuHVnKmTv09DwxKaFSz+9oOT9cf/7nNKLfVAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Split Screen"
+        title="Split Screen"
+        src="/blog/static/7c6809bf88496f4c07aec3b56dde2427/fcda8/split-screen.png"
+        srcset="/blog/static/7c6809bf88496f4c07aec3b56dde2427/12f09/split-screen.png 148w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/e4a3f/split-screen.png 295w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/fcda8/split-screen.png 590w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/efc66/split-screen.png 885w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/c83ae/split-screen.png 1180w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/29114/split-screen.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><em>Fig. Split Screen</em></p>
+<h2>Practice: Exploring SAS Studio</h2>
+<p><a href="https://d3c33hcgiwev3.cloudfront.net/KKYuHZQpEemX8g5wksC5BA_9125778769af4779ac8d98c3df3bd4d0_exploring_SAS_Studio.pdf?Expires=1602720000&#x26;Signature=ILf12f32TUtfhsNvzeD6IXVDM1--X-MDIYmg8pNR4LNTqn-dOoHrKebR4UW~cocVq0Y2xnuj-9y~iMMMsPeQXsrmZw5QGqt2C2Y8ZlrW8-xzToufdBl52XdXdWMg1Rc4w7euIlFpUxzkAMVrgrLZNszXBj1pGlRTkQzOxPp~i7I_&#x26;Key-Pair-Id=APKAJLTNE6QMUY6HBC5A">PDF</a>.</p>
+<h1>Understanding SAS Syntax</h1>
+<h2>SAS Program Structure</h2>
+<p>SAS programs consist of a number of steps. There are 2 types of steps: PROC step (procedure) and DATA step. A step generally ends with a <code class="language-text">run</code> statement (some <code class="language-text">proc</code> steps also ends with <code class="language-text">quit</code> statement). If a <code class="language-text">run</code> statement is not specified the beginning of <code class="language-text">proc</code> or <code class="language-text">data</code> keyword signals <code class="language-text">run</code> statement of previous step.</p>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">data</span> myclass<span class="token punctuation">;</span>
+	<span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>class<span class="token punctuation">;</span>
+	heightcm <span class="token operator">=</span> height <span class="token operator">*</span> <span class="token number">2.54</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">myclass</span><span class="token punctuation">;</span></span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">myclass</span><span class="token punctuation">;</span></span>
+	<span class="token keyword">var</span> age heightcm<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span></code></pre></div>
+<p>The above program contains 3 steps - 1 DATA and 2 PROC steps.</p>
+<p>A DATA step generally reads data from an input source, processes it, and creates a SAS table.  A DATA step might also filter rows, compute new columns, join tables, and perform other data manipulations. In this program, the DATA step is creating an output table and adding a new column.</p>
+<p>A PROC or procedure step processes a SAS table in a specific a predefined way. In this program, the proc print step generates a list of all the rows and columns in the data, and the proc means step calculates basic summary statistics - Number (N), Mean, Standard Deviation, Maximum and Minimum.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 266px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 160.90225563909775%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAAAsSAAALEgHS3X78AAAFMElEQVRIx51WWW/bRhD2v+5DgQZ9SOM0aI4CeShQIE9JmzZAYsd2LMmHqJMSLx0UqfsgJVKUZEmRfMqSvs4uLcdOnAQogQ+z3OPjzO7Mx11bLpdgz2KxwP992NoVz9pNsul0ilqthmaziUbj22Bz6vU6XNe9Jmakaysy27ZxcHAAQ9dRyOdvIPcZPvWbBR3JRAKyLH8iZI2zszMIQhgNy0amaqPQ6kJvuhysbVgetzf7GXJ1B2XLQSIR5x5fh9xoNFA0DVjeEUR7gsJoidzRHPnhHJneBaTOFNn+DBnvHHnWf4XccAm55qLndSGmUjcJmzANAzYRyrTYHC+gH12iPAW2RB0v3gbwx+tNvArEkOmewhwtUKBx9mGt4aLf8yCKXxAWfELnmBOZ4yVKE0Cld9n+iFjJQbzqofgR1zAJauNODxs+Ye8IaVrMvEzbYw65M6GPTKG4J1CInI1L7QkkGtN65+Rh1ycUPyM06MS6o2NsCBIkLYNSrQ6jVIZRrnCYlSq3erGEjF5AjvB+X6A97NwVsk/oEuF2TEZGUyGl05AlCZqqQqc0UWQJ2YyGXDaD5WLOF0tZHamyhUG/93XCLSLU9TzMYpEnuWVZ6PV6vO04Dt/vxVVVpLQ8Edp3E7IkdYZTbMcVzC7OMbu85LnFCFutFjzPQ6fT4ZVRLJVwfnYKKVf4joeMMKbg9PSEKqeNcDhMCS9Q4iaQp7BFUYRKWxCPxzEcDKDoJsTSdwh34ipN6GM2m+GSvJzP5xysrJhl/asnlflGyKs9ZITRaAQ7Ox8QCoW4h2k6oL29PcRiMRqL4nLuH4qcN74dcnd8grcHCb6f7bYNq9WEbbXQdR3edpwOmo062iQkg14XISGKdOVrh0KJ3e6PESl3ETFbiJZsRIsMFgT2Tu2IaV1bodCkuQ7UZu/uSimaJhyvj0i2BI1URK62oVQ73N5Gh/crlNBShd4LZQyPjpCkA7tNWDTRdj3sUB6GNQOHSoEjrJmIZIoQyDKs+g/VAvZlHXFNx3BIhEnxjlomcdBIosonVPwkEKVjcBmTO8fIDS65hBUn/hgHzdNa/a+Jg4E2iYPc/sjlSR/MUKbFm4mcL19/b+DlrkDydQKDy9eM5GtB29O9u5Z9PRxw+WLSxCYbJGEa6Z/mHkOsD5BsDHgfI+Tg8tW928MS1W7b7eJd8BDBqIhAJMnB2gyhWIojICSvx3YO44ilVYzHI9rD5Gcemn7IYq2PvHuKLHmapb3TvTMY/QsO1s6xfgKzGecEKp28n4c3D6XpK7bVZb+AMxTHFPLQV+VYxcN2qoCAWkbY7NCvYU5hg0Jecqs2PB5y6mbI7P9aorSxvSFU95xLvzECKnTKAa2KN+E0XmwE8fpAJEL/pNl/xySrUWJ/4SGTJFVR0HJ7COuUtM0J0vUxh2JNoLWnUMlK9SHkJvU3RpAIqfoIMlVUo16Dpmk+4eoKwQo/l8tDUkUI8V1EkyEOIR5AJBH0Qe++DdJYkMaCXIj3Qnv81nGLkD3JRBpvtn9FzHyMcPY3HGYeIVV5hrj5FIniU2r/jgRrE8TyM+wrD/Fu419MJ8fXd5y11RXCv0sAEeUFBP0JXm7dI7F9iAPlMf7auYet6Dr+/OcHvI+s49XWT9hJPCJxfY6WXeVL51eSxj1cEV6cX2Iz9BwfUvcRTD0krGMrch8f4r9gN/kALzd/xG5infAAQvYJ3u7/jHLVuHUDu/ZwRer1XDStCiybflD0datdu0IVbafOLXtv0ZyWVcXFxQVuRvkfSxcD7AoQCkQAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Step consists of Statements"
+        title="Step consists of Statements"
+        src="/blog/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png"
+        srcset="/blog/static/be118c2f584422557df650a56996452a/12f09/steps-statements.png 148w,
+/blog/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png 266w"
+        sizes="(max-width: 266px) 100vw, 266px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><em>Fig. Step consists of Statements</em></p>
+<p>Statements must finish with a semicolon (;). A SAS program can also contain global statements - TITLE, OPTIONS, LIBNAME. They reside outside of the proc and data steps and do not need a run statement after them.</p>
+<h2>Activity 1.01</h2>
+<p>Open the file <code class="language-text">activities/p101a03.sas</code>.</p>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">data</span> mycars<span class="token punctuation">;</span>
+	<span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>cars<span class="token punctuation">;</span>
+	AvgMPG<span class="token operator">=</span><span class="token function keyword">mean</span><span class="token punctuation">(</span>mpg_city<span class="token punctuation">,</span> mpg_highway<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span> <span class="token string">"Cars with Average MPG Over 35"</span><span class="token punctuation">;</span>
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span><span class="token punctuation">;</span></span>
+	<span class="token keyword">var</span> make model type avgmpg<span class="token punctuation">;</span>
+	<span class="token keyword">where</span> AvgMPG <span class="token operator">></span> <span class="token number">35</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span> <span class="token string">"Average MPG by Car Type"</span><span class="token punctuation">;</span>
+<span class="token step keyword">proc means</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span> <span class="token arg keyword">mean</span> <span class="token arg keyword">min</span> <span class="token arg keyword">max</span> <span class="token arg keyword">maxdec</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span></span>
+	<span class="token keyword">var</span> avgmpg<span class="token punctuation">;</span>
+	<span class="token keyword">class</span> type<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span><span class="token punctuation">;</span></code></pre></div>
+<p>Q: How many steps are in the program?</p>
+<p>A: 3 (1 DATA and 2 PROC).</p>
+<p>Q: How many statements are in the PROC PRINT step?</p>
+<p>A: 4 (PROC, VAR, WHERE, and RUN).</p>
+<p>Q: How many global statements are in the program?</p>
+<p>A: 3 (TITLE)</p>
+<p>Q: Run the program and view the log. How many observations (rows) are read by the PROC PRINT step?</p>
+<p>A: 11</p>
+<h2>SAS Program Syntax</h2>
+<ul>
+<li>Spacing doesn’t matter in SAS code. However, consistent program spacing is a good practice to make programs legible.</li>
+<li>Unquoted values can be lowercase, upper case, or mixed case.</li>
+<li>To comment out multiple lines of code use: <code class="language-text">/* comment... */</code> and add <code class="language-text">*</code>to comment out a statement. We can comment using <code class="language-text">Ctrl + /</code>.</li>
+</ul>
+<h2>Understanding SAS Program Syntax</h2>
+<p>Consider the following code:</p>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">data</span> mycars<span class="token punctuation">;</span> <span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>cars<span class="token punctuation">;</span>
+	AvgMPG<span class="token operator">=</span><span class="token function keyword">mean</span><span class="token punctuation">(</span>mpg_city<span class="token punctuation">,</span> mpg_highway<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+<span class="token keyword">title</span> <span class="token string">"Cars with Average MPG Over 35"</span><span class="token punctuation">;</span>
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span><span class="token punctuation">;</span></span>
+<span class="token keyword">var</span> make model type avgmpg<span class="token punctuation">;</span>
+<span class="token keyword">where</span> AvgMPG <span class="token operator">></span> <span class="token number">35</span><span class="token punctuation">;</span> <span class="token step keyword">run</span><span class="token punctuation">;</span>
+<span class="token keyword">title</span> <span class="token string">"Average MPG by Car Type"</span><span class="token punctuation">;</span>
+<span class="token step keyword">proc means</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span> 
+<span class="token arg keyword">mean</span> <span class="token arg keyword">min</span> <span class="token arg keyword">max</span> <span class="token arg keyword">maxdec</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span></span> 
+<span class="token keyword">var</span> avgmpg<span class="token punctuation">;</span>class type<span class="token punctuation">;</span>
+<span class="token step keyword">RUN</span><span class="token punctuation">;</span>TITLE<span class="token punctuation">;</span></code></pre></div>
+<p>Even though it runs successfully, it is not properly indented and thus makes it harder to understand. We can use the <code class="language-text">format code</code> button to format a code (proper spacing).</p>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">data</span> mycars<span class="token punctuation">;</span>
+	<span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>cars<span class="token punctuation">;</span>
+	AvgMPG<span class="token operator">=</span><span class="token function keyword">mean</span><span class="token punctuation">(</span>mpg_city<span class="token punctuation">,</span> mpg_highway<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span> <span class="token string">"Cars with Average MPG Over 35"</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span><span class="token punctuation">;</span></span>
+	<span class="token keyword">var</span> make model type avgmpg<span class="token punctuation">;</span>
+	<span class="token keyword">where</span> AvgMPG <span class="token operator">></span> <span class="token number">35</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span> <span class="token string">"Average MPG by Car Type"</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc means</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span> <span class="token arg keyword">mean</span> <span class="token arg keyword">min</span> <span class="token arg keyword">max</span> <span class="token arg keyword">maxdec</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span></span>
+	<span class="token keyword">var</span> avgmpg<span class="token punctuation">;</span>
+	<span class="token keyword">class</span> type<span class="token punctuation">;</span>
+<span class="token step keyword">RUN</span><span class="token punctuation">;</span>
+
+<span class="token keyword">TITLE</span><span class="token punctuation">;</span></code></pre></div>
+<h2>Finding and Resolving Syntax Errors</h2>
+<p>Common syntax errors: unmatched quotes, missing semicolons, misspelled keywords, and invalid options. Syntax errors might result in a warning or error in the log.</p>
+<p>During running the code, SAS corrects misspelled keywords (daat → data or prco —> proc).</p>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token comment">/* data misspelled */</span>
+daat mycars<span class="token punctuation">;</span>
+	<span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>cars<span class="token punctuation">;</span>
+	AvgMPG<span class="token operator">=</span><span class="token function keyword">mean</span><span class="token punctuation">(</span>mpg_city<span class="token punctuation">,</span> mpg_highway<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span> <span class="token string">"Cars with Average MPG Over 35"</span><span class="token punctuation">;</span>
+<span class="token comment">/* missing semicolon */</span>
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span>
+	<span class="token arg keyword">var</span> <span class="token arg keyword">make</span> <span class="token arg keyword">model</span> <span class="token arg keyword">type</span> <span class="token arg keyword">avgmpg</span><span class="token punctuation">;</span></span>
+	<span class="token keyword">where</span> AvgMPG <span class="token operator">></span> <span class="token number">35</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span> <span class="token string">"Average MPG by Car Type"</span><span class="token punctuation">;</span>
+<span class="token comment">/* we cannot use average, mean can be used instead */</span>
+<span class="token step keyword">proc means</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span> <span class="token arg keyword">average</span> <span class="token arg keyword">min</span> <span class="token arg keyword">max</span> <span class="token arg keyword">maxdec</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span></span>
+	<span class="token keyword">var</span> avgmpg<span class="token punctuation">;</span>
+	<span class="token keyword">class</span> type<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span><span class="token punctuation">;</span></code></pre></div>
+<p>Consider the above code. There are 3 syntax errors (commented). We can run the code and observe the log.</p>
+<ul>
+<li>SAS assumes that <code class="language-text">daat</code> is misspelled of <code class="language-text">data</code> and runs successfully</li>
+<li>SAS suggests that we can use semicolon (along with some more options) before <code class="language-text">var</code></li>
+<li>SAS says that <code class="language-text">average</code> is not expected and suggests a number of keywords</li>
+</ul>
+<p>Let’s fix the errors.</p>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">data</span> mycars<span class="token punctuation">;</span>
+	<span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>cars<span class="token punctuation">;</span>
+	AvgMPG<span class="token operator">=</span><span class="token function keyword">mean</span><span class="token punctuation">(</span>mpg_city<span class="token punctuation">,</span> mpg_highway<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span> <span class="token string">"Cars with Average MPG Over 35"</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span><span class="token punctuation">;</span></span>
+	<span class="token keyword">var</span> make model type avgmpg<span class="token punctuation">;</span>
+	<span class="token keyword">where</span> AvgMPG <span class="token operator">></span> <span class="token number">35</span><span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span> <span class="token string">"Average MPG by Car Type"</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc means</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">mycars</span> <span class="token arg keyword">mean</span> <span class="token arg keyword">min</span> <span class="token arg keyword">max</span> <span class="token arg keyword">maxdec</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span></span>
+	<span class="token keyword">var</span> avgmpg<span class="token punctuation">;</span>
+	<span class="token keyword">class</span> type<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token keyword">title</span><span class="token punctuation">;</span></code></pre></div>
+<p>The above code runs successfully without any errors or warnings.</p>
+<h2>Activity 1.02</h2>
+<p>Q: Open <strong>p101a04.sas</strong> from the <strong>activities</strong> folder and perform the following tasks:</p>
+<ol>
+<li>Format the program to improve the spacing. Notice that a syntax error is detected. Fix the error and run the program.</li>
+<li>Read the log and identify any additional syntax errors. Correct the syntax errors and format the program again.</li>
+<li>Add a comment to describe the changes that you made to the program.</li>
+<li>Run the program and examine the log and results.</li>
+</ol>
+<p>How many rows are in the <strong>canadashoes</strong> data?</p>
+<p>A:</p>
+<p>Original code:</p>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">data</span> canadashoes<span class="token punctuation">;</span>
+	<span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>shoes<span class="token punctuation">;</span>
+	<span class="token keyword">where</span> region<span class="token operator">=</span>"Canada<span class="token punctuation">;</span>
+	Profit<span class="token operator">=</span>Sales<span class="token operator">-</span>Returns<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+porc <span class="token keyword">print</span> <span class="token keyword">data</span><span class="token operator">=</span>canadashoes<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span></code></pre></div>
+<p>Fixed code:</p>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">data</span> canadashoes<span class="token punctuation">;</span>
+	<span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>shoes<span class="token punctuation">;</span> <span class="token comment">/* missing semicolon */</span> 
+	<span class="token keyword">where</span> region<span class="token operator">=</span><span class="token string">"Canada"</span><span class="token punctuation">;</span> <span class="token comment">/* unbalanced quote */</span>
+	Profit<span class="token operator">=</span>Sales<span class="token operator">-</span>Returns<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">canadashoes</span><span class="token punctuation">;</span></span> <span class="token comment">/* misspelled proc */</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span></code></pre></div>
+<h2>Quiz</h2>
+<ol>
+<li>How many steps does this program contain?</li>
+</ol>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">data</span> national<span class="token punctuation">;</span>
+    <span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>baseball<span class="token punctuation">;</span>
+    BatAvg<span class="token operator">=</span>nHits<span class="token operator">/</span>nAtBat<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc contents</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">national</span><span class="token punctuation">;</span></span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">national</span><span class="token punctuation">;</span></span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc means</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">national</span><span class="token punctuation">;</span></span>
+    <span class="token keyword">var</span> BatAvg<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span></code></pre></div>
+<p>A: 4 (1 data, 3 proc).</p>
+<ol start="2">
+<li>Running a SAS program can create which of the following? Select all that apply.</li>
+</ol>
+<p>A: log, output data, results</p>
+<ol start="3">
+<li>Which of the following is a SAS syntax requirement?</li>
+</ol>
+<p>A: End each statement with a semicolon</p>
+<ol start="4">
+<li>Which of the following steps is typically used to generate reports and graphs?</li>
+</ol>
+<p>A: PROC</p>
+<ol start="5">
+<li>Does this comment contain syntax errors?</li>
+</ol>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token comment">/*
+Report created for budget
+presentation; revised October 15.
+  */</span>
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">work.newloan</span><span class="token punctuation">;</span></span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span></code></pre></div>
+<p>A: No, the comment is correctly specified.</p>
+<ol start="6">
+<li>What result would you expect from submitting this step?</li>
+</ol>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">work.newsalesemps</span>
+<span class="token arg keyword">run</span><span class="token punctuation">;</span></span></code></pre></div>
+<p>A: An error message in the log (semicolon missing).</p>
+<ol start="7">
+<li>What happens if you submit the following program?</li>
+</ol>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas">porc <span class="token keyword">print</span> <span class="token keyword">data</span><span class="token operator">=</span>work<span class="token punctuation">.</span>newsalesemps<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span></code></pre></div>
+<p>A: SAS assumes PROC is misspelled and executes the step.</p>
+<ol start="8">
+<li>This program contains a syntax error because National is in different cases.</li>
+</ol>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token step keyword">data</span> national<span class="token punctuation">;</span>
+    <span class="token keyword">set</span> sashelp<span class="token punctuation">.</span>baseball<span class="token punctuation">;</span>
+    BatAvg<span class="token operator">=</span>nHits<span class="token operator">/</span>nAtBat<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc means</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">NATIONAL</span><span class="token punctuation">;</span></span>
+    <span class="token keyword">var</span> BatAvg<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span></code></pre></div>
+<p>A: No. (unquoted values are case-insensitive).</p>
+<ol start="9">
+<li>How many statements does this program contain?</li>
+</ol>
+<div class="gatsby-highlight" data-language="sas"><pre class="language-sas"><code class="language-sas"><span class="token comment">*Create a cars report;</span>
+
+<span class="token keyword">title</span> <span class="token string">"European Cars Priced Over 30K"</span><span class="token punctuation">;</span>
+footnote <span class="token string">"Internal Use Only"</span><span class="token punctuation">;</span>
+
+<span class="token step keyword">proc print</span> <span class="token proc-args"><span class="token arg keyword">data</span><span class="token operator">=</span><span class="token arg-value">sashelp.cars</span><span class="token punctuation">;</span></span>
+    <span class="token keyword">where</span> Origin<span class="token operator">=</span><span class="token string">'Europe'</span>
+          <span class="token keyword">and</span> MSRP<span class="token operator">></span><span class="token number">30000</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> Make Model Type
+        Mpg_City Mpg_Highway<span class="token punctuation">;</span>
+<span class="token step keyword">run</span><span class="token punctuation">;</span></code></pre></div>
+<p>A: 6</p></section><hr style="margin-bottom:1.75rem"/><footer><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABm5HNM3FA55GiC1MOf//EABoQAAMAAwEAAAAAAAAAAAAAAAECAwAREyH/2gAIAQEAAQUC6EBDWblxjHR8zeUc9L+SSrEf/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAIxEBH/2gAIAQMBAT8BSHRZn//EABgRAQEAAwAAAAAAAAAAAAAAAAEQAhEx/9oACAECAQE/AVdzLpP/xAAgEAABAwIHAAAAAAAAAAAAAAABABAxAgMREiEiQVFx/9oACAEBAAY/AtsntY1XRWDw2qgN4swlv//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExYRBR/9oACAEBAAE/IWmrdQ6HYN2SXzkQwTQJFAV5X7bWQC4MHEsbU//aAAwDAQACAAMAAAAQbPD9/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxBFbZRuQ//EABcRAQADAAAAAAAAAAAAAAAAAAEAEBH/2gAIAQIBAT8QMAm3P//EABsQAQEBAAIDAAAAAAAAAAAAAAERACFBMVFx/9oACAEBAAE/EOJ0gH0XwM23iLmmL6S5ys1rBke8pwJBOjzl3zgl4FD3cIEoPRugFtlk3//Z" alt="Ayan Banerjee" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/blog/static/c8200cce63fc4e1467b52c3bb1278662/99438/profile-pic.jpg 1x,
+/blog/static/c8200cce63fc4e1467b52c3bb1278662/aba1d/profile-pic.jpg 1.5x,
+/blog/static/c8200cce63fc4e1467b52c3bb1278662/b315d/profile-pic.jpg 2x" /><img loading="lazy" width="50" height="50" srcset="/blog/static/c8200cce63fc4e1467b52c3bb1278662/99438/profile-pic.jpg 1x,
+/blog/static/c8200cce63fc4e1467b52c3bb1278662/aba1d/profile-pic.jpg 1.5x,
+/blog/static/c8200cce63fc4e1467b52c3bb1278662/b315d/profile-pic.jpg 2x" src="/blog/static/c8200cce63fc4e1467b52c3bb1278662/99438/profile-pic.jpg" alt="Ayan Banerjee" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>Ayan Banerjee</strong> is a software developer.<!-- --> <a href="https://ayan-b.github.io">Here&#x27;s his profile.</a></p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/blog/GSoC20-Proposal/">← <!-- -->GSoC 2020 Proposal - INCF</a></li><li></li></ul></nav><script async="" src="https://comments.app/js/widget.js?3" data-comments-app-website="zxyJ98F6" data-limit="100"></script></main><footer>© <!-- -->2019 -2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-121107357-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/SAS-Studio-Syntax/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-7dbfc4cf11f00f1d3b0b.js"],"component---node-modules-gatsby-theme-notes-src-templates-notes-js":["/component---node-modules-gatsby-theme-notes-src-templates-notes-js-29ef486a0b616a3b4f58.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-89f423fdba6ad932db5b.js"],"component---src-pages-404-js":["/component---src-pages-404-js-dfd5f3ab6314ed13a0f9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-06b15f9730f21c212651.js"]};/*]]>*/</script><script src="/blog/webpack-runtime-e955bff69397da5bb88c.js" async=""></script><script src="/blog/styles-47121d392bbea5e6e153.js" async=""></script><script src="/blog/app-7dbfc4cf11f00f1d3b0b.js" async=""></script><script src="/blog/commons-01943c0ffa6bebbbcbaf.js" async=""></script><script src="/blog/component---src-templates-blog-post-js-89f423fdba6ad932db5b.js" async=""></script></body></html>
