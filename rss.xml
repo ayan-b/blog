@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 13 Oct 2020 14:34:56 GMT</lastBuildDate><item><title><![CDATA[Getting Started with SAS Programming - SAS Studio and Basic Syntax]]></title><description><![CDATA[This is first in a series of notes as I go through the course: Getting Started with SAS Programming. Welcome Welcome to the Course!  Fig…]]></description><link>https://ayan-b.github.io/SAS-Studio-Syntax/</link><guid isPermaLink="false">https://ayan-b.github.io/SAS-Studio-Syntax/</guid><pubDate>Mon, 12 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;This is first in a series of notes as I go through the course: &lt;a href=&quot;https://www.coursera.org/learn/sas-programming-basics&quot;&gt;Getting Started with SAS Programming&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ayan's Blog]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 18 Oct 2020 08:36:51 GMT</lastBuildDate><item><title><![CDATA[Getting Started with SAS Programming - SAS Studio and Basic Syntax]]></title><description><![CDATA[This is first in a series of notes as I go through the course: Getting Started with SAS Programming. Welcome Welcome to the Course!  Fig…]]></description><link>https://ayan-b.github.io/SAS-Studio-Syntax/</link><guid isPermaLink="false">https://ayan-b.github.io/SAS-Studio-Syntax/</guid><pubDate>Mon, 12 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;This is first in a series of notes as I go through the course: &lt;a href=&quot;https://www.coursera.org/learn/sas-programming-basics&quot;&gt;Getting Started with SAS Programming&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;h1&gt;Welcome&lt;/h1&gt;
 &lt;h2&gt;Welcome to the Course!&lt;/h2&gt;
 &lt;p&gt;&lt;span
@@ -888,7 +888,200 @@ are ignored. Along with this, you also need to specify the &lt;code class=&quot;
 &lt;li&gt;&lt;a href=&quot;peaceiris/actions-gh-pages&quot;&gt;actions-gh-pages&lt;/a&gt;: for deploying to GitHub pages&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/sb2nov/resume&quot;&gt;sb2nov/resume&lt;/a&gt;: for the awesome resume design&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Please let me know if you have any feedback or if you want me to add new features! Thank you!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GSoC 2020 Report: Upgrade and Fix tvb-gdist C++ Library]]></title><description><![CDATA[Thank You Note It was a pleasure working under my mentors Lia and Paula. Thank you for the constant guidance and valuable feedback whenever…]]></description><link>https://ayan-b.github.io/GSoC-2020-Report/</link><guid isPermaLink="false">https://ayan-b.github.io/GSoC-2020-Report/</guid><pubDate>Wed, 26 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Thank You Note&lt;/h2&gt;
+&lt;p&gt;Please let me know if you have any feedback or if you want me to add new features! Thank you!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub Action - Use GitHub Gists as a Todo List]]></title><description><![CDATA[Want to use GitHub gists as a todo list? ☑️ Introducing gist-todo-list-action
+(https://github.com/ayan-b/gist-todo-list-action)! Be sure to…]]></description><link>https://ayan-b.github.io/github-gists-as-todo-list/</link><guid isPermaLink="false">https://ayan-b.github.io/github-gists-as-todo-list/</guid><pubDate>Fri, 04 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Want to use GitHub gists as a todo list? ☑️ Introducing [gist-todo-list-action]
+(&lt;a href=&quot;https://github.com/ayan-b/gist-todo-list-action&quot;&gt;https://github.com/ayan-b/gist-todo-list-action&lt;/a&gt;)! Be sure to check the README
+for more info on how to use it. I will soon write a blog post how I created the
+action.&lt;/p&gt;
+&lt;p&gt;This is my submission for &lt;a href=&quot;https://githubhackathon.com&quot;&gt;GitHub Hackathon&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GitHub declared everyone as a winner 🎉🥳 and I received this nice glass and a
+pack of stickers! Here’s the &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1YL6mjJXGt3-75GejQCubsOvWwtYcGaqbJA7msnsh7Tg/edit#gid=0&quot;&gt;winner list&lt;/a&gt;.
+My submission is on line 159 😉.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/03b5eddb24436afd75c5a0adacfee3da/c83bb/github-hackathon-glass.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFUmXlcUA//xAAZEAEBAAMBAAAAAAAAAAAAAAACAQAEEkL/2gAIAQEAAQUC8a1hSNlNmCIYdw8//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAES/9oACAEDAQE/AYy//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aa1//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERIQIQIjH/2gAIAQEABj8CZLZepxijr0//xAAaEAADAQEBAQAAAAAAAAAAAAAAARFBIVFh/9oACAEBAAE/IeNHxkq1yTSKGlDxLpqnpIl+4j//2gAMAwEAAgADAAAAEGzv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxBVdZZ//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EKZf/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAIVExYaH/2gAIAQEAAT8QGu8l8za4gBVfU0HxlGcJ3msFvauFxoqqybqOhv/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GitHub Hackathon Glass&quot;
+        title=&quot;GitHub Hackathon Glass&quot;
+        src=&quot;/blog/static/03b5eddb24436afd75c5a0adacfee3da/1c72d/github-hackathon-glass.jpg&quot;
+        srcset=&quot;/blog/static/03b5eddb24436afd75c5a0adacfee3da/a80bd/github-hackathon-glass.jpg 148w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/1c91a/github-hackathon-glass.jpg 295w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/1c72d/github-hackathon-glass.jpg 590w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/a8a14/github-hackathon-glass.jpg 885w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/fbd2c/github-hackathon-glass.jpg 1180w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/c83bb/github-hackathon-glass.jpg 4608w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/f1ab64bee5004cae19872de77488e2ac/c83bb/github-hackathon-stickers-pack.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABmu3SmBXD/8QAGxAAAwEAAwEAAAAAAAAAAAAAAQIDAAQREyL/2gAIAQEAAQUC8T0s8ZjRcyYIaZeP8//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIBBQAAAAAAAAAAAAAAAAABIRARElFh/9oACAEBAAY/Au6qxu8sWTk//8QAGxABAAIDAQEAAAAAAAAAAAAAAQARIUFhMVH/2gAIAQEAAT8hqKK/DctBVz2D9WXUXiqlUVycliO7z//aAAwDAQACAAMAAAAQzy//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBX/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8QiP/EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQVGBocH/2gAIAQEAAT8QFT9UDt13FGnIvZ436ipdUEpWCmfY3SazE7rYGLfITAQvvM//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GitHub Hackathon Stickers Pack&quot;
+        title=&quot;GitHub Hackathon Stickers Pack&quot;
+        src=&quot;/blog/static/f1ab64bee5004cae19872de77488e2ac/1c72d/github-hackathon-stickers-pack.jpg&quot;
+        srcset=&quot;/blog/static/f1ab64bee5004cae19872de77488e2ac/a80bd/github-hackathon-stickers-pack.jpg 148w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/1c91a/github-hackathon-stickers-pack.jpg 295w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/1c72d/github-hackathon-stickers-pack.jpg 590w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/a8a14/github-hackathon-stickers-pack.jpg 885w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/fbd2c/github-hackathon-stickers-pack.jpg 1180w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/c83bb/github-hackathon-stickers-pack.jpg 4608w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The following text is taken from the project readme.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;h3&gt;Before&lt;/h3&gt;
+&lt;p&gt;Create a Todo List in a GitHub Gist (following the
+&lt;a href=&quot;https://help.github.com/en/github/managing-your-work-on-github/about-task-lists#creating-task-lists&quot;&gt;task list syntax&lt;/a&gt;)
+and create a list, and check the tasks you have done off during the day.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ayan-b/gist-todo-list-action/master/images/before-todo.png&quot; alt=&quot;before todo&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;After&lt;/h3&gt;
+&lt;p&gt;After midnight your done tasks will be transferred to the done list. In this
+way you will have a history of your list!&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Todo&lt;/th&gt;
+&lt;th&gt;Done&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ayan-b/gist-todo-list-action/master/images/after-todo.png&quot; alt=&quot;after todo&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ayan-b/gist-todo-list-action/master/images/done.png&quot; alt=&quot;done&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;First create two gists from &lt;a href=&quot;https://gist.github.com&quot;&gt;https://gist.github.com&lt;/a&gt;, namely &lt;code class=&quot;language-text&quot;&gt;todo&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;done&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Add file &lt;code class=&quot;language-text&quot;&gt;todo.md&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;done.md&lt;/code&gt; to them respectively. The file content should
+be a single header &lt;code class=&quot;language-text&quot;&gt;# Todo&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;# Done&lt;/code&gt; respectively.&lt;/li&gt;
+&lt;li&gt;Generate a new personal access token with gist scope from
+here: &lt;a href=&quot;https://github.com/settings/tokens/new&quot;&gt;https://github.com/settings/tokens/new&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Fork this repository. Note that if you want to use GitHub Action from market place,
+you don’t need to fork this repository. See &lt;a href=&quot;#using-with-github-action&quot;&gt;this&lt;/a&gt; for more instruction.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add the gist IDs as &lt;code class=&quot;language-text&quot;&gt;TODO_GIST&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;DONE_GIST&lt;/code&gt; and the personal access token as
+&lt;code class=&quot;language-text&quot;&gt;GH_TOKEN&lt;/code&gt; to your repository secrets: &lt;code class=&quot;language-text&quot;&gt;https://github.com/&amp;lt;your_username&amp;gt;/&amp;lt;repository_name&amp;gt;/settings/secrets&lt;/code&gt;.
+It will look something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ayan-b/gist-todo-list-action/master/images/secrets.png&quot; alt=&quot;secrets.jpg&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gist ID is the part of the URL after your username. For example the gist ID
+of this gist &lt;code class=&quot;language-text&quot;&gt;https://gist.github.com/ayan-b/1b44e52eifj09bc75c914f6fedf95304&lt;/code&gt;
+is &lt;code class=&quot;language-text&quot;&gt;1b44e52eifj09bc75c914f6fedf95304&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;Now you have your todo list using GitHub gist!&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Optional&lt;/strong&gt;: Change the time of &lt;a href=&quot;https://github.com/ayan-b/gist-todo-list-action/blob/master/.github/workflows/update-list.yml&quot;&gt;cron job&lt;/a&gt;
+in the workflow file according to your time zone so that the todo and done
+list update exactly at midnight (and not at UTC midnight)!&lt;/p&gt;
+&lt;p&gt;Here’s one for IST time zone (UTC +5:30). Note the use of &lt;code class=&quot;language-text&quot;&gt;TIME_ZONE&lt;/code&gt; environment
+variable and the change in cron job.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Update Todo List IST
+
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;pull_request&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;schedule&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;cron&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;30 5 * * *&quot;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# 0 + time zone difference time&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+
+    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest
+
+    &lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/checkout@v2
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Set up Python 3.8
+      &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/setup&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;python@v1
+      &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;python-version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3.8&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Install dependencies
+      &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Lint with flake8
+      &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+        pip install flake8
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings.
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=79 --statistics&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Update todo list
+      &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+        python3 construct_todo.py&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;GH_TOKEN&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.GH_TOKEN &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;TODO_GIST&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.TODO_GIST &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;DONE_GIST&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.DONE_GIST &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;TIME_ZONE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Asia/Kolkata&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# IST&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note that you can use docker as well in the last step (&lt;code class=&quot;language-text&quot;&gt;Update todo list&lt;/code&gt;) as done
+in the &lt;a href=&quot;https://github.com/ayan-b/gist-todo-list-action/blob/master/.github/workflows/update-list.yml&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;update-list.yml&lt;/code&gt;&lt;/a&gt; file. But it will
+be slower. You can also omit the &lt;code class=&quot;language-text&quot;&gt;Lint with flake8&lt;/code&gt; step.&lt;/p&gt;
+&lt;h3&gt;Using with GitHub action&lt;/h3&gt;
+&lt;p&gt;If you want to use GitHub action, your workflow yaml file will look something like
+this (be sure to change the version to the latest one):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Update Todo List IST
+
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;pull_request&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;schedule&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;cron&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;30 5 * * *&quot;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# 0 + time zone difference time&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest
+    &lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Todo List using GitHub Gist
+      &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ayan&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;b/gist&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;todo&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;list&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;action@0.1.0
+      &lt;span class=&quot;token key atrule&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;GH_TOKEN&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.GH_TOKEN &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;TODO_GIST&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.TODO_GIST &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;DONE_GIST&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.DONE_GIST &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;TIME_ZONE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Asia/Kolkata&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# IST&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[GSoC 2020 Report: Upgrade and Fix tvb-gdist C++ Library]]></title><description><![CDATA[Thank You Note It was a pleasure working under my mentors Lia and Paula. Thank you for the constant guidance and valuable feedback whenever…]]></description><link>https://ayan-b.github.io/GSoC-2020-Report/</link><guid isPermaLink="false">https://ayan-b.github.io/GSoC-2020-Report/</guid><pubDate>Wed, 26 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Thank You Note&lt;/h2&gt;
 &lt;p&gt;It was a pleasure working under my mentors Lia and Paula. Thank you for the constant guidance and valuable feedback whenever I was stuck. I express my heartfelt gratitude to Lia, Paula, the whole The Virual Brain and INCF team and, Google for making the last four months such a rewarding experience!&lt;/p&gt;
 &lt;h2&gt;About&lt;/h2&gt;
 &lt;p&gt;While running simulation on cortical surfaces we need to calculate geodesic distance as opposed to euclidean distance due to the shape of the cortical surface. The virtual brain uses geodesic_library for this calculation. The library implements the original paper in C++. The original source code can be found in Google Code Archive: &lt;a href=&quot;https://code.google.com/archive/p/geodesic&quot;&gt;https://code.google.com/archive/p/geodesic&lt;/a&gt;. tvb_geodesic repository implements a cython wrapper on top of the C++ code which then is released to Pypi (tvb-gdist) and conda-forge (Tvb Gdist).&lt;/p&gt;
