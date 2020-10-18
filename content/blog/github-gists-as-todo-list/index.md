@@ -4,8 +4,7 @@ date: "2020-09-04"
 description: Gist-todo-list-action - My submission for GitHub Hackathon!
 ---
 
-Want to use GitHub gists as a todo list? ☑️ Introducing [gist-todo-list-action]
-(https://github.com/ayan-b/gist-todo-list-action)! Be sure to check the README
+Want to use GitHub gists as a todo list? ☑️ Introducing [gist-todo-list-action](https://github.com/ayan-b/gist-todo-list-action)! Be sure to check the README
 for more info on how to use it. I will soon write a blog post how I created the
 action.
 
@@ -18,7 +17,12 @@ pack of stickers! Here's the [winner list](https://docs.google.com/spreadsheets/
 My submission is on line 159 😉.
 
 ![GitHub Hackathon Glass](./github-hackathon-glass.jpg)
+_GitHub Hackathon Glass_
+
+
 ![GitHub Hackathon Stickers Pack](./github-hackathon-stickers-pack.jpg)
+_GitHub Hackathon Stickers Pack_
+
 
 _The following text is taken from the project readme._
 
