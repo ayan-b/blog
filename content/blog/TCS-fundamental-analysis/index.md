@@ -8,6 +8,9 @@ Recently, I did fundamental analysis of TCS as a part of assignment in Investmen
 and Stock Market course. Here it is: [link](./TCS-Fundamental-Analysis.pdf). It would be
 interesting to see how I did in the coming years. 😉
 
+I also did [technical analysis](./TCS-Technical-Analysis.pdf). Hopefully, this will be helpful for future
+reference!
+
 The sources I used: Moneycontrol, TCS annual and quarterly reports and WikiPedia.
 
 The content is available under the [MIT License](https://choosealicense.com/licenses/mit/).
