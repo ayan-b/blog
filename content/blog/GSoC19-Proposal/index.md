@@ -303,9 +303,7 @@ This week-by-week timeline provides a rough guideline of how the project will be
 
 - **Name**: Ayan Banerjee
 - **Email**: [ayanbn7@gmail.com](mailto:ayanbn7@gmail.com)
-- **Mobile**: +91 8016399022
 - **Timezone**: Indian Standard Time (UTC +05:30)
-- **Postal Address**: Nutan Mahula, Mahula, Murshidabad, West Bengal, India - 742 134
 - **Links**:
   - _GitHub_: [https://github.com/ayan-b](https://github.com/ayan-b)
   - _GitLab_: [https://gitlab.com/ayan-b](https://gitlab.com/ayan-b)
