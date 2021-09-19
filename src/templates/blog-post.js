@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TelegramComments from "../components/telegram"
 import { rhythm, scale } from "../utils/typography"
+import ClientOnly from "../hooks/ClientOnly"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -75,7 +76,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </li>
         </ul>
       </nav>
-      <TelegramComments></TelegramComments>
+      <ClientOnly>
+        <TelegramComments></TelegramComments>
+      </ClientOnly>
     </Layout>
   )
 }
