@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Dec 2021 16:25:07 GMT</lastBuildDate><item><title><![CDATA[Getting Started with SAS Programming - Importing Data]]></title><description><![CDATA[Accessing Data Overview Accessing data is the first step in the SAS programming process. Data can come from a variety of locations and in…]]></description><link>https://ayan-b.github.io/blog/SAS-Importing-Data/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/SAS-Importing-Data/</guid><pubDate>Wed, 14 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;!-- &lt;script async src=&quot;https://cse.google.com/cse.js?cx=1b2b03e5a2263e108&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Ayan's Blog]]></description><link>https://ayan-b.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Dec 2021 16:33:39 GMT</lastBuildDate><item><title><![CDATA[Getting Started with SAS Programming - Importing Data]]></title><description><![CDATA[Accessing Data Overview Accessing data is the first step in the SAS programming process. Data can come from a variety of locations and in…]]></description><link>https://ayan-b.github.io/blog/SAS-Importing-Data/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/SAS-Importing-Data/</guid><pubDate>Wed, 14 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;!-- &lt;script async src=&quot;https://cse.google.com/cse.js?cx=1b2b03e5a2263e108&quot;&gt;&lt;/script&gt;
 &lt;div class=&quot;gcse-search&quot;&gt;&lt;/div&gt; --&gt;
 &lt;h2&gt;Accessing Data&lt;/h2&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
@@ -24,7 +24,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0239475cefdc1b0f3195bc7a519381ff/d9199/Parts-of-SAS-table.png&quot;
+    href=&quot;/blog/static/0239475cefdc1b0f3195bc7a519381ff/d9199/Parts-of-SAS-table.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -37,12 +37,12 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Parts of SAS table&quot;
         title=&quot;Parts of SAS table&quot;
-        src=&quot;/static/0239475cefdc1b0f3195bc7a519381ff/f058b/Parts-of-SAS-table.png&quot;
-        srcset=&quot;/static/0239475cefdc1b0f3195bc7a519381ff/c26ae/Parts-of-SAS-table.png 158w,
-/static/0239475cefdc1b0f3195bc7a519381ff/6bdcf/Parts-of-SAS-table.png 315w,
-/static/0239475cefdc1b0f3195bc7a519381ff/f058b/Parts-of-SAS-table.png 630w,
-/static/0239475cefdc1b0f3195bc7a519381ff/40601/Parts-of-SAS-table.png 945w,
-/static/0239475cefdc1b0f3195bc7a519381ff/d9199/Parts-of-SAS-table.png 960w&quot;
+        src=&quot;/blog/static/0239475cefdc1b0f3195bc7a519381ff/f058b/Parts-of-SAS-table.png&quot;
+        srcset=&quot;/blog/static/0239475cefdc1b0f3195bc7a519381ff/c26ae/Parts-of-SAS-table.png 158w,
+/blog/static/0239475cefdc1b0f3195bc7a519381ff/6bdcf/Parts-of-SAS-table.png 315w,
+/blog/static/0239475cefdc1b0f3195bc7a519381ff/f058b/Parts-of-SAS-table.png 630w,
+/blog/static/0239475cefdc1b0f3195bc7a519381ff/40601/Parts-of-SAS-table.png 945w,
+/blog/static/0239475cefdc1b0f3195bc7a519381ff/d9199/Parts-of-SAS-table.png 960w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -109,7 +109,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1f9a23c7ab004f891c5e8f297ad4e2ea/d9199/SAS-Dates.png&quot;
+    href=&quot;/blog/static/1f9a23c7ab004f891c5e8f297ad4e2ea/d9199/SAS-Dates.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -122,12 +122,12 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;SAS Dates&quot;
         title=&quot;SAS Dates&quot;
-        src=&quot;/static/1f9a23c7ab004f891c5e8f297ad4e2ea/f058b/SAS-Dates.png&quot;
-        srcset=&quot;/static/1f9a23c7ab004f891c5e8f297ad4e2ea/c26ae/SAS-Dates.png 158w,
-/static/1f9a23c7ab004f891c5e8f297ad4e2ea/6bdcf/SAS-Dates.png 315w,
-/static/1f9a23c7ab004f891c5e8f297ad4e2ea/f058b/SAS-Dates.png 630w,
-/static/1f9a23c7ab004f891c5e8f297ad4e2ea/40601/SAS-Dates.png 945w,
-/static/1f9a23c7ab004f891c5e8f297ad4e2ea/d9199/SAS-Dates.png 960w&quot;
+        src=&quot;/blog/static/1f9a23c7ab004f891c5e8f297ad4e2ea/f058b/SAS-Dates.png&quot;
+        srcset=&quot;/blog/static/1f9a23c7ab004f891c5e8f297ad4e2ea/c26ae/SAS-Dates.png 158w,
+/blog/static/1f9a23c7ab004f891c5e8f297ad4e2ea/6bdcf/SAS-Dates.png 315w,
+/blog/static/1f9a23c7ab004f891c5e8f297ad4e2ea/f058b/SAS-Dates.png 630w,
+/blog/static/1f9a23c7ab004f891c5e8f297ad4e2ea/40601/SAS-Dates.png 945w,
+/blog/static/1f9a23c7ab004f891c5e8f297ad4e2ea/d9199/SAS-Dates.png 960w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -311,7 +311,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/40fc29f6f47f97bab48938ab3b4f1b12/42de8/steps-meaningful-accessible.png&quot;
+    href=&quot;/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/42de8/steps-meaningful-accessible.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -324,12 +324,12 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Steps to make data meaningful and accessible&quot;
         title=&quot;Steps to make data meaningful and accessible&quot;
-        src=&quot;/static/40fc29f6f47f97bab48938ab3b4f1b12/f058b/steps-meaningful-accessible.png&quot;
-        srcset=&quot;/static/40fc29f6f47f97bab48938ab3b4f1b12/c26ae/steps-meaningful-accessible.png 158w,
-/static/40fc29f6f47f97bab48938ab3b4f1b12/6bdcf/steps-meaningful-accessible.png 315w,
-/static/40fc29f6f47f97bab48938ab3b4f1b12/f058b/steps-meaningful-accessible.png 630w,
-/static/40fc29f6f47f97bab48938ab3b4f1b12/40601/steps-meaningful-accessible.png 945w,
-/static/40fc29f6f47f97bab48938ab3b4f1b12/42de8/steps-meaningful-accessible.png 1033w&quot;
+        src=&quot;/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/f058b/steps-meaningful-accessible.png&quot;
+        srcset=&quot;/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/c26ae/steps-meaningful-accessible.png 158w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/6bdcf/steps-meaningful-accessible.png 315w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/f058b/steps-meaningful-accessible.png 630w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/40601/steps-meaningful-accessible.png 945w,
+/blog/static/40fc29f6f47f97bab48938ab3b4f1b12/42de8/steps-meaningful-accessible.png 1033w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -383,7 +383,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e2ccb503093cdc9e664d396c00490049/c72f7/class-table.png&quot;
+    href=&quot;/blog/static/e2ccb503093cdc9e664d396c00490049/c72f7/class-table.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -396,13 +396,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;CLASS table opened in SAS&quot;
         title=&quot;CLASS table opened in SAS&quot;
-        src=&quot;/static/e2ccb503093cdc9e664d396c00490049/f058b/class-table.png&quot;
-        srcset=&quot;/static/e2ccb503093cdc9e664d396c00490049/c26ae/class-table.png 158w,
-/static/e2ccb503093cdc9e664d396c00490049/6bdcf/class-table.png 315w,
-/static/e2ccb503093cdc9e664d396c00490049/f058b/class-table.png 630w,
-/static/e2ccb503093cdc9e664d396c00490049/40601/class-table.png 945w,
-/static/e2ccb503093cdc9e664d396c00490049/78612/class-table.png 1260w,
-/static/e2ccb503093cdc9e664d396c00490049/c72f7/class-table.png 1915w&quot;
+        src=&quot;/blog/static/e2ccb503093cdc9e664d396c00490049/f058b/class-table.png&quot;
+        srcset=&quot;/blog/static/e2ccb503093cdc9e664d396c00490049/c26ae/class-table.png 158w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/6bdcf/class-table.png 315w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/f058b/class-table.png 630w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/40601/class-table.png 945w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/78612/class-table.png 1260w,
+/blog/static/e2ccb503093cdc9e664d396c00490049/c72f7/class-table.png 1915w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -437,7 +437,7 @@ and creates a copy called myclass. */&lt;/span&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1cd97e0296190d9a56aab3995d1bea53/d9199/size-grid.png&quot;
+    href=&quot;/blog/static/1cd97e0296190d9a56aab3995d1bea53/d9199/size-grid.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -450,12 +450,12 @@ and creates a copy called myclass. */&lt;/span&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;size-grid&quot;
         title=&quot;size-grid&quot;
-        src=&quot;/static/1cd97e0296190d9a56aab3995d1bea53/f058b/size-grid.png&quot;
-        srcset=&quot;/static/1cd97e0296190d9a56aab3995d1bea53/c26ae/size-grid.png 158w,
-/static/1cd97e0296190d9a56aab3995d1bea53/6bdcf/size-grid.png 315w,
-/static/1cd97e0296190d9a56aab3995d1bea53/f058b/size-grid.png 630w,
-/static/1cd97e0296190d9a56aab3995d1bea53/40601/size-grid.png 945w,
-/static/1cd97e0296190d9a56aab3995d1bea53/d9199/size-grid.png 960w&quot;
+        src=&quot;/blog/static/1cd97e0296190d9a56aab3995d1bea53/f058b/size-grid.png&quot;
+        srcset=&quot;/blog/static/1cd97e0296190d9a56aab3995d1bea53/c26ae/size-grid.png 158w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/6bdcf/size-grid.png 315w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/f058b/size-grid.png 630w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/40601/size-grid.png 945w,
+/blog/static/1cd97e0296190d9a56aab3995d1bea53/d9199/size-grid.png 960w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -473,7 +473,7 @@ and creates a copy called myclass. */&lt;/span&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7c6809bf88496f4c07aec3b56dde2427/29114/split-screen.png&quot;
+    href=&quot;/blog/static/7c6809bf88496f4c07aec3b56dde2427/29114/split-screen.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -486,13 +486,13 @@ and creates a copy called myclass. */&lt;/span&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Split Screen&quot;
         title=&quot;Split Screen&quot;
-        src=&quot;/static/7c6809bf88496f4c07aec3b56dde2427/f058b/split-screen.png&quot;
-        srcset=&quot;/static/7c6809bf88496f4c07aec3b56dde2427/c26ae/split-screen.png 158w,
-/static/7c6809bf88496f4c07aec3b56dde2427/6bdcf/split-screen.png 315w,
-/static/7c6809bf88496f4c07aec3b56dde2427/f058b/split-screen.png 630w,
-/static/7c6809bf88496f4c07aec3b56dde2427/40601/split-screen.png 945w,
-/static/7c6809bf88496f4c07aec3b56dde2427/78612/split-screen.png 1260w,
-/static/7c6809bf88496f4c07aec3b56dde2427/29114/split-screen.png 1920w&quot;
+        src=&quot;/blog/static/7c6809bf88496f4c07aec3b56dde2427/f058b/split-screen.png&quot;
+        srcset=&quot;/blog/static/7c6809bf88496f4c07aec3b56dde2427/c26ae/split-screen.png 158w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/6bdcf/split-screen.png 315w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/f058b/split-screen.png 630w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/40601/split-screen.png 945w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/78612/split-screen.png 1260w,
+/blog/static/7c6809bf88496f4c07aec3b56dde2427/29114/split-screen.png 1920w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -527,7 +527,7 @@ and creates a copy called myclass. */&lt;/span&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png&quot;
+    href=&quot;/blog/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -540,9 +540,9 @@ and creates a copy called myclass. */&lt;/span&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Step consists of Statements&quot;
         title=&quot;Step consists of Statements&quot;
-        src=&quot;/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png&quot;
-        srcset=&quot;/static/be118c2f584422557df650a56996452a/c26ae/steps-statements.png 158w,
-/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png 266w&quot;
+        src=&quot;/blog/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png&quot;
+        srcset=&quot;/blog/static/be118c2f584422557df650a56996452a/c26ae/steps-statements.png 158w,
+/blog/static/be118c2f584422557df650a56996452a/b4ffe/steps-statements.png 266w&quot;
         sizes=&quot;(max-width: 266px) 100vw, 266px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1161,7 +1161,7 @@ are ignored. Along with this, you also need to specify the &lt;code class=&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/405ad2774c91e0a47bc409c08ba5dcba/3561e/Richard-Jumping.jpg&quot;
+    href=&quot;/blog/static/405ad2774c91e0a47bc409c08ba5dcba/3561e/Richard-Jumping.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1174,10 +1174,10 @@ are ignored. Along with this, you also need to specify the &lt;code class=&quot;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Richard Jumping&quot;
         title=&quot;Richard Jumping&quot;
-        src=&quot;/static/405ad2774c91e0a47bc409c08ba5dcba/3561e/Richard-Jumping.jpg&quot;
-        srcset=&quot;/static/405ad2774c91e0a47bc409c08ba5dcba/ff44c/Richard-Jumping.jpg 158w,
-/static/405ad2774c91e0a47bc409c08ba5dcba/a6688/Richard-Jumping.jpg 315w,
-/static/405ad2774c91e0a47bc409c08ba5dcba/3561e/Richard-Jumping.jpg 433w&quot;
+        src=&quot;/blog/static/405ad2774c91e0a47bc409c08ba5dcba/3561e/Richard-Jumping.jpg&quot;
+        srcset=&quot;/blog/static/405ad2774c91e0a47bc409c08ba5dcba/ff44c/Richard-Jumping.jpg 158w,
+/blog/static/405ad2774c91e0a47bc409c08ba5dcba/a6688/Richard-Jumping.jpg 315w,
+/blog/static/405ad2774c91e0a47bc409c08ba5dcba/3561e/Richard-Jumping.jpg 433w&quot;
         sizes=&quot;(max-width: 433px) 100vw, 433px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1221,7 +1221,7 @@ My submission is on line 159 😉.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/03b5eddb24436afd75c5a0adacfee3da/c83bb/github-hackathon-glass.jpg&quot;
+    href=&quot;/blog/static/03b5eddb24436afd75c5a0adacfee3da/c83bb/github-hackathon-glass.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1234,13 +1234,13 @@ My submission is on line 159 😉.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;GitHub Hackathon Glass&quot;
         title=&quot;GitHub Hackathon Glass&quot;
-        src=&quot;/static/03b5eddb24436afd75c5a0adacfee3da/828fb/github-hackathon-glass.jpg&quot;
-        srcset=&quot;/static/03b5eddb24436afd75c5a0adacfee3da/ff44c/github-hackathon-glass.jpg 158w,
-/static/03b5eddb24436afd75c5a0adacfee3da/a6688/github-hackathon-glass.jpg 315w,
-/static/03b5eddb24436afd75c5a0adacfee3da/828fb/github-hackathon-glass.jpg 630w,
-/static/03b5eddb24436afd75c5a0adacfee3da/0ede0/github-hackathon-glass.jpg 945w,
-/static/03b5eddb24436afd75c5a0adacfee3da/3ac88/github-hackathon-glass.jpg 1260w,
-/static/03b5eddb24436afd75c5a0adacfee3da/c83bb/github-hackathon-glass.jpg 4608w&quot;
+        src=&quot;/blog/static/03b5eddb24436afd75c5a0adacfee3da/828fb/github-hackathon-glass.jpg&quot;
+        srcset=&quot;/blog/static/03b5eddb24436afd75c5a0adacfee3da/ff44c/github-hackathon-glass.jpg 158w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/a6688/github-hackathon-glass.jpg 315w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/828fb/github-hackathon-glass.jpg 630w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/0ede0/github-hackathon-glass.jpg 945w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/3ac88/github-hackathon-glass.jpg 1260w,
+/blog/static/03b5eddb24436afd75c5a0adacfee3da/c83bb/github-hackathon-glass.jpg 4608w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1255,7 +1255,7 @@ My submission is on line 159 😉.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f1ab64bee5004cae19872de77488e2ac/c83bb/github-hackathon-stickers-pack.jpg&quot;
+    href=&quot;/blog/static/f1ab64bee5004cae19872de77488e2ac/c83bb/github-hackathon-stickers-pack.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1268,13 +1268,13 @@ My submission is on line 159 😉.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;GitHub Hackathon Stickers Pack&quot;
         title=&quot;GitHub Hackathon Stickers Pack&quot;
-        src=&quot;/static/f1ab64bee5004cae19872de77488e2ac/828fb/github-hackathon-stickers-pack.jpg&quot;
-        srcset=&quot;/static/f1ab64bee5004cae19872de77488e2ac/ff44c/github-hackathon-stickers-pack.jpg 158w,
-/static/f1ab64bee5004cae19872de77488e2ac/a6688/github-hackathon-stickers-pack.jpg 315w,
-/static/f1ab64bee5004cae19872de77488e2ac/828fb/github-hackathon-stickers-pack.jpg 630w,
-/static/f1ab64bee5004cae19872de77488e2ac/0ede0/github-hackathon-stickers-pack.jpg 945w,
-/static/f1ab64bee5004cae19872de77488e2ac/3ac88/github-hackathon-stickers-pack.jpg 1260w,
-/static/f1ab64bee5004cae19872de77488e2ac/c83bb/github-hackathon-stickers-pack.jpg 4608w&quot;
+        src=&quot;/blog/static/f1ab64bee5004cae19872de77488e2ac/828fb/github-hackathon-stickers-pack.jpg&quot;
+        srcset=&quot;/blog/static/f1ab64bee5004cae19872de77488e2ac/ff44c/github-hackathon-stickers-pack.jpg 158w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/a6688/github-hackathon-stickers-pack.jpg 315w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/828fb/github-hackathon-stickers-pack.jpg 630w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/0ede0/github-hackathon-stickers-pack.jpg 945w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/3ac88/github-hackathon-stickers-pack.jpg 1260w,
+/blog/static/f1ab64bee5004cae19872de77488e2ac/c83bb/github-hackathon-stickers-pack.jpg 4608w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1518,7 +1518,7 @@ this (be sure to change the version to the latest one):&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/286a1e76d3bb1d15a7fe9276fa6d5091/12609/clock.jpg&quot;
+    href=&quot;/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/12609/clock.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1531,13 +1531,13 @@ this (be sure to change the version to the latest one):&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;cover-image-for-git-squash&quot;
         title=&quot;cover-image-for-git-squash&quot;
-        src=&quot;/static/286a1e76d3bb1d15a7fe9276fa6d5091/828fb/clock.jpg&quot;
-        srcset=&quot;/static/286a1e76d3bb1d15a7fe9276fa6d5091/ff44c/clock.jpg 158w,
-/static/286a1e76d3bb1d15a7fe9276fa6d5091/a6688/clock.jpg 315w,
-/static/286a1e76d3bb1d15a7fe9276fa6d5091/828fb/clock.jpg 630w,
-/static/286a1e76d3bb1d15a7fe9276fa6d5091/0ede0/clock.jpg 945w,
-/static/286a1e76d3bb1d15a7fe9276fa6d5091/3ac88/clock.jpg 1260w,
-/static/286a1e76d3bb1d15a7fe9276fa6d5091/12609/clock.jpg 3000w&quot;
+        src=&quot;/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/828fb/clock.jpg&quot;
+        srcset=&quot;/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/ff44c/clock.jpg 158w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/a6688/clock.jpg 315w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/828fb/clock.jpg 630w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/0ede0/clock.jpg 945w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/3ac88/clock.jpg 1260w,
+/blog/static/286a1e76d3bb1d15a7fe9276fa6d5091/12609/clock.jpg 3000w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1587,7 +1587,7 @@ this (be sure to change the version to the latest one):&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/425dfd79ec28821e5a0ab2821d86d28f/e8950/resume-preview.png&quot;
+    href=&quot;/blog/static/425dfd79ec28821e5a0ab2821d86d28f/e8950/resume-preview.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1600,13 +1600,13 @@ this (be sure to change the version to the latest one):&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;resume&quot;
         title=&quot;resume&quot;
-        src=&quot;/static/425dfd79ec28821e5a0ab2821d86d28f/f058b/resume-preview.png&quot;
-        srcset=&quot;/static/425dfd79ec28821e5a0ab2821d86d28f/c26ae/resume-preview.png 158w,
-/static/425dfd79ec28821e5a0ab2821d86d28f/6bdcf/resume-preview.png 315w,
-/static/425dfd79ec28821e5a0ab2821d86d28f/f058b/resume-preview.png 630w,
-/static/425dfd79ec28821e5a0ab2821d86d28f/40601/resume-preview.png 945w,
-/static/425dfd79ec28821e5a0ab2821d86d28f/78612/resume-preview.png 1260w,
-/static/425dfd79ec28821e5a0ab2821d86d28f/e8950/resume-preview.png 2000w&quot;
+        src=&quot;/blog/static/425dfd79ec28821e5a0ab2821d86d28f/f058b/resume-preview.png&quot;
+        srcset=&quot;/blog/static/425dfd79ec28821e5a0ab2821d86d28f/c26ae/resume-preview.png 158w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/6bdcf/resume-preview.png 315w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/f058b/resume-preview.png 630w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/40601/resume-preview.png 945w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/78612/resume-preview.png 1260w,
+/blog/static/425dfd79ec28821e5a0ab2821d86d28f/e8950/resume-preview.png 2000w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1748,9 +1748,9 @@ investigating why the code failed for that dataset.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/the-virtual-brain/tvb-gdist/issues/10&quot;&gt;#10&lt;/a&gt;: Use Cython parallel&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Fundamental Analysis: Tata Consultancy Services Limited (TCS) (2021 - 2023)]]></title><description><![CDATA[Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
 and Stock Market course. Here it is: link. It…]]></description><link>https://ayan-b.github.io/blog/TCS-fundamental-analysis/</link><guid isPermaLink="false">https://ayan-b.github.io/blog/TCS-fundamental-analysis/</guid><pubDate>Sun, 07 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Recently, I did fundamental analysis of TCS as a part of assignment in Investment Management
-and Stock Market course. Here it is: &lt;a href=&quot;/0c6ca5e69f2add52d2bf5dea143b2829/TCS-Fundamental-Analysis.pdf&quot;&gt;link&lt;/a&gt;. It would be
+and Stock Market course. Here it is: &lt;a href=&quot;/blog/0c6ca5e69f2add52d2bf5dea143b2829/TCS-Fundamental-Analysis.pdf&quot;&gt;link&lt;/a&gt;. It would be
 interesting to see how I did in the coming years. 😉&lt;/p&gt;
-&lt;p&gt;I also did &lt;a href=&quot;/2387ce6b1470e58cf59810a041ca0351/TCS-Technical-Analysis.pdf&quot;&gt;technical analysis&lt;/a&gt;. Hopefully, this will be helpful for future
+&lt;p&gt;I also did &lt;a href=&quot;/blog/2387ce6b1470e58cf59810a041ca0351/TCS-Technical-Analysis.pdf&quot;&gt;technical analysis&lt;/a&gt;. Hopefully, this will be helpful for future
 reference!&lt;/p&gt;
 &lt;p&gt;The sources I used: Moneycontrol, TCS annual and quarterly reports and WikiPedia.&lt;/p&gt;
 &lt;p&gt;The content is available under the &lt;a href=&quot;https://choosealicense.com/licenses/mit/&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Generating a Table of Commits of a User for a Repository]]></title><description><![CDATA[First check out to the desired branch: . Here,
