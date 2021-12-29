@@ -10,7 +10,9 @@ module.exports = {
     social: {
       twitter: `ayanbn7`,
     },
+    telegramSiteId: `zxyJ98F6`,
   },
+  pathPrefix: `/blog`,
   plugins: [
     `gatsby-plugin-image`,
     {
